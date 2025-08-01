@@ -1,0 +1,136 @@
+[
+  {
+    "policy_template_id": "AUTO_STD_001",
+    "coverage_type": "Auto Insurance - Standard",
+    "premium_structure": {
+      "base_premium": 1200,
+      "deductible_options": [250, 500, 1000],
+      "coverage_limits": ["25000/50000", "50000/100000", "100000/300000"]
+    },
+    "terms_conditions": {
+      "policy_term": "12 months",
+      "renewal_automatic": true,
+      "grace_period": "30 days",
+      "cancellation_notice": "30 days"
+    },
+    "required_information": [
+      "driver_license_number",
+      "vehicle_vin",
+      "driving_record",
+      "previous_insurance"
+    ],
+    "exclusions": [
+      "racing",
+      "commercial_use",
+      "intentional_damage"
+    ]
+  },
+  {
+    "policy_template_id": "HOME_STD_001", 
+    "coverage_type": "Homeowners Insurance - Standard",
+    "premium_structure": {
+      "base_premium": 1500,
+      "deductible_options": [500, 1000, 2500],
+      "coverage_limits": ["150000", "250000", "500000"]
+    },
+    "terms_conditions": {
+      "policy_term": "12 months",
+      "renewal_automatic": true,
+      "grace_period": "30 days",
+      "inspection_required": true
+    },
+    "required_information": [
+      "property_address",
+      "home_age",
+      "construction_type",
+      "security_features",
+      "prior_claims"
+    ],
+    "exclusions": [
+      "flood",
+      "earthquake",
+      "war",
+      "nuclear_hazard"
+    ]
+  },
+  {
+    "policy_template_id": "LIFE_TERM_001",
+    "coverage_type": "Term Life Insurance - 20 Year",
+    "premium_structure": {
+      "base_premium": 800,
+      "coverage_amounts": ["100000", "250000", "500000", "1000000"],
+      "premium_class": ["standard", "preferred", "super_preferred"]
+    },
+    "terms_conditions": {
+      "policy_term": "20 years",
+      "renewable": true,
+      "convertible": true,
+      "grace_period": "31 days"
+    },
+    "required_information": [
+      "medical_exam",
+      "medical_history",
+      "lifestyle_questionnaire",
+      "beneficiary_information"
+    ],
+    "exclusions": [
+      "suicide_within_2_years",
+      "war",
+      "aviation_non_commercial"
+    ]
+  },
+  {
+    "policy_template_id": "HEALTH_IND_001",
+    "coverage_type": "Individual Health Insurance",
+    "premium_structure": {
+      "base_premium": 3600,
+      "deductible_options": [1000, 2500, 5000],
+      "network_options": ["HMO", "PPO", "EPO"]
+    },
+    "terms_conditions": {
+      "policy_term": "12 months",
+      "open_enrollment": true,
+      "special_enrollment": "qualifying_events",
+      "grace_period": "30 days"
+    },
+    "required_information": [
+      "medical_history",
+      "current_medications",
+      "tobacco_use",
+      "income_verification"
+    ],
+    "exclusions": [
+      "cosmetic_surgery",
+      "experimental_treatments",
+      "self_inflicted_injuries"
+    ]
+  },
+  {
+    "policy_template_id": "BUS_GEN_001",
+    "coverage_type": "Business General Liability",
+    "premium_structure": {
+      "base_premium": 2500,
+      "coverage_limits": ["1000000", "2000000", "5000000"],
+      "aggregate_limits": ["2000000", "4000000", "10000000"]
+    },
+    "terms_conditions": {
+      "policy_term": "12 months",
+      "claims_made": false,
+      "occurrence_basis": true,
+      "territory": "United States"
+    },
+    "required_information": [
+      "business_type",
+      "revenue",
+      "employee_count",
+      "previous_claims",
+      "safety_programs"
+    ],
+    "exclusions": [
+      "professional_services",
+      "pollution",
+      "cyber_liability",
+      "employment_practices"
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "lab_config": {
+    "lab_name": "Insurance Policy Review Hands-On Lab",
+    "duration_minutes": 90,
+    "total_participants": 50,
+    "total_teams": 10,
+    "participants_per_team": 5
+  },
+  "fabric_settings": {
+    "capacity_name": "fabric-lab-capacity-f2",
+    "capacity_sku": "F2",
+    "region": "East US"
+  },
+  "foundry_settings": {
+    "resource_name": "ai-foundry-lab-resource",
+    "resource_group": "rg-fabric-foundry-lab",
+    "region": "East US"
+  },
+  "teams": [
+    {
+      "team_id": "team-01",
+      "fabric_workspace": {
+        "name": "fabric-ws-team01",
+        "description": "Fabric workspace for Team 1"
+      },
+      "foundry_project": {
+        "name": "foundry-proj-team01",
+        "description": "AI Foundry project for Team 1"
+      },
+      "members": [
+        {
+          "email": "participant01@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 1"
+        },
+        {
+          "email": "participant02@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 2"
+        },
+        {
+          "email": "participant03@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 3"
+        },
+        {
+          "email": "participant04@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 4"
+        },
+        {
+          "email": "participant05@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 5"
+        }
+      ]
+    },
+    {
+      "team_id": "team-02",
+      "fabric_workspace": {
+        "name": "fabric-ws-team02",
+        "description": "Fabric workspace for Team 2"
+      },
+      "foundry_project": {
+        "name": "foundry-proj-team02",
+        "description": "AI Foundry project for Team 2"
+      },
+      "members": [
+        {
+          "email": "participant06@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 6"
+        },
+        {
+          "email": "participant07@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 7"
+        },
+        {
+          "email": "participant08@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 8"
+        },
+        {
+          "email": "participant09@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 9"
+        },
+        {
+          "email": "participant10@yourorg.com",
+          "fabric_role": "Contributor",
+          "foundry_role": "Azure AI Developer",
+          "name": "Participant 10"
+        }
+      ]
+    }
+  ],
+  "role_assignments": {
+    "fabric_roles": [
+      {
+        "role": "Admin",
+        "description": "Full workspace management, capacity administration",
+        "assigned_to": "Lab facilitators and administrators"
+      },
+      {
+        "role": "Contributor",
+        "description": "Create data agents, upload to OneLake, manage lakehouse, publish agents - sufficient for lab activities",
+        "assigned_to": "All participants (primary role)"
+      },
+      {
+        "role": "Member", 
+        "description": "Full workspace access including sharing and workspace settings",
+        "assigned_to": "Backup role if additional permissions needed"
+      }
+    ],
+    "foundry_roles": [
+      {
+        "role": "Owner",
+        "description": "Full project management and resource control",
+        "assigned_to": "Lab facilitators and administrators"
+      },
+      {
+        "role": "Azure AI Developer", 
+        "description": "Create AI agents, deploy models, manage agent connections, access Playground - minimal permissions for lab activities",
+        "assigned_to": "All participants (primary role)"
+      },
+      {
+        "role": "Contributor",
+        "description": "Broader access to project resources - only use if Azure AI Developer insufficient",
+        "assigned_to": "Backup role if additional permissions needed"
+      }
+    ]
+  },
+  "notes": {
+    "template_usage": "Replace placeholder emails with actual participant emails",
+    "scaling": "Duplicate team structure for teams 3-10",
+    "customization": "Adjust workspace and project names as needed for your organization"
+  }
+}

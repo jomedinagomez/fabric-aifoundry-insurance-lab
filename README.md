@@ -5,20 +5,47 @@ This README provides setup instructions and resources for a 90-minute hands-on l
 
 ---
 
-## 🗓️ Lab Agenda
+## Prerequisites
+
+Before starting the lab, ensure all participants have:
+
+### Required Access
+- **Microsoft Fabric workspace** with one of the following roles:
+  - **Contributor**: Create data agents, upload to OneLake, manage lakehouse (for participants)
+- **Azure AI Foundry project** with one of the following roles:
+  - **Azure AI Developer**: Create AI agents, deploy models, access Playground (for participants)
+- **Azure subscription** with appropriate permissions for resource creation
+
+### Pre-Lab Setup
+- [ ] Participants have logged into both Fabric and AI Foundry platforms
+- [ ] Participants have **OneLake access** to upload and manage datasets
+- [ ] Sample datasets ready for upload to **OneLake data lake**
+- [ ] Fabric capacity (F2+) provisioned and accessible
+- [ ] AI Foundry projects created and configured with proper role assignments
+- [ ] Team assignments distributed with specific workspace/project mappings
+
+### Technical Requirements
+- Modern web browser (Chrome, Edge, Firefox)
+- Stable internet connection
+- Basic understanding of AI agents and data querying concepts
+
+---
+
+## Lab Agenda
 
 | Time       | Segment                        | Description |
 |------------|--------------------------------|-------------|
-| 0–10 min   | Introduction & Setup           | Introduce Fabric Data Agents and Azure AI Foundry. Outline the insurance scenario. Ensure access to Fabric workspace, Foundry project, and datasets. |
-| 10–30 min  | Build & Publish Fabric Data Agent | Each participant creates a Fabric Data Agent, connects to the underwriting dataset, adds instructions/examples, tests queries, and publishes the agent. |
-| 30–50 min  | Azure AI Foundry Integration   | Create a new agent in Foundry, connect the Fabric Data Agent as a resource, and configure instructions to leverage the Fabric tool. |
-| 50–60 min  | Query the Integrated Agent     | Use Foundry Playground chat to ask underwriting-related questions. Observe results from Fabric data and troubleshoot query behavior. |
+| 0–10 min   | Introduction & Setup           | Introduce Fabric Data Agents and Azure AI Foundry. Outline the insurance scenario. Ensure access to Fabric workspace, Foundry project, and OneLake. |
+| 10–30 min  | Data Upload & Agent Creation   | Upload datasets to OneLake data lake, create lakehouse, then build Fabric Data Agent connected to the underwriting dataset. Add instructions/examples and test queries. |
+| 30–40 min  | Publish Fabric Data Agent      | Finalize agent configuration, test with sample queries, and publish the agent to make it available for Foundry integration. |
+| 40–60 min  | Azure AI Foundry Integration   | Create a new agent in Foundry, connect the published Fabric Data Agent as a resource, and configure instructions to leverage the Fabric tool. |
+| 60–75 min  | Agent Testing & Refinement     | Test various underwriting scenarios, refine agent instructions, validate data lake connections, and troubleshoot any integration issues. |
 | 75–85 min  | Policy Review Case Study       | Use Playground chat to review a sample insurance policy and compare it against underwriting guidelines. Encourage custom questions and refine agent behavior. |
 | 85–90 min  | Wrap-Up & Next Steps           | Summarize accomplishments, highlight real-world applications, and gather feedback. |
 
 ---
 
-## 👥 Team Structure
+## Team Structure
 
 - 50 participants split into **10 teams** (5–6 people per team)
 - Each team has:
@@ -28,17 +55,18 @@ This README provides setup instructions and resources for a 90-minute hands-on l
 
 ---
 
-## 🧰 Azure Services Required
+## Azure Services Required
 
 | Service                  | Purpose |
 |--------------------------|---------|
-| Microsoft Fabric (F2+)   | Workspace creation, OneLake storage, Data Agent publishing |
+| Microsoft Fabric (F2+)   | Workspace creation, Data Agent publishing, lakehouse management |
+| OneLake                  | Data lake storage for datasets, unified data storage across Fabric |
 | Azure AI Foundry         | Agent orchestration, Playground chat, integration with Fabric agents |
-| Microsoft Entra          | Identity and access control (RBAC for AI Developer and Contributor roles) |
+| Microsoft Entra          | Identity and access control (RBAC for workspace and project roles) |
 
 ---
 
-## 🛠️ Provisioning Strategy
+## Provisioning Strategy
 
 | Resource Type            | Quantity | Notes |
 |--------------------------|----------|-------|
@@ -49,52 +77,38 @@ This README provides setup instructions and resources for a 90-minute hands-on l
 
 ---
 
-## 🧪 Setup Timeline (1 Month)
+## Success Criteria
 
-| Week | Tasks |
-|------|-------|
-| Week 1 | Finalize agenda and team structure. Create Fabric workspaces and Foundry projects. Assign roles. |
-| Week 2 | Load datasets into OneLake. Create sample agent templates. Validate access and permissions. |
-| Week 3 | Test agent creation and publishing. Refine instructions. Prepare onboarding materials. |
-| Week 4 | Conduct dry run with 1–2 teams. Finalize support plan. Set up Teams channel or Viva Learning for live help. |
+### Lab Completion Goals
+Each participant should successfully:
 
----
+#### Phase 1: Data Upload & Fabric Data Agent (30 minutes)
+- [ ] Connect to assigned Fabric workspace with Contributor role permissions
+- [ ] Create a new lakehouse in the workspace
+- [ ] Upload sample datasets to OneLake data lake
+- [ ] Verify data loading and schema detection
+- [ ] Create a new Data Agent
+- [ ] Connect agent to uploaded datasets in the lakehouse
+- [ ] Add custom instructions for insurance policy evaluation
+- [ ] Test agent with sample queries
+- [ ] Publish agent successfully
 
-## 📘 Onboarding Guide
+#### Phase 2: AI Foundry Integration (20 minutes)
+- [ ] Access assigned AI Foundry project
+- [ ] Create new agent in Foundry
+- [ ] Connect published Fabric Data Agent as resource
+- [ ] Configure agent instructions
+- [ ] Test integration in Playground
 
-Includes:
-- Lab agenda
-- Setup instructions for Fabric and Foundry
-- Dataset preparation
-- Sample agent instructions
-- Support recommendations
-
-📄 File: `onboarding_guide.pdf`
-
----
-
-## 🗂️ Provisioning Template
-
-Includes:
-- Team IDs
-- Workspace and project names
-- Member emails
-- Assigned roles
-
-📄 File: `provisioning_template.json`
+#### Phase 3: Policy Evaluation (25 minutes)
+- [ ] Query agent about underwriting guidelines
+- [ ] Review sample insurance policy using agent
+- [ ] Generate policy recommendations
+- [ ] Demonstrate understanding of agent capabilities
 
 ---
 
-## 📄 Sample Datasets
-
-- [insurance_policy_sample.csv](insurance_policy_sample.csv)
-- [underwriting_guidelines.csv](underwriting_guidelines.csv)
-
-Upload these to OneLake and connect them to your Fabric Data Agent.
-
----
-
-## ✅ Next Steps
+## Next Steps
 
 - Distribute onboarding guide and team assignments
 - Upload datasets to OneLake

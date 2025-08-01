@@ -1,0 +1,11 @@
+policy_type,coverage_limits,risk_factors,approval_criteria,exclusions,min_premium,max_premium,geographic_restrictions
+Auto,25000-500000,Age under 25; DUI history; Sports car,"Clean driving record 3+ years; Age 25+; Standard vehicle","Racing; Commercial use; Uber/Lyft",1200,8000,Flood zones excluded
+Home,100000-2000000,Flood zone; Age of home >50 years; Pool,"Home inspection passed; Age <40 years; Security system","Acts of war; Nuclear; Earthquake without rider",800,15000,Hurricane zones require special rider
+Life,50000-5000000,Age >65; Smoker; High-risk occupation,"Medical exam passed; Age 18-65; Standard occupation","Suicide within 2 years; War; Extreme sports",500,25000,None
+Health,10000-500000,Pre-existing conditions; Age >60; BMI >35,"Healthy BMI; No pre-existing; Age 18-60","Cosmetic surgery; Experimental treatments; Self-inflicted",2400,36000,State-specific restrictions
+Disability,1000-10000,Physical job; Age >55; Previous claims,"Office job; Age 25-55; No previous claims","Mental health only; Pregnancy; Self-inflicted",600,7200,Some states excluded
+Travel,5000-100000,High-risk countries; Age >70; Adventure sports,"Standard destinations; Age 18-70; Normal activities","War zones; Pandemics; Extreme sports",100,2000,Country-specific exclusions
+Business,50000-10000000,High-risk industry; New business; Poor credit,"Established business 3+ years; Good credit; Standard industry","Criminal activity; War; Cyber attacks",2000,100000,Industry-specific restrictions
+Marine,25000-1000000,Age of vessel >20 years; Inexperienced captain; Ocean use,"Vessel <10 years; Licensed captain; Coastal use","Racing; Commercial fishing; Salvage",1500,25000,Storm season restrictions
+Professional,100000-5000000,High-risk profession; Previous claims; No certification,"Licensed profession; Clean record; Proper certification","Criminal acts; Intentional violations; War",1000,50000,Jurisdiction-specific
+Cyber,50000-10000000,Poor security; Previous breaches; High-risk industry,"Strong security; No breaches; Low-risk industry","War; Nuclear; Insider threats",5000,200000,Evolving coverage terms
