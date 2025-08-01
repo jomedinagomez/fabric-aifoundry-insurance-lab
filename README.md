@@ -107,10 +107,3 @@ Each participant should successfully:
 - [ ] Demonstrate understanding of agent capabilities
 
 ---
-
-## Next Steps
-
-- Distribute onboarding guide and team assignments
-- Upload datasets to OneLake
-- Conduct dry run with 1–2 teams
-- Prepare support channel for live help during the lab
