@@ -44,13 +44,13 @@
 
 ---
 
-## Business Context: Prudential Profile
+## Business Context: Sterling Insurance Profile
 
 ### Company Focus
 - **Primary Business**: Life insurance (core competency since 1875)
 - **Product Types**: Term life, whole life, universal life policies
 - **Secondary Products**: Disability insurance, long-term care
-- **Brand**: "Rock of Gibraltar" - stability and reliability
+- **Brand**: "Rock of Stability" - reliability and customer focus
 
 ### Insurance Types Chosen
 - **Primary**: Life Insurance underwriting (most complex and valuable demo)
@@ -187,6 +187,12 @@ case_study/
 - Medical exam thresholds corrected to realistic levels
 - Risk scoring criteria refined for authenticity
 - Cross-file consistency validated
+
+✅ **Legal & Political Correctness Review Completed**:
+- Company names sanitized to avoid trademark conflicts
+- Removed industry-specific suffixes ("Life", "Mutual") for legal safety
+- Updated military-focused competitor to avoid USAA associations
+- Final competitor names: BlueSky, Heritage, Cornerstone, Unity Group, Valor, Horizon, Meridian, Titan, Compass Insurance
 
 ---
 

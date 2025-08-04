@@ -1,5 +1,5 @@
 # Life Insurance Underwriting Guidelines
-## AI-Powered Underwriting Assistant - Prudential Standards
+## AI-Powered Underwriting Assistant - Sterling Insurance Standards
 
 ### Overview
 These guidelines enable rapid, data-driven underwriting decisions by combining historical performance data, competitive market analysis, and multi-factor risk assessment to deliver optimal customer outcomes and business value.

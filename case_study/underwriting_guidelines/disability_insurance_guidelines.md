@@ -1,5 +1,5 @@
 # Disability Insurance Underwriting Guidelines
-## Prudential Disability Coverage Standards
+## Sterling Insurance Disability Coverage Standards
 
 ### Overview
 Disability insurance provides income protection when policyholders cannot work due to illness or injury. These guidelines ensure appropriate risk assessment and coverage determination for both short-term and long-term disability policies.

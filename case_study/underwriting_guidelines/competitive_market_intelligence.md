@@ -10,35 +10,35 @@ This document provides current market intelligence for competitive positioning, 
 
 ### Life Insurance Market Leaders
 
-#### MetLife
+#### BlueSky Insurance
 - **Market Share**: 8.2%
 - **Strengths**: Brand recognition, group benefits
 - **Pricing Strategy**: Competitive for standard risks, premium for preferred
 - **Target Demographics**: Middle-income families, employer groups
-- **Average Rates**: 5-8% above Prudential for similar risk profiles
+- **Average Rates**: 5-8% above Sterling Insurance for similar risk profiles
 
-#### Northwestern Mutual
+#### Heritage Insurance
 - **Market Share**: 6.9%
 - **Strengths**: Dividend-paying whole life, financial planning
 - **Pricing Strategy**: Premium pricing, value-based positioning
 - **Target Demographics**: High-net-worth individuals, professionals
-- **Average Rates**: 10-15% above Prudential, justified by dividends
+- **Average Rates**: 10-15% above Sterling Insurance, justified by dividends
 
-#### New York Life
+#### Cornerstone Insurance
 - **Market Share**: 6.1%
 - **Strengths**: Mutual company, strong financial ratings
 - **Pricing Strategy**: Conservative pricing, stability focus
 - **Target Demographics**: Conservative investors, older demographics
-- **Average Rates**: 3-7% above Prudential for term life
+- **Average Rates**: 3-7% above Sterling Insurance for term life
 
-#### State Farm
+#### Unity Insurance Group
 - **Market Share**: 4.8%
 - **Strengths**: Multi-line discount opportunities, agent network
 - **Pricing Strategy**: Bundle discounts, competitive term rates
 - **Target Demographics**: Existing auto/home customers
-- **Average Rates**: 2-5% below Prudential when bundled
+- **Average Rates**: 2-5% below Sterling Insurance when bundled
 
-#### USAA (Military Market)
+#### Valor Insurance (Military Market)
 - **Market Share**: 3.2% (concentrated market)
 - **Strengths**: Military-focused, excellent service ratings
 - **Pricing Strategy**: Highly competitive for military personnel
@@ -53,8 +53,8 @@ This document provides current market intelligence for competitive positioning, 
 
 #### $500,000 Coverage, 20-Year Term
 
-| Age/Gender | Prudential Target | MetLife | Northwestern | New York Life | State Farm |
-|------------|-------------------|---------|--------------|---------------|------------|
+| Age/Gender | Sterling Target | BlueSky | Heritage | Cornerstone | Unity Group |
+|------------|-----------------|---------|----------|-------------|-------------|
 | **Male 30** | $32.50 | $36.25 | $41.80 | $35.40 | $29.95 |
 | **Female 30** | $27.80 | $31.15 | $35.20 | $30.60 | $26.10 |
 | **Male 40** | $51.25 | $57.40 | $64.80 | $56.20 | $48.75 |
@@ -64,8 +64,8 @@ This document provides current market intelligence for competitive positioning, 
 
 #### $1,000,000 Coverage, 30-Year Term
 
-| Age/Gender | Prudential Target | MetLife | Northwestern | New York Life | State Farm |
-|------------|-------------------|---------|--------------|---------------|------------|
+| Age/Gender | Sterling Target | BlueSky | Heritage | Cornerstone | Unity Group |
+|------------|-----------------|---------|----------|-------------|-------------|
 | **Male 30** | $78.50 | $86.90 | $97.20 | $84.20 | $73.80 |
 | **Female 30** | $67.80 | $74.85 | $83.40 | $72.60 | $64.25 |
 | **Male 40** | $145.80 | $160.75 | $179.50 | $156.40 | $138.20 |
@@ -77,8 +77,8 @@ This document provides current market intelligence for competitive positioning, 
 
 #### $250,000 Coverage
 
-| Age/Gender | Prudential Target | MetLife | Northwestern | New York Life |
-|------------|-------------------|---------|--------------|---------------|
+| Age/Gender | Sterling Target | BlueSky | Heritage | Cornerstone |
+|------------|-----------------|---------|----------|-------------|
 | **Male 30** | $3,450 | $3,785 | $4,460 | $3,920 |
 | **Female 30** | $3,190 | $3,505 | $4,140 | $3,640 |
 | **Male 40** | $5,180 | $5,685 | $6,690 | $5,875 |
@@ -92,33 +92,33 @@ This document provides current market intelligence for competitive positioning, 
 
 ### Major Disability Insurance Providers
 
-#### Guardian Life
+#### Horizon Insurance
 - **Market Share**: 12.3%
 - **Strengths**: Own-occupation coverage, professional focus
 - **Pricing Strategy**: Premium pricing for comprehensive coverage
 - **Target Demographics**: High-income professionals, physicians
-- **Average Rates**: 8-12% above Prudential
+- **Average Rates**: 8-12% above Sterling Insurance
 
-#### Principal Financial
+#### Meridian Financial
 - **Market Share**: 9.7%
 - **Strengths**: Group disability, workplace benefits
 - **Pricing Strategy**: Competitive group rates, higher individual rates
 - **Target Demographics**: Employer groups, mid-market companies
-- **Average Rates**: 3-6% above Prudential for individual coverage
+- **Average Rates**: 3-6% above Sterling Insurance for individual coverage
 
-#### Unum
+#### Titan Insurance
 - **Market Share**: 8.9%
 - **Strengths**: Large group market presence, claims management
 - **Pricing Strategy**: Aggressive group pricing, selective individual
 - **Target Demographics**: Large employers, government entities
-- **Average Rates**: 2-5% below Prudential for group, 5-8% above individual
+- **Average Rates**: 2-5% below Sterling Insurance for group, 5-8% above individual
 
-#### MassMutual
+#### Compass Insurance
 - **Market Share**: 6.2%
 - **Strengths**: Mutual company benefits, conservative approach
 - **Pricing Strategy**: Stable pricing, dividend returns
 - **Target Demographics**: Conservative professionals, existing life customers
-- **Average Rates**: 4-7% above Prudential
+- **Average Rates**: 4-7% above Sterling Insurance
 
 ---
 
@@ -126,8 +126,8 @@ This document provides current market intelligence for competitive positioning, 
 
 #### $5,000 Monthly Benefit, Own-Occupation, To Age 65
 
-| Age/Gender/Occupation | Prudential Target | Guardian | Principal | Unum | MassMutual |
-|----------------------|-------------------|----------|-----------|------|------------|
+| Age/Gender/Occupation | Sterling Target | Horizon | Meridian | Titan | Compass |
+|----------------------|-----------------|---------|----------|-------|---------|
 | **Male 30, Professional** | $165 | $185 | $175 | $158 | $178 |
 | **Female 30, Professional** | $225 | $253 | $235 | $212 | $243 |
 | **Male 40, Professional** | $245 | $275 | $260 | $234 | $264 |
@@ -145,21 +145,21 @@ This document provides current market intelligence for competitive positioning, 
 - **Growth Rate**: 15% annually
 - **Opportunity**: High income, young demographic, underinsured
 - **Competitive Landscape**: Limited specialized products
-- **Prudential Position**: Strong opportunity with tailored products
+- **Sterling Position**: Strong opportunity with tailored products
 - **Recommended Strategy**: 5-8% below market to capture market share
 
 #### Gig Economy Workers
 - **Growth Rate**: 23% annually
 - **Opportunity**: Large underserved market, irregular income
 - **Competitive Landscape**: Few suitable products available
-- **Prudential Position**: First-mover advantage potential
+- **Sterling Position**: First-mover advantage potential
 - **Recommended Strategy**: Flexible premium products, competitive pricing
 
 #### Remote Workers
 - **Growth Rate**: 12% annually (post-pandemic trend)
 - **Opportunity**: Changed risk profiles, location flexibility
 - **Competitive Landscape**: Pricing not yet adjusted to new risk patterns
-- **Prudential Position**: Opportunity to lead with data-driven pricing
+- **Sterling Position**: Opportunity to lead with data-driven pricing
 - **Recommended Strategy**: Geographic pricing adjustments, wellness programs
 
 ---
@@ -179,7 +179,7 @@ This document provides current market intelligence for competitive positioning, 
 #### Disability Insurance Strategic Positioning
 | Professional Category | Current Position | Recommended Position | Strategy |
 |----------------------|------------------|---------------------|----------|
-| **Medical Professionals** | 8% above Guardian | 3-5% above Guardian | Premium but competitive |
+| **Medical Professionals** | 8% above Horizon | 3-5% above Horizon | Premium but competitive |
 | **Legal Professionals** | At market | 2-3% below market | Market share growth |
 | **Tech Professionals** | Limited presence | 5-8% below market | Market capture |
 | **Skilled Trades** | 5% above market | At market | Volume growth |
@@ -191,13 +191,13 @@ This document provides current market intelligence for competitive positioning, 
 ### Recent Competitive Intelligence
 
 #### Q2 2025 Win/Loss Rates by Competitor
-| Competitor | Prudential Win Rate | Primary Loss Reasons | Recommended Actions |
-|------------|---------------------|---------------------|---------------------|
-| **MetLife** | 62% | Price (40%), Agent relationship (35%) | Maintain competitive rates |
-| **Northwestern** | 78% | Price advantage, simpler products | Continue positioning |
-| **New York Life** | 58% | Price (45%), Brand perception (30%) | Strengthen value proposition |
-| **State Farm** | 45% | Bundle discounts (60%), price (25%) | Develop multi-line offerings |
-| **Guardian (DI)** | 41% | Reputation (50%), Own-occ definition (30%) | Enhanced product features |
+| Competitor | Sterling Win Rate | Primary Loss Reasons | Recommended Actions |
+|------------|-------------------|---------------------|---------------------|
+| **BlueSky** | 62% | Price (40%), Agent relationship (35%) | Maintain competitive rates |
+| **Heritage** | 78% | Price advantage, simpler products | Continue positioning |
+| **Cornerstone** | 58% | Price (45%), Brand perception (30%) | Strengthen value proposition |
+| **Unity Group** | 45% | Bundle discounts (60%), price (25%) | Develop multi-line offerings |
+| **Horizon (DI)** | 41% | Reputation (50%), Own-occ definition (30%) | Enhanced product features |
 
 #### Lost Business Recovery Opportunities
 - **Price-sensitive losses**: 23% would reconsider with 5% rate reduction
