@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.lab_planning_insights*
 
 # Distribution / packaging
 .Python

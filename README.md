@@ -38,9 +38,8 @@ Before starting the lab, ensure all participants have:
 | 0–10 min   | Introduction & Setup           | Introduce Fabric Data Agents and Azure AI Foundry. Outline the insurance scenario. Ensure access to Fabric workspace, Foundry project, and OneLake. |
 | 10–30 min  | Data Upload & Agent Creation   | Upload datasets to OneLake data lake, create lakehouse, then build Fabric Data Agent connected to the underwriting dataset. Add instructions/examples and test queries. |
 | 30–40 min  | Publish Fabric Data Agent      | Finalize agent configuration, test with sample queries, and publish the agent to make it available for Foundry integration. |
-| 40–60 min  | Azure AI Foundry Integration   | Create a new agent in Foundry, connect the published Fabric Data Agent as a resource, and configure instructions to leverage the Fabric tool. |
-| 60–75 min  | Agent Testing & Refinement     | Test various underwriting scenarios, refine agent instructions, validate data lake connections, and troubleshoot any integration issues. |
-| 75–85 min  | Policy Review Case Study       | Use Playground chat to review a sample insurance policy and compare it against underwriting guidelines. Encourage custom questions and refine agent behavior. |
+| 40–70 min  | Azure AI Foundry Integration   | Create a new agent in Foundry, connect the published Fabric Data Agent as a resource, configure instructions to leverage the Fabric tool, and test various underwriting scenarios with refinement. |
+| 70–85 min  | Policy Review Case Study       | Use Playground chat to review a sample insurance policy and compare it against underwriting guidelines. Analyze against historical lakehouse data and generate risk assessment recommendations. |
 | 85–90 min  | Wrap-Up & Next Steps           | Summarize accomplishments, highlight real-world applications, and gather feedback. |
 
 ---
@@ -93,17 +92,21 @@ Each participant should successfully:
 - [ ] Test agent with sample queries
 - [ ] Publish agent successfully
 
-#### Phase 2: AI Foundry Integration (20 minutes)
+#### Phase 2: AI Foundry Integration (30 minutes)
 - [ ] Access assigned AI Foundry project
 - [ ] Create new agent in Foundry
 - [ ] Connect published Fabric Data Agent as resource
-- [ ] Configure agent instructions
-- [ ] Test integration in Playground
+- [ ] Configure agent instructions to leverage the Fabric tool
+- [ ] Test various underwriting scenarios
+- [ ] Refine agent instructions and validate data lake connections
+- [ ] Troubleshoot any integration issues
 
-#### Phase 3: Policy Evaluation (25 minutes)
+#### Phase 3: Policy Review Case Study (25 minutes)
 - [ ] Query agent about underwriting guidelines
 - [ ] Review sample insurance policy using agent
-- [ ] Generate policy recommendations
+- [ ] Compare policy against underwriting guidelines
+- [ ] Analyze against historical lakehouse data
+- [ ] Generate risk assessment recommendations
 - [ ] Demonstrate understanding of agent capabilities
 
 ---
