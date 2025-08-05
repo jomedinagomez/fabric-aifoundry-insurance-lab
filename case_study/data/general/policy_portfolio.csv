@@ -1,0 +1,6 @@
+policy_id,occupation,age,coverage_amount,premium,policy_type,issue_date,risk_rating,medical_exam_required,state,annual_income,health_status,smoking_status,beneficiary_relationship,payment_frequency,policy_status,underwriter_id,agent_id,last_premium_paid_date,policy_value,region,application_channel,explanation
+LIF-1001,Software Engineer,29,475000.0,360.0,Term Life,2019-04-15,A,No,CA,120000.0,Excellent,Non-Smoker,Spouse,Monthly,Active,UW01,AGT02,2024-05-01,0.0,West,Online,
+LIF-1002,Registered Nurse,43,850000.0,1215.0,Whole Life,2018-07-03,B,Yes,NY,89000.0,Good,Non-Smoker,Child,Annual,Lapsed,UW04,AGT15,2021-11-20,19200.0,Northeast,Agent,Payment lapses due to health treatment delays.
+LIF-1003,Financial Advisor,51,2500000.0,5695.0,Universal Life,2021-06-10,C,Yes,TX,215000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW09,AGT28,2024-05-15,320000.0,Southwest,Broker,
+LIF-1004,Construction Worker,57,400000.0,3528.0,Term Life,2019-02-20,D,No,OH,78000.0,Fair,Smoker,Other,Monthly,Suspended,UW12,AGT07,2023-01-10,0.0,Midwest,Phone,Suspension due to recent missed premium payments.
+LIF-1005,Restaurant Manager,60,600000.0,5472.0,Whole Life,2018-10-05,D,Yes,FL,92000.0,Fair,Smoker,Parent,Annual,Terminated,UW15,AGT23,2019-12-01,84300.0,Southeast,Agent,Policy terminated due to diagnosed cardiovascular condition.
