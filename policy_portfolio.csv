@@ -1,0 +1,1201 @@
+policy_id,occupation,age,coverage_amount,premium,policy_type,issue_date,risk_rating,medical_exam_required
+PP-1001,Firefighter,62,1000000,550,Universal Life,2021-11-14,Low,Yes
+PP-1002,Journalist,23,2000000,775,Whole Life,2022-01-12,Low,Yes
+PP-1003,Factory Worker,78,1000000,1233,Whole Life,2018-10-08,Medium,Yes
+PP-1004,Software Engineer,62,15000000,33000,Whole Life,2024-01-06,High,Yes
+PP-1005,Researcher,64,10000000,22333,Whole Life,2018-09-26,High,Yes
+PP-1006,Researcher,56,50000,26,Universal Life,2019-11-16,Low,No
+PP-1007,Military Officer,45,2000000,958,Universal Life,2018-12-09,Low,Yes
+PP-1008,Bus Driver,53,500000,512,Universal Life,2018-08-02,Medium,Yes
+PP-1009,Graphic Designer,65,5000000,5625,Term Life,2019-11-08,Medium,Yes
+PP-1010,Artist,40,2000000,1833,Term Life,2022-03-15,Medium,Yes
+PP-1011,Artist,22,2000000,1533,Whole Life,2019-05-22,Medium,Yes
+PP-1012,Taxi Driver,29,1000000,825,Universal Life,2020-09-23,Medium,Yes
+PP-1013,Accountant,62,15000000,33000,Universal Life,2020-09-26,High,Yes
+PP-1014,Photographer,55,25000,52,Term Life,2023-06-02,High,No
+PP-1015,Service Worker,71,2000000,1175,Universal Life,2019-12-01,Low,Yes
+PP-1016,Dancer,55,2000000,1041,Universal Life,2022-07-20,Low,Yes
+PP-1017,Air Traffic Controller,40,5000000,2291,Whole Life,2019-03-23,Low,Yes
+PP-1018,Truck Driver,28,750000,306,Whole Life,2021-09-03,Low,Yes
+PP-1019,Chef,68,2000000,1149,Whole Life,2018-09-26,Low,Yes
+PP-1020,Truck Driver,39,25000,45,Whole Life,2021-05-28,High,No
+PP-1021,Retired,41,2000000,925,Whole Life,2018-04-27,Low,Yes
+PP-1022,Researcher,78,750000,1850,Whole Life,2022-02-19,High,Yes
+PP-1023,Mechanical Engineer,76,50000,121,Term Life,2019-04-21,High,No
+PP-1024,Teacher,18,15000000,11000,Term Life,2018-06-21,Medium,Yes
+PP-1025,Graphic Designer,79,5000000,3104,Whole Life,2024-07-31,Low,Yes
+PP-1026,Commercial Pilot,36,25000,11,Universal Life,2023-12-19,Low,No
+PP-1027,Physicist,18,1000000,733,Term Life,2023-10-27,Medium,Yes
+PP-1028,Software Engineer,80,250000,312,Whole Life,2019-12-20,Medium,No
+PP-1029,Photographer,78,750000,925,Universal Life,2020-09-14,Medium,Yes
+PP-1030,Writer,49,100000,198,Whole Life,2024-11-02,High,No
+PP-1031,Healthcare Worker,60,10000000,10833,Whole Life,2021-11-24,Medium,Yes
+PP-1032,Photographer,19,2000000,2966,Whole Life,2023-02-09,High,Yes
+PP-1033,Commercial Pilot,54,1000000,516,Universal Life,2020-11-26,Low,Yes
+PP-1034,Retired,76,25000,15,Whole Life,2019-12-21,Low,No
+PP-1035,Retired,29,250000,412,Term Life,2020-08-03,High,No
+PP-1036,Professional Athlete,58,500000,266,Term Life,2020-04-07,Low,Yes
+PP-1037,Researcher,44,15000000,7125,Term Life,2023-03-01,Low,Yes
+PP-1038,Military Officer,29,250000,206,Whole Life,2020-07-04,Medium,No
+PP-1039,Police Officer,73,750000,446,Universal Life,2021-08-09,Low,Yes
+PP-1040,Civil Engineer,21,5000000,3791,Whole Life,2023-11-03,Medium,Yes
+PP-1041,Architect,40,15000000,6875,Term Life,2024-07-27,Low,Yes
+PP-1042,Accountant,31,250000,105,Term Life,2023-01-30,Low,No
+PP-1043,High-Risk Driver,52,250000,127,Term Life,2022-07-01,Low,No
+PP-1044,Journalist,48,1000000,983,Term Life,2021-01-31,Medium,Yes
+PP-1045,Factory Worker,66,100000,56,Whole Life,2023-12-16,Low,No
+PP-1046,Chef,51,100000,50,Whole Life,2019-10-14,Low,No
+PP-1047,Veterinarian,49,10000000,4958,Universal Life,2020-07-26,Low,Yes
+PP-1048,Miner,39,15000000,13625,Term Life,2018-07-25,Medium,Yes
+PP-1049,Researcher,26,100000,160,Universal Life,2024-11-18,High,No
+PP-1050,Chef,51,250000,252,Whole Life,2024-02-26,Medium,No
+PP-1051,Writer,69,15000000,34750,Whole Life,2022-10-23,High,Yes
+PP-1052,Professional Athlete,31,750000,631,Universal Life,2024-09-16,Medium,Yes
+PP-1053,Software Engineer,37,750000,1337,Whole Life,2022-03-11,High,Yes
+PP-1054,Veterinarian,18,10000000,14666,Term Life,2023-12-01,High,Yes
+PP-1055,Chemist,43,50000,23,Term Life,2024-06-20,Low,No
+PP-1056,Actor,37,1000000,445,Term Life,2018-11-01,Low,Yes
+PP-1057,Biologist,20,500000,375,Whole Life,2019-05-10,Medium,Yes
+PP-1058,Biologist,64,15000000,8375,Whole Life,2021-07-23,Low,Yes
+PP-1059,Taxi Driver,27,5000000,4041,Whole Life,2019-04-27,Medium,Yes
+PP-1060,Miner,35,10000000,4375,Term Life,2020-11-07,Low,Yes
+PP-1061,Software Engineer,77,500000,306,Whole Life,2023-06-02,Low,Yes
+PP-1062,Pilot,56,750000,393,Term Life,2018-01-04,Low,Yes
+PP-1063,Miner,49,500000,495,Universal Life,2024-06-01,Medium,Yes
+PP-1064,Truck Driver,68,15000000,34499,Universal Life,2024-06-28,High,Yes
+PP-1065,Student,55,50000,52,Whole Life,2018-10-05,Medium,No
+PP-1066,Attorney,44,100000,47,Term Life,2021-02-01,Low,No
+PP-1067,Pharmacist,68,1000000,2299,Universal Life,2024-08-21,High,Yes
+PP-1068,Mechanical Engineer,60,100000,216,Universal Life,2023-04-26,High,No
+PP-1069,Skilled Laborer,78,1000000,616,Universal Life,2024-05-20,Low,Yes
+PP-1070,Student,26,1000000,400,Whole Life,2020-02-28,Low,Yes
+PP-1071,Writer,63,500000,277,Universal Life,2018-08-20,Low,Yes
+PP-1072,Photographer,50,10000000,5000,Term Life,2018-01-03,Low,Yes
+PP-1073,Police Officer,52,50000,50,Whole Life,2024-01-30,Medium,No
+PP-1074,Dentist,39,1000000,454,Term Life,2021-05-01,Low,Yes
+PP-1075,Therapist,44,250000,118,Term Life,2019-12-31,Low,No
+PP-1076,Miner,27,50000,40,Universal Life,2020-11-06,Medium,No
+PP-1077,Pharmacist,72,750000,443,Whole Life,2018-03-01,Low,Yes
+PP-1078,Commercial Pilot,50,750000,375,Whole Life,2022-07-26,Low,Yes
+PP-1079,Miner,32,5000000,4250,Universal Life,2020-01-03,Medium,Yes
+PP-1080,Journalist,33,250000,429,Universal Life,2023-03-19,High,No
+PP-1081,Chef,39,15000000,6812,Whole Life,2020-08-05,Low,Yes
+PP-1082,Chemist,26,2000000,800,Whole Life,2018-05-28,Low,Yes
+PP-1083,Surgeon,54,500000,1033,Term Life,2018-04-30,High,Yes
+PP-1084,Software Engineer,36,250000,220,Universal Life,2024-07-13,Medium,No
+PP-1085,Professional Athlete,23,750000,581,Universal Life,2024-05-07,Medium,Yes
+PP-1086,Chemical Plant Operator,62,100000,55,Universal Life,2018-02-08,Low,No
+PP-1087,Professional Athlete,63,50000,110,Term Life,2020-02-25,High,No
+PP-1088,Taxi Driver,52,2000000,2033,Term Life,2019-06-24,Medium,Yes
+PP-1089,Nurse,23,250000,96,Universal Life,2022-05-20,Low,No
+PP-1090,Physicist,40,750000,687,Term Life,2018-05-05,Medium,Yes
+PP-1091,Scientist,40,15000000,27500,Term Life,2019-08-21,High,Yes
+PP-1092,Manager,36,750000,331,Universal Life,2022-10-22,Low,Yes
+PP-1093,Graphic Designer,60,750000,406,Whole Life,2021-06-17,Low,Yes
+PP-1094,Chemist,51,25000,25,Whole Life,2020-09-30,Medium,No
+PP-1095,Accountant,41,15000000,13875,Whole Life,2018-12-03,Medium,Yes
+PP-1096,Chemist,49,500000,495,Term Life,2018-08-21,Medium,Yes
+PP-1097,Musician,27,25000,10,Term Life,2019-02-04,Low,No
+PP-1098,Bus Driver,66,5000000,11333,Universal Life,2023-12-24,High,Yes
+PP-1099,Chemical Plant Operator,38,5000000,2250,Whole Life,2024-09-05,Low,Yes
+PP-1100,Journalist,37,100000,44,Whole Life,2024-11-17,Low,No
+PP-1101,Software Engineer,32,500000,212,Universal Life,2023-01-13,Low,Yes
+PP-1102,Manager,24,15000000,5875,Whole Life,2023-03-31,Low,Yes
+PP-1103,Musician,39,1000000,1816,Whole Life,2021-11-11,High,Yes
+PP-1104,Writer,40,250000,114,Term Life,2019-01-15,Low,No
+PP-1105,Dancer,57,10000000,10583,Whole Life,2018-12-30,Medium,Yes
+PP-1106,Chef,24,15000000,11750,Universal Life,2022-03-13,Medium,Yes
+PP-1107,Nurse,47,10000000,9750,Whole Life,2023-05-30,Medium,Yes
+PP-1108,Skilled Laborer,68,5000000,2875,Universal Life,2019-06-05,Low,Yes
+PP-1109,Surgeon,70,2000000,4666,Term Life,2022-07-30,High,Yes
+PP-1110,Student,25,500000,197,Whole Life,2022-05-13,Low,Yes
+PP-1111,Professional Athlete,56,250000,131,Whole Life,2019-03-29,Low,No
+PP-1112,Software Engineer,63,10000000,11083,Universal Life,2023-03-27,Medium,Yes
+PP-1113,Journalist,26,5000000,4000,Whole Life,2018-06-08,Medium,Yes
+PP-1114,Attorney,49,750000,743,Universal Life,2023-05-16,Medium,Yes
+PP-1115,Artist,48,5000000,4916,Term Life,2019-11-02,Medium,Yes
+PP-1116,Professional Athlete,54,15000000,7750,Whole Life,2023-06-21,Low,Yes
+PP-1117,Truck Driver,80,1000000,625,Whole Life,2020-12-24,Low,Yes
+PP-1118,Actor,48,5000000,4916,Whole Life,2021-12-08,Medium,Yes
+PP-1119,Attorney,37,500000,445,Universal Life,2018-09-09,Medium,Yes
+PP-1120,Retired,24,1000000,391,Whole Life,2024-01-16,Low,Yes
+PP-1121,Nurse,69,750000,868,Universal Life,2022-07-06,Medium,Yes
+PP-1122,Truck Driver,28,10000000,8166,Universal Life,2023-05-13,Medium,Yes
+PP-1123,Miner,67,2000000,1141,Term Life,2019-10-28,Low,Yes
+PP-1124,Architect,56,10000000,10500,Whole Life,2022-01-04,Medium,Yes
+PP-1125,Military Officer,76,1000000,2433,Whole Life,2023-05-31,High,Yes
+PP-1126,Military Officer,25,15000000,11875,Universal Life,2019-02-03,Medium,Yes
+PP-1127,Biologist,31,250000,420,Universal Life,2018-07-22,High,No
+PP-1128,Photographer,66,100000,113,Universal Life,2018-04-30,Medium,No
+PP-1129,Scientist,67,2000000,2283,Whole Life,2018-11-01,Medium,Yes
+PP-1130,Mechanical Engineer,41,750000,693,Whole Life,2019-05-31,Medium,Yes
+PP-1131,Writer,70,5000000,2916,Term Life,2020-11-28,Low,Yes
+PP-1132,Service Worker,71,500000,1175,Universal Life,2024-11-05,High,Yes
+PP-1133,Factory Worker,77,10000000,6125,Term Life,2018-03-12,Low,Yes
+PP-1134,Taxi Driver,71,750000,1762,Universal Life,2019-08-28,High,Yes
+PP-1135,Firefighter,50,5000000,2500,Term Life,2019-01-13,Low,Yes
+PP-1136,Architect,28,500000,204,Term Life,2018-04-05,Low,Yes
+PP-1137,Manager,33,15000000,25750,Whole Life,2019-02-26,High,Yes
+PP-1138,Skilled Laborer,63,5000000,5541,Universal Life,2019-05-20,Medium,Yes
+PP-1139,Attorney,35,1000000,1750,Whole Life,2022-10-04,High,Yes
+PP-1140,Professional Athlete,57,25000,52,Universal Life,2021-09-27,High,No
+PP-1141,Dentist,64,2000000,2233,Universal Life,2024-05-18,Medium,Yes
+PP-1142,Truck Driver,52,250000,127,Universal Life,2020-04-22,Low,No
+PP-1143,Dentist,40,25000,22,Term Life,2022-07-02,Medium,No
+PP-1144,Writer,24,750000,293,Whole Life,2020-05-26,Low,Yes
+PP-1145,Skilled Laborer,48,2000000,983,Term Life,2019-10-21,Low,Yes
+PP-1146,Student,37,500000,222,Whole Life,2019-06-01,Low,Yes
+PP-1147,Therapist,65,25000,56,Universal Life,2024-12-23,High,No
+PP-1148,Commercial Pilot,68,2000000,1149,Universal Life,2021-03-25,Low,Yes
+PP-1149,Electrician,78,15000000,37000,Term Life,2023-12-07,High,Yes
+PP-1150,Dancer,57,5000000,2645,Whole Life,2023-03-02,Low,Yes
+PP-1151,Pilot,62,5000000,2750,Term Life,2019-07-06,Low,Yes
+PP-1152,Chemist,27,25000,20,Whole Life,2024-11-23,Medium,No
+PP-1153,Taxi Driver,45,1000000,958,Term Life,2023-05-15,Medium,Yes
+PP-1154,Taxi Driver,38,250000,112,Universal Life,2022-12-30,Low,No
+PP-1155,Miner,67,250000,285,Whole Life,2021-08-07,Medium,No
+PP-1156,Student,57,15000000,7937,Term Life,2019-07-17,Low,Yes
+PP-1157,Attorney,56,500000,525,Whole Life,2021-06-15,Medium,Yes
+PP-1158,Chemical Plant Operator,54,5000000,2583,Term Life,2019-11-18,Low,Yes
+PP-1159,Accountant,25,100000,79,Term Life,2021-12-20,Medium,No
+PP-1160,Architect,72,1000000,591,Universal Life,2021-08-07,Low,Yes
+PP-1161,Biologist,36,10000000,8833,Whole Life,2020-01-11,Medium,Yes
+PP-1162,Dentist,34,2000000,1733,Universal Life,2024-06-22,Medium,Yes
+PP-1163,Retired,79,250000,620,Whole Life,2024-10-13,High,No
+PP-1164,Software Engineer,24,15000000,23500,Universal Life,2018-05-24,High,Yes
+PP-1165,Plumber,34,10000000,4333,Term Life,2023-07-05,Low,Yes
+PP-1166,Nurse,34,750000,325,Whole Life,2024-10-21,Low,Yes
+PP-1167,Nurse,57,25000,26,Universal Life,2024-07-01,Medium,No
+PP-1168,Miner,44,10000000,9500,Universal Life,2020-06-18,Medium,Yes
+PP-1169,Scientist,65,25000,14,Universal Life,2019-11-09,Low,No
+PP-1170,Bus Driver,18,1000000,733,Whole Life,2018-09-22,Medium,Yes
+PP-1171,Professional Athlete,53,250000,256,Term Life,2022-09-14,Medium,No
+PP-1172,Plumber,73,50000,29,Whole Life,2018-03-20,Low,No
+PP-1173,Taxi Driver,54,750000,387,Universal Life,2020-02-12,Low,Yes
+PP-1174,Factory Worker,51,250000,126,Term Life,2019-03-05,Low,No
+PP-1175,Chemist,61,750000,818,Universal Life,2021-03-08,Medium,Yes
+PP-1176,Student,42,1000000,466,Universal Life,2024-10-24,Low,Yes
+PP-1177,Military Officer,53,2000000,1025,Universal Life,2021-04-14,Low,Yes
+PP-1178,High-Risk Driver,54,500000,516,Whole Life,2018-10-20,Medium,Yes
+PP-1179,Miner,29,15000000,6187,Whole Life,2019-10-07,Low,Yes
+PP-1180,Student,56,250000,525,Term Life,2018-02-23,High,No
+PP-1181,Software Engineer,78,2000000,4933,Whole Life,2018-02-20,High,Yes
+PP-1182,Chemist,46,25000,24,Term Life,2019-01-23,Medium,No
+PP-1183,Retired,43,5000000,9416,Term Life,2018-06-30,High,Yes
+PP-1184,Journalist,62,100000,55,Universal Life,2023-06-30,Low,No
+PP-1185,Musician,65,5000000,2812,Universal Life,2024-12-31,Low,Yes
+PP-1186,Actor,31,5000000,2104,Term Life,2019-03-15,Low,Yes
+PP-1187,Air Traffic Controller,79,1000000,620,Term Life,2022-05-21,Low,Yes
+PP-1188,Attorney,51,750000,378,Term Life,2019-03-05,Low,Yes
+PP-1189,Dentist,36,100000,88,Whole Life,2022-11-08,Medium,No
+PP-1190,Police Officer,34,50000,21,Term Life,2023-02-25,Low,No
+PP-1191,Graphic Designer,52,50000,50,Whole Life,2021-05-05,Medium,No
+PP-1192,Graphic Designer,75,2000000,1208,Term Life,2020-05-31,Low,Yes
+PP-1193,Actor,80,100000,62,Universal Life,2022-05-04,Low,No
+PP-1194,Graphic Designer,34,2000000,1733,Whole Life,2023-04-27,Medium,Yes
+PP-1195,Taxi Driver,28,10000000,4083,Whole Life,2020-06-15,Low,Yes
+PP-1196,Mechanical Engineer,65,750000,421,Universal Life,2020-11-16,Low,Yes
+PP-1197,Police Officer,71,2000000,1175,Whole Life,2023-12-13,Low,Yes
+PP-1198,Pharmacist,27,10000000,16166,Whole Life,2018-11-02,High,Yes
+PP-1199,Scientist,47,10000000,19500,Term Life,2022-09-12,High,Yes
+PP-1200,High-Risk Driver,42,1000000,466,Whole Life,2019-04-24,Low,Yes
+PP-1201,Police Officer,29,100000,82,Term Life,2018-11-06,Medium,No
+PP-1202,Architect,39,1000000,454,Whole Life,2019-03-19,Low,Yes
+PP-1203,Chef,41,750000,346,Term Life,2019-05-21,Low,Yes
+PP-1204,Biologist,73,100000,119,Universal Life,2024-06-30,Medium,No
+PP-1205,Civil Engineer,33,10000000,17166,Universal Life,2023-01-22,High,Yes
+PP-1206,Construction Worker,79,750000,1862,Universal Life,2019-01-05,High,Yes
+PP-1207,Actor,21,250000,379,Term Life,2018-03-23,High,No
+PP-1208,Construction Worker,20,100000,150,Term Life,2019-06-19,High,No
+PP-1209,Photographer,29,250000,103,Term Life,2019-08-05,Low,No
+PP-1210,Pilot,62,10000000,5500,Universal Life,2024-06-25,Low,Yes
+PP-1211,Miner,26,10000000,4000,Term Life,2021-01-23,Low,Yes
+PP-1212,Architect,64,2000000,1116,Term Life,2023-06-14,Low,Yes
+PP-1213,Pilot,64,15000000,8375,Whole Life,2018-02-09,Low,Yes
+PP-1214,Pharmacist,42,500000,466,Universal Life,2019-06-19,Medium,Yes
+PP-1215,Physicist,34,100000,86,Whole Life,2024-02-28,Medium,No
+PP-1216,Manager,76,750000,1825,Universal Life,2018-07-18,High,Yes
+PP-1217,Chemist,66,250000,141,Universal Life,2021-11-01,Low,No
+PP-1218,Biologist,64,50000,111,Term Life,2020-08-21,High,No
+PP-1219,Professional Athlete,49,1000000,991,Universal Life,2020-07-01,Medium,Yes
+PP-1220,Physicist,20,250000,375,Whole Life,2024-12-28,High,No
+PP-1221,Teacher,26,5000000,4000,Universal Life,2024-06-30,Medium,Yes
+PP-1222,Attorney,65,5000000,5625,Whole Life,2021-11-13,Medium,Yes
+PP-1223,Air Traffic Controller,20,250000,93,Term Life,2018-03-08,Low,No
+PP-1224,Chemical Plant Operator,56,10000000,5250,Term Life,2023-01-01,Low,Yes
+PP-1225,Physicist,19,50000,37,Term Life,2019-12-23,Medium,No
+PP-1226,Musician,24,25000,39,Term Life,2023-01-26,High,No
+PP-1227,Manager,50,1000000,1000,Whole Life,2023-03-19,Medium,Yes
+PP-1228,Teacher,64,5000000,2791,Whole Life,2021-01-28,Low,Yes
+PP-1229,Professional Athlete,55,100000,104,Universal Life,2024-08-30,Medium,No
+PP-1230,Taxi Driver,28,25000,20,Term Life,2022-04-21,Medium,No
+PP-1231,Chemist,19,5000000,3708,Whole Life,2023-05-22,Medium,Yes
+PP-1232,Manager,19,5000000,7416,Term Life,2021-06-26,High,Yes
+PP-1233,Police Officer,22,5000000,7666,Universal Life,2020-03-19,High,Yes
+PP-1234,Therapist,45,10000000,4791,Whole Life,2021-08-22,Low,Yes
+PP-1235,Therapist,45,5000000,2395,Whole Life,2022-02-25,Low,Yes
+PP-1236,Police Officer,53,250000,128,Universal Life,2018-11-30,Low,No
+PP-1237,Physicist,44,750000,712,Universal Life,2023-07-13,Medium,Yes
+PP-1238,Musician,61,750000,409,Term Life,2022-06-25,Low,Yes
+PP-1239,Taxi Driver,51,25000,50,Whole Life,2018-08-01,High,No
+PP-1240,Chemist,24,500000,195,Universal Life,2021-01-11,Low,Yes
+PP-1241,Chemical Plant Operator,36,2000000,883,Universal Life,2020-07-10,Low,Yes
+PP-1242,Pharmacist,62,25000,13,Whole Life,2019-06-11,Low,No
+PP-1243,Journalist,32,500000,212,Whole Life,2019-12-25,Low,Yes
+PP-1244,Researcher,19,750000,278,Term Life,2023-03-14,Low,Yes
+PP-1245,Bus Driver,58,500000,266,Whole Life,2019-09-07,Low,Yes
+PP-1246,Skilled Laborer,61,500000,1091,Whole Life,2019-02-17,High,Yes
+PP-1247,Pharmacist,64,250000,139,Term Life,2024-03-19,Low,No
+PP-1248,Military Officer,59,250000,537,Term Life,2023-07-15,High,No
+PP-1249,Biologist,19,2000000,2966,Term Life,2024-08-09,High,Yes
+PP-1250,Pharmacist,53,250000,256,Term Life,2020-12-19,Medium,No
+PP-1251,Journalist,24,15000000,5875,Term Life,2023-08-27,Low,Yes
+PP-1252,Commercial Pilot,52,750000,381,Whole Life,2018-01-23,Low,Yes
+PP-1253,High-Risk Driver,70,1000000,2333,Term Life,2022-10-09,High,Yes
+PP-1254,Nurse,25,750000,296,Whole Life,2020-08-13,Low,Yes
+PP-1255,Dancer,18,100000,36,Universal Life,2021-03-24,Low,No
+PP-1256,Taxi Driver,22,25000,38,Term Life,2018-01-01,High,No
+PP-1257,Electrician,57,1000000,2116,Universal Life,2018-09-21,High,Yes
+PP-1258,Software Engineer,80,1000000,625,Whole Life,2023-01-31,Low,Yes
+PP-1259,Actor,29,50000,82,Whole Life,2022-05-15,High,No
+PP-1260,Dentist,19,50000,74,Universal Life,2022-07-20,High,No
+PP-1261,Writer,46,2000000,966,Whole Life,2019-09-24,Low,Yes
+PP-1262,Chemist,59,100000,53,Term Life,2019-12-09,Low,No
+PP-1263,Pharmacist,42,250000,116,Whole Life,2020-08-01,Low,No
+PP-1264,Civil Engineer,50,500000,250,Whole Life,2020-12-27,Low,Yes
+PP-1265,Journalist,62,500000,275,Term Life,2022-03-20,Low,Yes
+PP-1266,Chemist,68,750000,431,Universal Life,2020-04-17,Low,Yes
+PP-1267,Mechanical Engineer,24,25000,39,Whole Life,2018-03-20,High,No
+PP-1268,Construction Worker,36,500000,441,Universal Life,2020-03-22,Medium,Yes
+PP-1269,Musician,34,500000,216,Term Life,2019-07-05,Low,Yes
+PP-1270,Musician,47,10000000,4875,Term Life,2022-06-16,Low,Yes
+PP-1271,Civil Engineer,68,100000,57,Term Life,2024-05-06,Low,No
+PP-1272,Musician,44,750000,356,Universal Life,2023-04-21,Low,Yes
+PP-1273,Mechanical Engineer,19,15000000,22250,Whole Life,2018-07-15,High,Yes
+PP-1274,Graphic Designer,47,750000,365,Whole Life,2022-11-28,Low,Yes
+PP-1275,Architect,49,25000,24,Whole Life,2018-02-12,Medium,No
+PP-1276,Nurse,18,1000000,733,Term Life,2021-04-09,Medium,Yes
+PP-1277,Bus Driver,77,50000,30,Whole Life,2023-01-22,Low,No
+PP-1278,Veterinarian,64,50000,55,Whole Life,2018-09-10,Medium,No
+PP-1279,Military Officer,32,750000,637,Universal Life,2022-03-26,Medium,Yes
+PP-1280,Writer,63,250000,554,Term Life,2021-07-21,High,No
+PP-1281,Military Officer,60,2000000,1083,Term Life,2024-05-31,Low,Yes
+PP-1282,Construction Worker,19,2000000,741,Term Life,2018-09-13,Low,Yes
+PP-1283,Taxi Driver,25,25000,9,Universal Life,2018-04-17,Low,No
+PP-1284,Truck Driver,40,25000,11,Term Life,2023-08-08,Low,No
+PP-1285,Taxi Driver,24,500000,195,Universal Life,2024-05-14,Low,Yes
+PP-1286,Pharmacist,57,750000,793,Term Life,2019-03-11,Medium,Yes
+PP-1287,Dancer,62,100000,110,Whole Life,2023-06-27,Medium,No
+PP-1288,Veterinarian,62,5000000,2750,Whole Life,2019-12-13,Low,Yes
+PP-1289,Electrician,38,100000,90,Whole Life,2023-08-22,Medium,No
+PP-1290,Plumber,23,750000,581,Term Life,2018-05-17,Medium,Yes
+PP-1291,Miner,38,5000000,4500,Term Life,2022-10-23,Medium,Yes
+PP-1292,Taxi Driver,66,250000,283,Whole Life,2024-11-05,Medium,No
+PP-1293,Dancer,56,50000,52,Universal Life,2019-01-06,Medium,No
+PP-1294,Journalist,67,25000,14,Universal Life,2024-07-05,Low,No
+PP-1295,Chemist,43,250000,235,Whole Life,2020-04-07,Medium,No
+PP-1296,Military Officer,79,100000,62,Whole Life,2020-11-26,Low,No
+PP-1297,Surgeon,63,50000,55,Universal Life,2022-06-10,Medium,No
+PP-1298,Software Engineer,41,750000,346,Term Life,2023-05-07,Low,Yes
+PP-1299,Artist,67,100000,57,Universal Life,2019-09-24,Low,No
+PP-1300,Chemist,37,100000,178,Whole Life,2019-02-07,High,No
+PP-1301,Healthcare Worker,43,250000,470,Universal Life,2018-06-23,High,No
+PP-1302,Veterinarian,75,250000,151,Term Life,2022-03-30,Low,No
+PP-1303,Firefighter,28,250000,204,Whole Life,2018-04-24,Medium,No
+PP-1304,Mechanical Engineer,41,50000,46,Universal Life,2021-02-05,Medium,No
+PP-1305,Truck Driver,36,5000000,8833,Term Life,2018-06-24,High,Yes
+PP-1306,Attorney,74,100000,240,Whole Life,2020-09-22,High,No
+PP-1307,Retired,19,750000,556,Term Life,2022-01-04,Medium,Yes
+PP-1308,Photographer,21,500000,758,Term Life,2023-03-04,High,Yes
+PP-1309,Pilot,49,2000000,991,Term Life,2021-12-25,Low,Yes
+PP-1310,Healthcare Worker,33,15000000,12875,Whole Life,2021-02-25,Medium,Yes
+PP-1311,Scientist,63,750000,415,Whole Life,2023-12-30,Low,Yes
+PP-1312,Musician,32,10000000,8500,Universal Life,2019-06-09,Medium,Yes
+PP-1313,Retired,52,15000000,30500,Term Life,2020-09-25,High,Yes
+PP-1314,Accountant,65,250000,140,Whole Life,2018-04-20,Low,No
+PP-1315,Construction Worker,46,15000000,7250,Universal Life,2018-07-05,Low,Yes
+PP-1316,Manager,72,100000,59,Term Life,2022-08-24,Low,No
+PP-1317,Military Officer,60,100000,108,Term Life,2018-03-31,Medium,No
+PP-1318,Artist,70,500000,1166,Whole Life,2019-02-23,High,Yes
+PP-1319,Chemist,50,100000,100,Term Life,2018-06-18,Medium,No
+PP-1320,Teacher,37,25000,22,Whole Life,2019-02-20,Medium,No
+PP-1321,Student,69,250000,144,Whole Life,2024-06-29,Low,No
+PP-1322,Veterinarian,33,250000,107,Universal Life,2020-10-04,Low,No
+PP-1323,Journalist,49,1000000,495,Universal Life,2019-08-30,Low,Yes
+PP-1324,Physicist,55,10000000,10416,Universal Life,2022-03-28,Medium,Yes
+PP-1325,Dentist,36,25000,22,Universal Life,2019-11-24,Medium,No
+PP-1326,Healthcare Worker,74,25000,30,Term Life,2021-11-13,Medium,No
+PP-1327,Veterinarian,28,25000,10,Universal Life,2020-04-25,Low,No
+PP-1328,Plumber,40,10000000,4583,Whole Life,2020-01-12,Low,Yes
+PP-1329,Chemist,64,2000000,1116,Whole Life,2024-03-29,Low,Yes
+PP-1330,Healthcare Worker,50,1000000,2000,Term Life,2019-08-07,High,Yes
+PP-1331,Military Officer,66,750000,1699,Universal Life,2018-01-16,High,Yes
+PP-1332,Graphic Designer,26,10000000,4000,Whole Life,2018-01-09,Low,Yes
+PP-1333,Service Worker,58,2000000,1066,Whole Life,2019-09-05,Low,Yes
+PP-1334,Retired,20,50000,37,Whole Life,2021-06-12,Medium,No
+PP-1335,Dancer,42,100000,46,Term Life,2023-07-17,Low,No
+PP-1336,Chemist,21,500000,189,Universal Life,2020-02-13,Low,Yes
+PP-1337,Accountant,50,5000000,2500,Term Life,2020-04-12,Low,Yes
+PP-1338,Bus Driver,39,2000000,3633,Whole Life,2023-09-14,High,Yes
+PP-1339,Biologist,50,100000,50,Term Life,2019-04-02,Low,No
+PP-1340,Firefighter,50,5000000,5000,Term Life,2018-03-24,Medium,Yes
+PP-1341,Dentist,25,10000000,15833,Whole Life,2019-05-24,High,Yes
+PP-1342,Researcher,41,500000,462,Universal Life,2020-09-03,Medium,Yes
+PP-1343,Therapist,41,1000000,1850,Universal Life,2019-11-04,High,Yes
+PP-1344,Police Officer,20,5000000,1875,Whole Life,2022-07-22,Low,Yes
+PP-1345,Photographer,67,250000,285,Universal Life,2023-10-09,Medium,No
+PP-1346,Student,63,100000,55,Universal Life,2021-04-03,Low,No
+PP-1347,Dentist,53,100000,51,Universal Life,2022-02-23,Low,No
+PP-1348,Veterinarian,39,25000,11,Whole Life,2024-09-30,Low,No
+PP-1349,Student,48,250000,491,Term Life,2022-06-29,High,No
+PP-1350,Chef,19,750000,556,Term Life,2022-05-18,Medium,Yes
+PP-1351,Military Officer,63,50000,110,Term Life,2019-05-08,High,No
+PP-1352,Mechanical Engineer,22,25000,9,Term Life,2022-12-01,Low,No
+PP-1353,Chef,64,1000000,558,Whole Life,2023-05-21,Low,Yes
+PP-1354,Firefighter,45,500000,958,Whole Life,2019-03-22,High,Yes
+PP-1355,Civil Engineer,78,500000,308,Whole Life,2019-05-05,Low,Yes
+PP-1356,Architect,78,15000000,9250,Universal Life,2020-03-07,Low,Yes
+PP-1357,Dentist,57,100000,211,Term Life,2019-06-08,High,No
+PP-1358,Miner,24,15000000,5875,Whole Life,2018-12-07,Low,Yes
+PP-1359,Truck Driver,32,50000,85,Universal Life,2020-04-29,High,No
+PP-1360,Taxi Driver,44,500000,237,Universal Life,2018-06-15,Low,Yes
+PP-1361,Veterinarian,32,750000,1275,Term Life,2022-01-22,High,Yes
+PP-1362,Architect,55,100000,208,Term Life,2024-12-06,High,No
+PP-1363,Veterinarian,22,5000000,1916,Universal Life,2021-11-11,Low,Yes
+PP-1364,Student,38,750000,1350,Whole Life,2019-11-23,High,Yes
+PP-1365,Journalist,54,250000,516,Universal Life,2020-12-06,High,No
+PP-1366,Photographer,78,500000,308,Whole Life,2018-12-19,Low,Yes
+PP-1367,Musician,35,15000000,6562,Whole Life,2020-10-15,Low,Yes
+PP-1368,Mechanical Engineer,51,10000000,20166,Term Life,2020-03-09,High,Yes
+PP-1369,Physicist,75,50000,60,Whole Life,2021-07-18,Medium,No
+PP-1370,Surgeon,48,15000000,29500,Universal Life,2024-07-02,High,Yes
+PP-1371,Police Officer,36,10000000,4416,Universal Life,2024-12-14,Low,Yes
+PP-1372,Researcher,46,500000,241,Term Life,2018-01-29,Low,Yes
+PP-1373,Police Officer,22,250000,383,Term Life,2024-03-28,High,No
+PP-1374,Bus Driver,72,250000,591,Term Life,2018-07-16,High,No
+PP-1375,Researcher,74,2000000,2400,Whole Life,2018-06-25,Medium,Yes
+PP-1376,Musician,48,250000,491,Universal Life,2018-01-16,High,No
+PP-1377,Air Traffic Controller,30,10000000,8333,Whole Life,2023-10-24,Medium,Yes
+PP-1378,Firefighter,58,25000,53,Universal Life,2024-10-07,High,No
+PP-1379,Surgeon,78,15000000,9250,Term Life,2024-02-09,Low,Yes
+PP-1380,Skilled Laborer,18,500000,733,Whole Life,2021-09-13,High,Yes
+PP-1381,Police Officer,45,750000,718,Term Life,2023-11-12,Medium,Yes
+PP-1382,Accountant,43,15000000,14124,Whole Life,2019-06-23,Medium,Yes
+PP-1383,Healthcare Worker,36,1000000,1766,Term Life,2018-10-14,High,Yes
+PP-1384,Surgeon,48,1000000,983,Term Life,2024-09-13,Medium,Yes
+PP-1385,Software Engineer,69,25000,14,Universal Life,2020-06-15,Low,No
+PP-1386,Software Engineer,33,250000,214,Term Life,2022-11-10,Medium,No
+PP-1387,Taxi Driver,20,750000,281,Universal Life,2024-09-24,Low,Yes
+PP-1388,Healthcare Worker,68,2000000,2299,Term Life,2019-08-29,Medium,Yes
+PP-1389,Police Officer,45,750000,718,Universal Life,2022-07-06,Medium,Yes
+PP-1390,Writer,27,15000000,6062,Term Life,2020-06-05,Low,Yes
+PP-1391,Actor,61,25000,54,Whole Life,2024-03-19,High,No
+PP-1392,Nurse,47,500000,243,Universal Life,2021-07-14,Low,Yes
+PP-1393,Scientist,58,250000,266,Term Life,2023-05-20,Medium,No
+PP-1394,Artist,34,100000,86,Universal Life,2019-12-11,Medium,No
+PP-1395,Dentist,64,50000,111,Universal Life,2022-01-16,High,No
+PP-1396,Miner,36,100000,44,Term Life,2019-10-10,Low,No
+PP-1397,Air Traffic Controller,62,2000000,2200,Universal Life,2023-04-25,Medium,Yes
+PP-1398,Accountant,71,2000000,1175,Term Life,2024-05-04,Low,Yes
+PP-1399,Firefighter,68,250000,574,Term Life,2022-04-16,High,No
+PP-1400,Bus Driver,32,750000,637,Whole Life,2021-12-27,Medium,Yes
+PP-1401,Software Engineer,69,500000,289,Whole Life,2020-02-21,Low,Yes
+PP-1402,Commercial Pilot,38,2000000,3600,Universal Life,2024-10-30,High,Yes
+PP-1403,Police Officer,19,2000000,1483,Whole Life,2024-09-12,Medium,Yes
+PP-1404,Chef,67,50000,57,Universal Life,2023-10-27,Medium,No
+PP-1405,Plumber,61,1000000,545,Whole Life,2024-01-18,Low,Yes
+PP-1406,High-Risk Driver,71,250000,146,Term Life,2018-02-09,Low,No
+PP-1407,Writer,55,15000000,31250,Term Life,2023-08-25,High,Yes
+PP-1408,Physicist,65,15000000,8437,Universal Life,2023-03-12,Low,Yes
+PP-1409,Firefighter,29,750000,618,Term Life,2021-04-20,Medium,Yes
+PP-1410,Pilot,39,2000000,908,Universal Life,2018-03-13,Low,Yes
+PP-1411,Photographer,70,100000,58,Universal Life,2020-02-10,Low,No
+PP-1412,Police Officer,64,100000,223,Term Life,2021-03-28,High,No
+PP-1413,Attorney,53,2000000,1025,Term Life,2020-02-07,Low,Yes
+PP-1414,Surgeon,21,10000000,3791,Universal Life,2021-09-03,Low,Yes
+PP-1415,Veterinarian,60,100000,54,Whole Life,2019-11-14,Low,No
+PP-1416,Police Officer,43,100000,94,Universal Life,2022-08-03,Medium,No
+PP-1417,Scientist,63,750000,1662,Universal Life,2021-02-07,High,Yes
+PP-1418,Civil Engineer,32,750000,637,Whole Life,2018-03-31,Medium,Yes
+PP-1419,Software Engineer,69,15000000,8687,Term Life,2018-09-28,Low,Yes
+PP-1420,Truck Driver,60,750000,812,Whole Life,2021-04-24,Medium,Yes
+PP-1421,Writer,20,1000000,750,Term Life,2023-05-12,Medium,Yes
+PP-1422,Dentist,40,15000000,13750,Term Life,2024-10-19,Medium,Yes
+PP-1423,Pilot,63,15000000,8312,Term Life,2019-09-27,Low,Yes
+PP-1424,Writer,48,5000000,9833,Whole Life,2019-07-19,High,Yes
+PP-1425,Accountant,73,1000000,1191,Whole Life,2021-03-13,Medium,Yes
+PP-1426,Retired,64,5000000,11166,Whole Life,2024-11-10,High,Yes
+PP-1427,Nurse,31,250000,420,Term Life,2021-09-16,High,No
+PP-1428,Taxi Driver,32,500000,425,Whole Life,2024-10-31,Medium,Yes
+PP-1429,Veterinarian,32,10000000,4250,Term Life,2024-04-12,Low,Yes
+PP-1430,Bus Driver,18,250000,183,Term Life,2021-03-07,Medium,No
+PP-1431,High-Risk Driver,70,25000,14,Whole Life,2024-09-05,Low,No
+PP-1432,Civil Engineer,74,15000000,9000,Universal Life,2019-01-23,Low,Yes
+PP-1433,Actor,53,25000,25,Universal Life,2022-12-07,Medium,No
+PP-1434,Taxi Driver,50,100000,50,Universal Life,2021-12-29,Low,No
+PP-1435,Scientist,41,10000000,18500,Term Life,2020-11-11,High,Yes
+PP-1436,Retired,79,2000000,1241,Universal Life,2021-10-13,Low,Yes
+PP-1437,Electrician,79,5000000,3104,Whole Life,2018-05-01,Low,Yes
+PP-1438,Physicist,49,250000,247,Term Life,2021-04-25,Medium,No
+PP-1439,Professional Athlete,44,50000,95,Whole Life,2024-03-31,High,No
+PP-1440,Military Officer,34,100000,43,Term Life,2022-03-21,Low,No
+PP-1441,Pilot,45,750000,718,Term Life,2022-12-07,Medium,Yes
+PP-1442,Military Officer,52,15000000,15250,Whole Life,2021-08-02,Medium,Yes
+PP-1443,Retired,28,10000000,4083,Term Life,2020-08-27,Low,Yes
+PP-1444,Professional Athlete,26,2000000,1600,Universal Life,2020-11-22,Medium,Yes
+PP-1445,Miner,36,750000,1325,Universal Life,2024-12-22,High,Yes
+PP-1446,Architect,52,1000000,2033,Universal Life,2023-07-15,High,Yes
+PP-1447,Physicist,53,10000000,10250,Term Life,2023-09-14,Medium,Yes
+PP-1448,Software Engineer,49,2000000,1983,Universal Life,2023-12-01,Medium,Yes
+PP-1449,Scientist,48,500000,983,Term Life,2018-12-15,High,Yes
+PP-1450,Electrician,45,10000000,9583,Term Life,2018-01-20,Medium,Yes
+PP-1451,Researcher,41,100000,185,Term Life,2019-12-03,High,No
+PP-1452,Police Officer,32,100000,42,Term Life,2019-02-25,Low,No
+PP-1453,Therapist,74,50000,30,Term Life,2021-12-01,Low,No
+PP-1454,Teacher,18,15000000,5500,Term Life,2022-03-17,Low,Yes
+PP-1455,Actor,37,5000000,2229,Universal Life,2023-10-17,Low,Yes
+PP-1456,Architect,37,5000000,8916,Whole Life,2024-04-06,High,Yes
+PP-1457,Skilled Laborer,62,2000000,4400,Universal Life,2024-07-30,High,Yes
+PP-1458,Commercial Pilot,80,250000,312,Universal Life,2019-12-05,Medium,No
+PP-1459,Chemical Plant Operator,75,15000000,36250,Term Life,2020-07-10,High,Yes
+PP-1460,Nurse,45,750000,718,Universal Life,2020-01-09,Medium,Yes
+PP-1461,Taxi Driver,41,100000,92,Whole Life,2023-06-23,Medium,No
+PP-1462,Professional Athlete,21,15000000,5687,Whole Life,2020-11-01,Low,Yes
+PP-1463,Nurse,53,750000,1537,Whole Life,2021-05-13,High,Yes
+PP-1464,Construction Worker,31,100000,84,Whole Life,2021-05-17,Medium,No
+PP-1465,Student,80,100000,125,Term Life,2018-10-27,Medium,No
+PP-1466,Scientist,57,750000,793,Whole Life,2018-07-29,Medium,Yes
+PP-1467,Writer,49,1000000,495,Universal Life,2021-12-12,Low,Yes
+PP-1468,Electrician,30,15000000,6250,Term Life,2019-01-11,Low,Yes
+PP-1469,Accountant,50,50000,100,Term Life,2022-07-28,High,No
+PP-1470,Factory Worker,31,750000,1262,Universal Life,2021-07-17,High,Yes
+PP-1471,Actor,73,50000,29,Term Life,2024-03-19,Low,No
+PP-1472,Commercial Pilot,33,50000,85,Term Life,2022-01-22,High,No
+PP-1473,High-Risk Driver,37,50000,89,Term Life,2019-10-23,High,No
+PP-1474,Professional Athlete,70,500000,583,Universal Life,2018-11-19,Medium,Yes
+PP-1475,High-Risk Driver,70,50000,116,Universal Life,2018-06-28,High,No
+PP-1476,High-Risk Driver,39,250000,227,Term Life,2018-06-15,Medium,No
+PP-1477,Graphic Designer,29,250000,103,Term Life,2018-09-27,Low,No
+PP-1478,Civil Engineer,35,5000000,2187,Whole Life,2024-10-16,Low,Yes
+PP-1479,Physicist,57,1000000,2116,Whole Life,2020-02-02,High,Yes
+PP-1480,Software Engineer,35,15000000,13125,Whole Life,2022-04-07,Medium,Yes
+PP-1481,Biologist,58,10000000,21333,Whole Life,2024-09-03,High,Yes
+PP-1482,Photographer,66,25000,14,Whole Life,2024-03-11,Low,No
+PP-1483,Attorney,41,5000000,2312,Whole Life,2019-05-21,Low,Yes
+PP-1484,Chemical Plant Operator,58,2000000,4266,Universal Life,2018-11-25,High,Yes
+PP-1485,Civil Engineer,23,2000000,1550,Term Life,2021-08-05,Medium,Yes
+PP-1486,Pharmacist,22,5000000,3833,Universal Life,2019-01-12,Medium,Yes
+PP-1487,Pilot,29,250000,206,Universal Life,2020-03-31,Medium,No
+PP-1488,Attorney,21,1000000,758,Term Life,2022-06-11,Medium,Yes
+PP-1489,Professional Athlete,48,10000000,4916,Whole Life,2022-08-17,Low,Yes
+PP-1490,Chemical Plant Operator,22,100000,153,Whole Life,2020-08-02,High,No
+PP-1491,Air Traffic Controller,75,2000000,1208,Term Life,2018-02-27,Low,Yes
+PP-1492,Nurse,80,2000000,1250,Universal Life,2022-11-15,Low,Yes
+PP-1493,Skilled Laborer,47,100000,97,Whole Life,2018-11-28,Medium,No
+PP-1494,Firefighter,25,25000,19,Universal Life,2021-06-01,Medium,No
+PP-1495,Scientist,26,100000,40,Universal Life,2023-12-01,Low,No
+PP-1496,Accountant,64,25000,55,Universal Life,2019-10-03,High,No
+PP-1497,Biologist,24,500000,783,Term Life,2024-06-03,High,Yes
+PP-1498,Plumber,24,10000000,7833,Term Life,2023-01-21,Medium,Yes
+PP-1499,Bus Driver,74,2000000,1200,Term Life,2019-05-15,Low,Yes
+PP-1500,Attorney,78,5000000,6166,Universal Life,2019-08-28,Medium,Yes
+PP-1501,Civil Engineer,35,250000,437,Whole Life,2020-11-19,High,No
+PP-1502,Chemical Plant Operator,77,50000,122,Term Life,2023-09-11,High,No
+PP-1503,Dentist,55,500000,1041,Term Life,2024-11-25,High,Yes
+PP-1504,Military Officer,49,50000,99,Term Life,2019-01-24,High,No
+PP-1505,Dentist,60,10000000,21666,Whole Life,2019-05-28,High,Yes
+PP-1506,Healthcare Worker,31,50000,42,Universal Life,2021-07-22,Medium,No
+PP-1507,Commercial Pilot,48,10000000,4916,Universal Life,2022-02-22,Low,Yes
+PP-1508,Software Engineer,35,500000,218,Universal Life,2021-10-21,Low,Yes
+PP-1509,Factory Worker,32,100000,85,Term Life,2022-06-04,Medium,No
+PP-1510,Service Worker,32,2000000,1700,Term Life,2023-12-31,Medium,Yes
+PP-1511,High-Risk Driver,37,250000,222,Whole Life,2019-01-04,Medium,No
+PP-1512,Truck Driver,44,25000,11,Term Life,2023-09-03,Low,No
+PP-1513,Taxi Driver,73,250000,297,Term Life,2019-07-02,Medium,No
+PP-1514,Pharmacist,53,15000000,7687,Universal Life,2021-12-27,Low,Yes
+PP-1515,Military Officer,79,100000,62,Term Life,2023-12-23,Low,No
+PP-1516,Skilled Laborer,76,25000,30,Term Life,2022-01-03,Medium,No
+PP-1517,Taxi Driver,75,750000,1812,Term Life,2024-01-26,High,Yes
+PP-1518,Teacher,18,750000,550,Term Life,2018-03-14,Medium,Yes
+PP-1519,Healthcare Worker,71,2000000,4700,Universal Life,2022-05-01,High,Yes
+PP-1520,Scientist,19,2000000,741,Universal Life,2018-07-27,Low,Yes
+PP-1521,Retired,72,750000,443,Whole Life,2018-09-21,Low,Yes
+PP-1522,Chef,78,100000,123,Universal Life,2024-09-16,Medium,No
+PP-1523,Military Officer,19,750000,1112,Term Life,2018-04-02,High,Yes
+PP-1524,Biologist,52,100000,101,Term Life,2022-08-14,Medium,No
+PP-1525,Photographer,68,500000,287,Term Life,2022-09-23,Low,Yes
+PP-1526,Taxi Driver,70,750000,875,Universal Life,2018-07-02,Medium,Yes
+PP-1527,Physicist,32,100000,85,Whole Life,2020-05-20,Medium,No
+PP-1528,Truck Driver,26,2000000,3200,Whole Life,2020-06-18,High,Yes
+PP-1529,Biologist,32,25000,21,Term Life,2018-07-01,Medium,No
+PP-1530,Military Officer,40,250000,114,Universal Life,2022-09-10,Low,No
+PP-1531,Taxi Driver,44,25000,47,Universal Life,2023-05-09,High,No
+PP-1532,Service Worker,28,15000000,24500,Term Life,2019-07-18,High,Yes
+PP-1533,Physicist,47,1000000,1950,Universal Life,2022-05-18,High,Yes
+PP-1534,Police Officer,59,2000000,2150,Whole Life,2024-11-08,Medium,Yes
+PP-1535,Student,60,5000000,5416,Term Life,2021-08-22,Medium,Yes
+PP-1536,Teacher,75,50000,120,Whole Life,2024-01-29,High,No
+PP-1537,Healthcare Worker,32,15000000,25500,Whole Life,2023-06-30,High,Yes
+PP-1538,Service Worker,29,1000000,825,Term Life,2024-09-12,Medium,Yes
+PP-1539,Dentist,76,2000000,4866,Whole Life,2022-01-15,High,Yes
+PP-1540,Miner,27,15000000,12125,Term Life,2020-12-21,Medium,Yes
+PP-1541,Air Traffic Controller,30,15000000,6250,Whole Life,2022-01-10,Low,Yes
+PP-1542,Civil Engineer,37,15000000,6687,Whole Life,2024-12-02,Low,Yes
+PP-1543,Truck Driver,80,10000000,6250,Term Life,2021-06-04,Low,Yes
+PP-1544,Healthcare Worker,31,250000,105,Term Life,2022-07-14,Low,No
+PP-1545,Mechanical Engineer,65,750000,843,Whole Life,2020-03-04,Medium,Yes
+PP-1546,Chemical Plant Operator,22,100000,38,Term Life,2020-01-26,Low,No
+PP-1547,Graphic Designer,22,25000,38,Whole Life,2022-06-18,High,No
+PP-1548,Manager,30,500000,833,Whole Life,2023-04-21,High,Yes
+PP-1549,Service Worker,75,100000,60,Whole Life,2020-02-21,Low,No
+PP-1550,Chef,48,750000,1475,Universal Life,2021-02-22,High,Yes
+PP-1551,Scientist,76,10000000,24333,Term Life,2021-06-08,High,Yes
+PP-1552,Healthcare Worker,44,5000000,9500,Universal Life,2022-02-01,High,Yes
+PP-1553,Physicist,47,2000000,3900,Whole Life,2024-04-22,High,Yes
+PP-1554,Retired,66,50000,56,Term Life,2020-10-12,Medium,No
+PP-1555,Attorney,38,1000000,1800,Whole Life,2023-09-03,High,Yes
+PP-1556,Pilot,28,1000000,816,Whole Life,2018-10-25,Medium,Yes
+PP-1557,Actor,24,250000,97,Whole Life,2022-08-04,Low,No
+PP-1558,Bus Driver,59,5000000,2687,Term Life,2021-02-16,Low,Yes
+PP-1559,Healthcare Worker,51,750000,756,Universal Life,2023-11-15,Medium,Yes
+PP-1560,Chemical Plant Operator,51,2000000,2016,Whole Life,2022-05-07,Medium,Yes
+PP-1561,Manager,46,2000000,1933,Term Life,2024-02-03,Medium,Yes
+PP-1562,Air Traffic Controller,33,500000,858,Universal Life,2023-11-03,High,Yes
+PP-1563,Pilot,56,750000,393,Universal Life,2019-01-29,Low,Yes
+PP-1564,Graphic Designer,50,25000,12,Term Life,2018-12-26,Low,No
+PP-1565,Musician,45,50000,23,Term Life,2024-10-28,Low,No
+PP-1566,Journalist,33,10000000,8583,Universal Life,2020-08-27,Medium,Yes
+PP-1567,Artist,60,1000000,1083,Term Life,2024-12-16,Medium,Yes
+PP-1568,Artist,73,1000000,2383,Term Life,2019-11-09,High,Yes
+PP-1569,Service Worker,27,10000000,4041,Whole Life,2019-12-04,Low,Yes
+PP-1570,Pilot,69,25000,14,Term Life,2024-12-23,Low,No
+PP-1571,Artist,58,1000000,1066,Universal Life,2022-01-28,Medium,Yes
+PP-1572,Graphic Designer,22,750000,1150,Term Life,2021-10-13,High,Yes
+PP-1573,Chemical Plant Operator,48,250000,122,Universal Life,2018-04-16,Low,No
+PP-1574,Construction Worker,65,2000000,4500,Term Life,2023-10-26,High,Yes
+PP-1575,Chef,24,100000,156,Whole Life,2018-12-14,High,No
+PP-1576,Architect,69,15000000,8687,Term Life,2018-09-03,Low,Yes
+PP-1577,Taxi Driver,56,100000,52,Whole Life,2021-05-16,Low,No
+PP-1578,Veterinarian,76,100000,121,Whole Life,2024-08-30,Medium,No
+PP-1579,Photographer,64,50000,111,Whole Life,2019-05-07,High,No
+PP-1580,Service Worker,73,2000000,2383,Whole Life,2022-05-04,Medium,Yes
+PP-1581,Journalist,72,15000000,35500,Universal Life,2022-10-05,High,Yes
+PP-1582,Biologist,73,25000,29,Term Life,2022-11-02,Medium,No
+PP-1583,Researcher,68,750000,862,Whole Life,2020-11-03,Medium,Yes
+PP-1584,Police Officer,32,25000,21,Term Life,2021-02-25,Medium,No
+PP-1585,Researcher,33,500000,858,Universal Life,2019-11-10,High,Yes
+PP-1586,Graphic Designer,24,10000000,3916,Universal Life,2023-06-11,Low,Yes
+PP-1587,Bus Driver,53,15000000,30750,Universal Life,2021-05-12,High,Yes
+PP-1588,Actor,56,750000,787,Whole Life,2021-10-01,Medium,Yes
+PP-1589,Air Traffic Controller,31,2000000,1683,Whole Life,2020-09-12,Medium,Yes
+PP-1590,Actor,47,50000,24,Term Life,2021-10-19,Low,No
+PP-1591,Air Traffic Controller,57,250000,264,Term Life,2019-02-19,Medium,No
+PP-1592,Chemical Plant Operator,27,50000,20,Whole Life,2021-08-22,Low,No
+PP-1593,Police Officer,54,25000,12,Universal Life,2023-07-07,Low,No
+PP-1594,Plumber,58,5000000,5333,Universal Life,2019-02-26,Medium,Yes
+PP-1595,Nurse,27,15000000,24250,Term Life,2021-06-01,High,Yes
+PP-1596,Professional Athlete,44,750000,1425,Whole Life,2023-02-21,High,Yes
+PP-1597,Chemical Plant Operator,23,500000,193,Universal Life,2022-10-17,Low,Yes
+PP-1598,Police Officer,63,50000,55,Term Life,2024-03-13,Medium,No
+PP-1599,Chemical Plant Operator,79,500000,310,Whole Life,2018-03-31,Low,Yes
+PP-1600,Manager,54,15000000,7750,Term Life,2021-04-28,Low,Yes
+PP-1601,Researcher,50,250000,500,Whole Life,2018-06-01,High,No
+PP-1602,Factory Worker,50,250000,500,Term Life,2023-04-21,High,No
+PP-1603,Construction Worker,53,15000000,15375,Whole Life,2020-12-23,Medium,Yes
+PP-1604,Service Worker,53,250000,256,Term Life,2024-08-29,Medium,No
+PP-1605,Software Engineer,54,500000,1033,Universal Life,2022-01-29,High,Yes
+PP-1606,Taxi Driver,53,15000000,7687,Universal Life,2020-02-26,Low,Yes
+PP-1607,Chemical Plant Operator,42,2000000,3733,Whole Life,2024-11-19,High,Yes
+PP-1608,Artist,39,500000,454,Term Life,2018-07-04,Medium,Yes
+PP-1609,Student,35,500000,437,Universal Life,2019-03-15,Medium,Yes
+PP-1610,Student,20,10000000,3750,Universal Life,2020-07-24,Low,Yes
+PP-1611,Dancer,51,5000000,5041,Term Life,2018-12-01,Medium,Yes
+PP-1612,Architect,25,25000,9,Whole Life,2018-10-17,Low,No
+PP-1613,Architect,24,1000000,1566,Term Life,2020-08-26,High,Yes
+PP-1614,Journalist,50,1000000,500,Whole Life,2021-04-17,Low,Yes
+PP-1615,Taxi Driver,53,50000,25,Term Life,2019-08-06,Low,No
+PP-1616,Student,59,250000,134,Whole Life,2022-01-28,Low,No
+PP-1617,Civil Engineer,51,1000000,504,Term Life,2021-01-01,Low,Yes
+PP-1618,Student,22,500000,191,Universal Life,2019-08-21,Low,Yes
+PP-1619,Dancer,50,10000000,5000,Whole Life,2022-12-22,Low,Yes
+PP-1620,Student,45,50000,23,Universal Life,2024-10-07,Low,No
+PP-1621,Taxi Driver,69,500000,289,Universal Life,2022-09-21,Low,Yes
+PP-1622,Manager,68,500000,287,Universal Life,2022-03-06,Low,Yes
+PP-1623,Pharmacist,78,750000,1850,Term Life,2019-04-08,High,Yes
+PP-1624,Researcher,29,15000000,6187,Whole Life,2022-01-28,Low,Yes
+PP-1625,Service Worker,76,5000000,3041,Whole Life,2023-07-21,Low,Yes
+PP-1626,Service Worker,41,1000000,1850,Term Life,2022-09-07,High,Yes
+PP-1627,Police Officer,43,2000000,1883,Term Life,2018-04-17,Medium,Yes
+PP-1628,Therapist,31,1000000,841,Whole Life,2022-12-27,Medium,Yes
+PP-1629,Air Traffic Controller,38,750000,1350,Term Life,2024-02-02,High,Yes
+PP-1630,Software Engineer,56,250000,131,Universal Life,2018-04-19,Low,No
+PP-1631,Mechanical Engineer,26,2000000,800,Whole Life,2019-06-24,Low,Yes
+PP-1632,Accountant,47,15000000,14625,Whole Life,2022-07-09,Medium,Yes
+PP-1633,Dentist,74,500000,600,Term Life,2019-12-04,Medium,Yes
+PP-1634,Veterinarian,27,10000000,16166,Term Life,2019-05-15,High,Yes
+PP-1635,Accountant,19,15000000,22250,Universal Life,2018-07-25,High,Yes
+PP-1636,Researcher,78,2000000,2466,Whole Life,2024-05-11,Medium,Yes
+PP-1637,Chemist,23,250000,96,Term Life,2018-05-09,Low,No
+PP-1638,Firefighter,57,5000000,5291,Term Life,2020-04-09,Medium,Yes
+PP-1639,Construction Worker,31,500000,420,Universal Life,2022-11-27,Medium,Yes
+PP-1640,Chemical Plant Operator,53,10000000,5125,Term Life,2023-10-13,Low,Yes
+PP-1641,Civil Engineer,28,250000,102,Term Life,2024-09-09,Low,No
+PP-1642,Mechanical Engineer,47,50000,48,Whole Life,2023-07-08,Medium,No
+PP-1643,Service Worker,60,1000000,1083,Term Life,2023-06-19,Medium,Yes
+PP-1644,Musician,47,250000,121,Term Life,2024-06-05,Low,No
+PP-1645,Factory Worker,68,100000,57,Term Life,2022-09-21,Low,No
+PP-1646,Chemical Plant Operator,47,5000000,9750,Term Life,2023-05-18,High,Yes
+PP-1647,Taxi Driver,78,500000,616,Universal Life,2018-07-16,Medium,Yes
+PP-1648,Chef,49,15000000,14875,Universal Life,2021-01-08,Medium,Yes
+PP-1649,Scientist,69,500000,579,Whole Life,2020-06-24,Medium,Yes
+PP-1650,Artist,73,100000,238,Term Life,2022-12-23,High,No
+PP-1651,Dentist,19,10000000,14833,Universal Life,2021-03-30,High,Yes
+PP-1652,High-Risk Driver,55,15000000,31250,Term Life,2022-03-01,High,Yes
+PP-1653,Electrician,44,1000000,950,Whole Life,2023-08-17,Medium,Yes
+PP-1654,Scientist,66,250000,141,Whole Life,2019-01-26,Low,No
+PP-1655,Accountant,74,25000,30,Whole Life,2021-12-26,Medium,No
+PP-1656,Graphic Designer,30,1000000,416,Universal Life,2023-10-03,Low,Yes
+PP-1657,Physicist,77,10000000,6125,Universal Life,2022-06-22,Low,Yes
+PP-1658,High-Risk Driver,45,5000000,4791,Term Life,2022-03-14,Medium,Yes
+PP-1659,Chemist,75,750000,453,Universal Life,2023-04-21,Low,Yes
+PP-1660,Therapist,23,250000,96,Term Life,2020-10-31,Low,No
+PP-1661,Civil Engineer,78,750000,462,Whole Life,2021-09-23,Low,Yes
+PP-1662,Police Officer,39,50000,22,Universal Life,2021-03-22,Low,No
+PP-1663,Actor,39,15000000,27250,Term Life,2024-01-13,High,Yes
+PP-1664,Skilled Laborer,42,5000000,4666,Universal Life,2019-09-24,Medium,Yes
+PP-1665,Service Worker,49,750000,371,Whole Life,2020-07-23,Low,Yes
+PP-1666,Artist,71,500000,293,Universal Life,2019-03-13,Low,Yes
+PP-1667,Miner,53,1000000,512,Universal Life,2023-06-10,Low,Yes
+PP-1668,Mechanical Engineer,44,1000000,950,Whole Life,2022-05-13,Medium,Yes
+PP-1669,Attorney,75,1000000,1208,Universal Life,2019-10-03,Medium,Yes
+PP-1670,Retired,36,2000000,3533,Universal Life,2022-06-03,High,Yes
+PP-1671,Professional Athlete,50,15000000,30000,Term Life,2021-10-24,High,Yes
+PP-1672,Civil Engineer,41,750000,1387,Term Life,2018-07-07,High,Yes
+PP-1673,Retired,68,2000000,4599,Universal Life,2022-07-04,High,Yes
+PP-1674,Veterinarian,45,10000000,9583,Whole Life,2022-04-10,Medium,Yes
+PP-1675,Pilot,31,15000000,25250,Whole Life,2019-06-23,High,Yes
+PP-1676,Healthcare Worker,24,750000,587,Universal Life,2023-06-23,Medium,Yes
+PP-1677,Physicist,40,25000,11,Term Life,2019-12-11,Low,No
+PP-1678,Actor,68,250000,287,Term Life,2024-10-13,Medium,No
+PP-1679,Accountant,19,250000,92,Whole Life,2024-01-14,Low,No
+PP-1680,Software Engineer,48,15000000,14750,Universal Life,2023-09-14,Medium,Yes
+PP-1681,Truck Driver,68,15000000,8624,Whole Life,2020-03-18,Low,Yes
+PP-1682,Student,32,750000,637,Term Life,2021-11-26,Medium,Yes
+PP-1683,Physicist,39,15000000,6812,Whole Life,2024-05-22,Low,Yes
+PP-1684,Physicist,50,50000,25,Whole Life,2018-03-23,Low,No
+PP-1685,Taxi Driver,56,250000,262,Term Life,2018-01-15,Medium,No
+PP-1686,Student,18,250000,366,Term Life,2018-12-18,High,No
+PP-1687,Police Officer,47,250000,487,Whole Life,2024-01-04,High,No
+PP-1688,Construction Worker,24,250000,195,Term Life,2022-01-13,Medium,No
+PP-1689,Physicist,64,250000,558,Whole Life,2019-04-20,High,No
+PP-1690,Pilot,34,1000000,1733,Universal Life,2021-09-05,High,Yes
+PP-1691,Service Worker,52,750000,762,Universal Life,2022-05-11,Medium,Yes
+PP-1692,Civil Engineer,26,15000000,6000,Term Life,2024-05-21,Low,Yes
+PP-1693,Military Officer,24,10000000,3916,Universal Life,2022-09-22,Low,Yes
+PP-1694,Photographer,51,750000,378,Universal Life,2018-07-05,Low,Yes
+PP-1695,Researcher,40,100000,183,Whole Life,2019-05-23,High,No
+PP-1696,Taxi Driver,21,1000000,379,Term Life,2024-08-28,Low,Yes
+PP-1697,Civil Engineer,41,5000000,9250,Whole Life,2022-03-08,High,Yes
+PP-1698,Researcher,74,25000,15,Whole Life,2024-06-19,Low,No
+PP-1699,Actor,49,2000000,991,Term Life,2024-02-16,Low,Yes
+PP-1700,Taxi Driver,62,10000000,22000,Universal Life,2023-02-09,High,Yes
+PP-1701,Graphic Designer,58,50000,26,Whole Life,2020-03-15,Low,No
+PP-1702,Pharmacist,18,50000,73,Term Life,2024-09-24,High,No
+PP-1703,Police Officer,31,100000,168,Universal Life,2019-10-24,High,No
+PP-1704,Scientist,51,50000,50,Term Life,2024-08-28,Medium,No
+PP-1705,Police Officer,70,50000,29,Universal Life,2023-02-20,Low,No
+PP-1706,Plumber,71,50000,58,Universal Life,2023-10-14,Medium,No
+PP-1707,Therapist,73,100000,238,Whole Life,2019-11-07,High,No
+PP-1708,Dancer,74,1000000,600,Whole Life,2023-11-23,Low,Yes
+PP-1709,Factory Worker,62,500000,550,Term Life,2021-02-11,Medium,Yes
+PP-1710,Healthcare Worker,32,250000,425,Term Life,2023-11-05,High,No
+PP-1711,Writer,25,500000,395,Whole Life,2023-03-15,Medium,Yes
+PP-1712,Writer,52,5000000,5083,Term Life,2024-11-08,Medium,Yes
+PP-1713,Healthcare Worker,43,250000,117,Universal Life,2022-02-10,Low,No
+PP-1714,Taxi Driver,59,750000,403,Universal Life,2024-08-12,Low,Yes
+PP-1715,Civil Engineer,29,50000,20,Term Life,2018-10-13,Low,No
+PP-1716,Pharmacist,49,2000000,3966,Whole Life,2019-12-26,High,Yes
+PP-1717,Researcher,64,750000,418,Universal Life,2023-06-07,Low,Yes
+PP-1718,Writer,47,25000,24,Term Life,2021-04-04,Medium,No
+PP-1719,Service Worker,54,25000,25,Whole Life,2021-02-21,Medium,No
+PP-1720,Dancer,77,100000,122,Term Life,2022-01-06,Medium,No
+PP-1721,Actor,20,2000000,750,Whole Life,2019-10-15,Low,Yes
+PP-1722,Truck Driver,71,15000000,8812,Whole Life,2022-11-11,Low,Yes
+PP-1723,Scientist,24,1000000,1566,Whole Life,2022-08-09,High,Yes
+PP-1724,Chemist,20,500000,187,Whole Life,2020-04-14,Low,Yes
+PP-1725,Dentist,58,5000000,10666,Term Life,2019-03-07,High,Yes
+PP-1726,Nurse,35,1000000,437,Universal Life,2022-02-27,Low,Yes
+PP-1727,Skilled Laborer,73,100000,59,Whole Life,2019-01-10,Low,No
+PP-1728,Bus Driver,55,15000000,15625,Universal Life,2021-08-06,Medium,Yes
+PP-1729,Dancer,39,1000000,1816,Whole Life,2024-10-01,High,Yes
+PP-1730,Factory Worker,79,750000,931,Whole Life,2024-07-21,Medium,Yes
+PP-1731,Chemist,79,25000,15,Universal Life,2020-03-30,Low,No
+PP-1732,Teacher,61,2000000,4366,Term Life,2021-12-27,High,Yes
+PP-1733,Manager,38,500000,225,Term Life,2024-12-28,Low,Yes
+PP-1734,Student,78,2000000,4933,Term Life,2023-02-21,High,Yes
+PP-1735,Teacher,64,100000,111,Whole Life,2020-07-01,Medium,No
+PP-1736,Teacher,78,500000,308,Universal Life,2021-09-21,Low,Yes
+PP-1737,Scientist,40,750000,687,Term Life,2019-03-12,Medium,Yes
+PP-1738,Commercial Pilot,65,15000000,33750,Whole Life,2019-09-29,High,Yes
+PP-1739,Skilled Laborer,31,500000,841,Term Life,2023-09-30,High,Yes
+PP-1740,Teacher,44,25000,23,Term Life,2018-07-28,Medium,No
+PP-1741,Actor,70,100000,233,Universal Life,2021-07-26,High,No
+PP-1742,Chemist,49,500000,495,Term Life,2019-06-04,Medium,Yes
+PP-1743,Healthcare Worker,24,50000,78,Term Life,2023-11-22,High,No
+PP-1744,Journalist,20,1000000,375,Universal Life,2022-02-03,Low,Yes
+PP-1745,Chef,39,250000,113,Term Life,2023-11-01,Low,No
+PP-1746,Architect,28,10000000,4083,Whole Life,2022-03-21,Low,Yes
+PP-1747,Teacher,52,250000,127,Universal Life,2019-02-02,Low,No
+PP-1748,Truck Driver,53,1000000,1025,Term Life,2021-10-28,Medium,Yes
+PP-1749,Chef,26,100000,40,Universal Life,2023-05-29,Low,No
+PP-1750,Professional Athlete,61,250000,136,Term Life,2022-07-07,Low,No
+PP-1751,Researcher,78,750000,462,Universal Life,2023-04-10,Low,Yes
+PP-1752,Skilled Laborer,55,500000,260,Whole Life,2021-09-23,Low,Yes
+PP-1753,High-Risk Driver,18,750000,550,Whole Life,2018-10-06,Medium,Yes
+PP-1754,Writer,19,1000000,370,Term Life,2022-12-24,Low,Yes
+PP-1755,Photographer,21,10000000,3791,Universal Life,2019-07-27,Low,Yes
+PP-1756,Chemist,23,10000000,7750,Whole Life,2018-05-23,Medium,Yes
+PP-1757,Writer,58,15000000,16000,Term Life,2022-04-02,Medium,Yes
+PP-1758,Bus Driver,35,10000000,4375,Whole Life,2024-01-07,Low,Yes
+PP-1759,Service Worker,71,100000,117,Universal Life,2024-12-24,Medium,No
+PP-1760,Mechanical Engineer,28,750000,1225,Term Life,2022-11-21,High,Yes
+PP-1761,Student,21,1000000,379,Universal Life,2018-07-20,Low,Yes
+PP-1762,Attorney,21,250000,189,Term Life,2019-03-22,Medium,No
+PP-1763,Biologist,53,5000000,10250,Term Life,2020-01-20,High,Yes
+PP-1764,Plumber,21,10000000,3791,Universal Life,2019-10-31,Low,Yes
+PP-1765,Manager,40,1000000,1833,Universal Life,2022-03-31,High,Yes
+PP-1766,Truck Driver,69,2000000,1158,Universal Life,2023-11-01,Low,Yes
+PP-1767,Software Engineer,76,15000000,9125,Universal Life,2020-03-08,Low,Yes
+PP-1768,Chef,78,250000,154,Term Life,2022-10-24,Low,No
+PP-1769,Researcher,48,1000000,491,Universal Life,2022-03-28,Low,Yes
+PP-1770,Police Officer,50,2000000,4000,Term Life,2020-03-14,High,Yes
+PP-1771,Musician,25,100000,79,Whole Life,2018-11-28,Medium,No
+PP-1772,Miner,41,5000000,2312,Universal Life,2023-04-09,Low,Yes
+PP-1773,Journalist,64,10000000,22333,Whole Life,2022-05-31,High,Yes
+PP-1774,Writer,56,5000000,5250,Term Life,2019-05-16,Medium,Yes
+PP-1775,Dentist,18,50000,18,Whole Life,2023-03-25,Low,No
+PP-1776,Scientist,55,2000000,2083,Universal Life,2022-01-20,Medium,Yes
+PP-1777,Therapist,46,2000000,1933,Term Life,2018-11-05,Medium,Yes
+PP-1778,Graphic Designer,18,250000,91,Term Life,2020-02-02,Low,No
+PP-1779,Taxi Driver,21,500000,758,Whole Life,2022-10-11,High,Yes
+PP-1780,Researcher,56,10000000,10500,Whole Life,2021-03-23,Medium,Yes
+PP-1781,Chemist,21,10000000,7583,Term Life,2018-10-27,Medium,Yes
+PP-1782,Professional Athlete,70,2000000,4666,Whole Life,2024-01-05,High,Yes
+PP-1783,Journalist,51,15000000,30250,Universal Life,2021-04-22,High,Yes
+PP-1784,Attorney,74,1000000,1200,Universal Life,2019-01-30,Medium,Yes
+PP-1785,Healthcare Worker,66,750000,849,Universal Life,2018-01-18,Medium,Yes
+PP-1786,Graphic Designer,67,1000000,1141,Universal Life,2020-12-23,Medium,Yes
+PP-1787,Service Worker,70,500000,583,Universal Life,2023-11-19,Medium,Yes
+PP-1788,Police Officer,54,250000,258,Whole Life,2024-12-09,Medium,No
+PP-1789,Chemist,43,10000000,9416,Universal Life,2021-06-10,Medium,Yes
+PP-1790,Physicist,18,2000000,1466,Whole Life,2020-05-29,Medium,Yes
+PP-1791,Biologist,30,25000,10,Term Life,2018-12-03,Low,No
+PP-1792,Police Officer,40,500000,458,Universal Life,2022-07-08,Medium,Yes
+PP-1793,Air Traffic Controller,40,750000,1375,Universal Life,2024-06-26,High,Yes
+PP-1794,Surgeon,45,5000000,4791,Whole Life,2020-10-21,Medium,Yes
+PP-1795,Military Officer,45,25000,47,Whole Life,2024-04-06,High,No
+PP-1796,Chemist,38,15000000,13500,Whole Life,2018-03-31,Medium,Yes
+PP-1797,Pilot,35,25000,43,Term Life,2018-05-06,High,No
+PP-1798,Architect,80,250000,625,Universal Life,2024-09-18,High,No
+PP-1799,Miner,77,15000000,9187,Universal Life,2021-03-22,Low,Yes
+PP-1800,Military Officer,71,500000,587,Term Life,2020-11-16,Medium,Yes
+PP-1801,Musician,60,100000,54,Term Life,2018-08-29,Low,No
+PP-1802,Miner,27,250000,404,Universal Life,2022-02-17,High,No
+PP-1803,Graphic Designer,67,15000000,17125,Universal Life,2023-07-24,Medium,Yes
+PP-1804,Factory Worker,33,2000000,3433,Term Life,2024-04-29,High,Yes
+PP-1805,Healthcare Worker,46,250000,241,Term Life,2024-04-11,Medium,No
+PP-1806,Dentist,26,10000000,4000,Universal Life,2022-07-14,Low,Yes
+PP-1807,Skilled Laborer,53,25000,51,Whole Life,2024-07-21,High,No
+PP-1808,Skilled Laborer,65,50000,56,Term Life,2019-04-25,Medium,No
+PP-1809,Veterinarian,49,250000,123,Whole Life,2019-05-04,Low,No
+PP-1810,Journalist,54,50000,103,Term Life,2018-08-10,High,No
+PP-1811,Commercial Pilot,45,5000000,4791,Term Life,2018-03-16,Medium,Yes
+PP-1812,Air Traffic Controller,31,15000000,6312,Whole Life,2020-10-03,Low,Yes
+PP-1813,Photographer,27,2000000,1616,Universal Life,2022-04-18,Medium,Yes
+PP-1814,Actor,44,25000,47,Term Life,2024-10-06,High,No
+PP-1815,Scientist,28,1000000,816,Whole Life,2022-03-28,Medium,Yes
+PP-1816,Accountant,49,25000,49,Term Life,2023-12-21,High,No
+PP-1817,Teacher,68,50000,28,Whole Life,2023-05-19,Low,No
+PP-1818,Electrician,60,2000000,1083,Whole Life,2022-07-18,Low,Yes
+PP-1819,Architect,43,25000,47,Universal Life,2022-09-15,High,No
+PP-1820,Nurse,48,15000000,14750,Whole Life,2024-10-31,Medium,Yes
+PP-1821,Factory Worker,43,250000,470,Whole Life,2024-11-09,High,No
+PP-1822,Skilled Laborer,67,5000000,2854,Whole Life,2024-02-15,Low,Yes
+PP-1823,Factory Worker,28,250000,408,Term Life,2020-08-01,High,No
+PP-1824,Chemist,27,25000,20,Whole Life,2022-10-03,Medium,No
+PP-1825,Scientist,36,250000,441,Universal Life,2023-08-02,High,No
+PP-1826,Veterinarian,70,250000,583,Term Life,2022-09-06,High,No
+PP-1827,Software Engineer,64,15000000,16750,Universal Life,2018-12-16,Medium,Yes
+PP-1828,Chemist,25,500000,791,Whole Life,2021-01-13,High,Yes
+PP-1829,Civil Engineer,36,5000000,2208,Term Life,2023-07-03,Low,Yes
+PP-1830,Dancer,59,10000000,21500,Universal Life,2022-10-01,High,Yes
+PP-1831,Dancer,47,25000,12,Universal Life,2019-08-07,Low,No
+PP-1832,Journalist,58,1000000,1066,Universal Life,2019-06-28,Medium,Yes
+PP-1833,Firefighter,80,10000000,12500,Universal Life,2020-09-23,Medium,Yes
+PP-1834,Military Officer,42,10000000,4666,Universal Life,2023-02-03,Low,Yes
+PP-1835,Teacher,46,100000,96,Universal Life,2024-08-18,Medium,No
+PP-1836,Commercial Pilot,28,5000000,8166,Universal Life,2022-01-02,High,Yes
+PP-1837,Physicist,39,10000000,18166,Universal Life,2024-02-01,High,Yes
+PP-1838,Commercial Pilot,59,1000000,537,Whole Life,2020-12-21,Low,Yes
+PP-1839,Software Engineer,75,5000000,3020,Whole Life,2019-04-04,Low,Yes
+PP-1840,High-Risk Driver,78,750000,462,Term Life,2019-07-03,Low,Yes
+PP-1841,Artist,42,750000,700,Term Life,2020-08-04,Medium,Yes
+PP-1842,Graphic Designer,64,100000,55,Universal Life,2018-04-09,Low,No
+PP-1843,Military Officer,61,5000000,2729,Term Life,2022-01-03,Low,Yes
+PP-1844,Writer,40,500000,458,Term Life,2024-09-19,Medium,Yes
+PP-1845,Truck Driver,46,10000000,9666,Term Life,2022-03-27,Medium,Yes
+PP-1846,Scientist,57,5000000,2645,Whole Life,2020-07-15,Low,Yes
+PP-1847,Veterinarian,34,25000,43,Universal Life,2019-06-11,High,No
+PP-1848,Service Worker,76,750000,456,Universal Life,2020-03-07,Low,Yes
+PP-1849,Pilot,74,10000000,12000,Whole Life,2020-12-26,Medium,Yes
+PP-1850,Journalist,69,100000,57,Universal Life,2024-08-01,Low,No
+PP-1851,Construction Worker,47,5000000,2437,Term Life,2023-08-29,Low,Yes
+PP-1852,Mechanical Engineer,23,2000000,775,Universal Life,2021-01-11,Low,Yes
+PP-1853,Electrician,22,1000000,383,Universal Life,2024-07-26,Low,Yes
+PP-1854,Bus Driver,76,500000,608,Term Life,2021-01-29,Medium,Yes
+PP-1855,Plumber,19,100000,148,Whole Life,2024-07-02,High,No
+PP-1856,Commercial Pilot,35,50000,21,Term Life,2023-08-15,Low,No
+PP-1857,Miner,47,500000,487,Universal Life,2022-09-02,Medium,Yes
+PP-1858,Taxi Driver,32,250000,425,Term Life,2020-12-08,High,No
+PP-1859,Photographer,37,2000000,3566,Universal Life,2022-08-28,High,Yes
+PP-1860,Teacher,69,2000000,2316,Whole Life,2019-08-18,Medium,Yes
+PP-1861,High-Risk Driver,22,250000,95,Whole Life,2023-05-01,Low,No
+PP-1862,Military Officer,36,500000,220,Term Life,2023-11-24,Low,Yes
+PP-1863,Factory Worker,45,15000000,14375,Whole Life,2023-12-25,Medium,Yes
+PP-1864,Retired,26,50000,20,Universal Life,2024-04-13,Low,No
+PP-1865,Miner,55,500000,260,Term Life,2019-12-07,Low,Yes
+PP-1866,Teacher,59,1000000,537,Whole Life,2018-05-10,Low,Yes
+PP-1867,Actor,30,15000000,6250,Universal Life,2019-02-18,Low,Yes
+PP-1868,Manager,32,15000000,6375,Term Life,2024-08-25,Low,Yes
+PP-1869,Retired,20,2000000,750,Term Life,2024-01-24,Low,Yes
+PP-1870,Plumber,56,250000,262,Whole Life,2021-12-18,Medium,No
+PP-1871,Pilot,56,750000,787,Term Life,2022-09-19,Medium,Yes
+PP-1872,Researcher,79,5000000,6208,Term Life,2024-08-28,Medium,Yes
+PP-1873,Software Engineer,52,250000,508,Whole Life,2018-07-29,High,No
+PP-1874,Civil Engineer,47,100000,97,Term Life,2018-02-25,Medium,No
+PP-1875,Accountant,54,500000,1033,Whole Life,2018-02-12,High,Yes
+PP-1876,Chemist,73,750000,1787,Term Life,2022-04-06,High,Yes
+PP-1877,Civil Engineer,36,250000,220,Term Life,2019-12-07,Medium,No
+PP-1878,Veterinarian,36,100000,176,Term Life,2023-11-01,High,No
+PP-1879,Architect,48,750000,1475,Universal Life,2023-08-06,High,Yes
+PP-1880,Taxi Driver,72,750000,443,Whole Life,2023-06-19,Low,Yes
+PP-1881,Researcher,19,500000,370,Universal Life,2024-03-19,Medium,Yes
+PP-1882,Accountant,59,50000,107,Universal Life,2022-01-15,High,No
+PP-1883,Pharmacist,23,10000000,7750,Term Life,2018-11-05,Medium,Yes
+PP-1884,Retired,37,2000000,1783,Whole Life,2019-05-22,Medium,Yes
+PP-1885,Chef,27,500000,202,Universal Life,2024-12-18,Low,Yes
+PP-1886,Air Traffic Controller,41,50000,46,Whole Life,2019-04-03,Medium,No
+PP-1887,Chef,49,10000000,4958,Whole Life,2019-05-22,Low,Yes
+PP-1888,Musician,78,25000,15,Whole Life,2020-10-14,Low,No
+PP-1889,Professional Athlete,54,5000000,2583,Whole Life,2023-02-19,Low,Yes
+PP-1890,Surgeon,63,50000,55,Universal Life,2022-04-05,Medium,No
+PP-1891,Plumber,74,100000,120,Term Life,2022-05-03,Medium,No
+PP-1892,Veterinarian,58,500000,533,Whole Life,2023-12-02,Medium,Yes
+PP-1893,Bus Driver,71,5000000,11750,Whole Life,2020-06-25,High,Yes
+PP-1894,High-Risk Driver,60,100000,54,Whole Life,2024-09-05,Low,No
+PP-1895,Nurse,80,10000000,25000,Universal Life,2023-11-30,High,Yes
+PP-1896,Therapist,77,5000000,3062,Term Life,2018-04-03,Low,Yes
+PP-1897,Surgeon,40,25000,45,Universal Life,2019-11-10,High,No
+PP-1898,Police Officer,57,5000000,5291,Term Life,2019-08-13,Medium,Yes
+PP-1899,Construction Worker,74,50000,60,Term Life,2024-11-12,Medium,No
+PP-1900,Skilled Laborer,18,5000000,1833,Term Life,2018-01-01,Low,Yes
+PP-1901,Software Engineer,60,10000000,21666,Term Life,2018-07-04,High,Yes
+PP-1902,Surgeon,62,500000,550,Term Life,2022-11-21,Medium,Yes
+PP-1903,Therapist,57,500000,264,Whole Life,2024-04-07,Low,Yes
+PP-1904,Photographer,53,750000,768,Term Life,2024-05-27,Medium,Yes
+PP-1905,Accountant,38,750000,337,Term Life,2020-08-04,Low,Yes
+PP-1906,Veterinarian,57,5000000,2645,Universal Life,2020-11-25,Low,Yes
+PP-1907,Retired,48,250000,122,Universal Life,2023-09-29,Low,No
+PP-1908,Manager,20,250000,187,Term Life,2019-10-31,Medium,No
+PP-1909,Graphic Designer,60,2000000,2166,Universal Life,2020-11-12,Medium,Yes
+PP-1910,Architect,51,250000,126,Universal Life,2018-03-18,Low,No
+PP-1911,Bus Driver,31,50000,42,Whole Life,2024-05-24,Medium,No
+PP-1912,Architect,59,250000,537,Term Life,2023-08-12,High,No
+PP-1913,Civil Engineer,30,15000000,25000,Universal Life,2020-03-15,High,Yes
+PP-1914,Skilled Laborer,41,10000000,18500,Whole Life,2022-07-27,High,Yes
+PP-1915,Professional Athlete,22,1000000,1533,Term Life,2018-03-10,High,Yes
+PP-1916,Plumber,51,15000000,7562,Term Life,2024-01-10,Low,Yes
+PP-1917,Nurse,24,25000,9,Term Life,2024-12-10,Low,No
+PP-1918,Plumber,28,500000,816,Universal Life,2024-03-01,High,Yes
+PP-1919,Civil Engineer,26,250000,400,Universal Life,2023-04-17,High,No
+PP-1920,Software Engineer,41,1000000,462,Whole Life,2021-11-04,Low,Yes
+PP-1921,Commercial Pilot,60,1000000,541,Universal Life,2019-01-19,Low,Yes
+PP-1922,Commercial Pilot,44,1000000,1900,Universal Life,2021-01-25,High,Yes
+PP-1923,High-Risk Driver,24,750000,587,Whole Life,2021-06-26,Medium,Yes
+PP-1924,Chemical Plant Operator,67,500000,570,Whole Life,2021-01-25,Medium,Yes
+PP-1925,Actor,32,15000000,6375,Whole Life,2024-05-24,Low,Yes
+PP-1926,Chemist,33,500000,429,Term Life,2020-03-21,Medium,Yes
+PP-1927,Retired,68,10000000,5750,Term Life,2022-07-27,Low,Yes
+PP-1928,Teacher,79,2000000,2483,Term Life,2022-03-03,Medium,Yes
+PP-1929,Healthcare Worker,21,5000000,3791,Whole Life,2024-02-01,Medium,Yes
+PP-1930,Dancer,45,25000,47,Term Life,2021-04-21,High,No
+PP-1931,Military Officer,45,500000,958,Term Life,2023-09-22,High,Yes
+PP-1932,Actor,77,100000,122,Term Life,2024-12-04,Medium,No
+PP-1933,Firefighter,69,750000,434,Universal Life,2024-01-22,Low,Yes
+PP-1934,Healthcare Worker,34,15000000,13000,Universal Life,2021-05-13,Medium,Yes
+PP-1935,Professional Athlete,47,5000000,4875,Universal Life,2019-10-19,Medium,Yes
+PP-1936,Dentist,68,25000,14,Universal Life,2024-04-03,Low,No
+PP-1937,Dentist,42,25000,11,Whole Life,2019-08-12,Low,No
+PP-1938,Firefighter,71,100000,117,Term Life,2020-11-24,Medium,No
+PP-1939,Musician,70,500000,291,Whole Life,2021-08-29,Low,Yes
+PP-1940,Air Traffic Controller,25,100000,79,Whole Life,2020-08-06,Medium,No
+PP-1941,Pilot,20,2000000,1500,Universal Life,2021-12-01,Medium,Yes
+PP-1942,Nurse,54,1000000,516,Term Life,2022-10-14,Low,Yes
+PP-1943,Police Officer,22,750000,287,Term Life,2022-10-04,Low,Yes
+PP-1944,Miner,29,1000000,412,Universal Life,2022-01-16,Low,Yes
+PP-1945,Biologist,76,15000000,36500,Whole Life,2021-03-04,High,Yes
+PP-1946,Architect,54,500000,516,Whole Life,2023-01-03,Medium,Yes
+PP-1947,Researcher,72,25000,14,Whole Life,2022-12-22,Low,No
+PP-1948,Accountant,22,10000000,3833,Universal Life,2019-12-21,Low,Yes
+PP-1949,Therapist,75,10000000,6041,Whole Life,2022-03-03,Low,Yes
+PP-1950,Mechanical Engineer,25,500000,791,Term Life,2024-07-04,High,Yes
+PP-1951,Nurse,66,5000000,2833,Universal Life,2023-08-10,Low,Yes
+PP-1952,Miner,50,500000,1000,Universal Life,2020-08-19,High,Yes
+PP-1953,Air Traffic Controller,70,5000000,11666,Term Life,2023-06-30,High,Yes
+PP-1954,Dancer,18,10000000,7333,Whole Life,2019-11-26,Medium,Yes
+PP-1955,Factory Worker,71,500000,293,Universal Life,2021-05-14,Low,Yes
+PP-1956,Pilot,78,50000,30,Term Life,2021-05-26,Low,No
+PP-1957,Software Engineer,78,750000,925,Universal Life,2023-03-19,Medium,Yes
+PP-1958,Nurse,34,1000000,866,Universal Life,2018-06-08,Medium,Yes
+PP-1959,Construction Worker,80,10000000,6250,Universal Life,2023-07-25,Low,Yes
+PP-1960,Attorney,33,2000000,1716,Term Life,2024-09-26,Medium,Yes
+PP-1961,Construction Worker,69,500000,579,Universal Life,2022-10-04,Medium,Yes
+PP-1962,High-Risk Driver,74,100000,60,Universal Life,2021-05-23,Low,No
+PP-1963,Accountant,45,250000,479,Whole Life,2023-02-13,High,No
+PP-1964,Therapist,65,5000000,2812,Term Life,2018-02-16,Low,Yes
+PP-1965,Electrician,44,1000000,1900,Term Life,2023-12-21,High,Yes
+PP-1966,Therapist,30,10000000,4166,Term Life,2018-04-24,Low,Yes
+PP-1967,Miner,22,10000000,3833,Whole Life,2021-08-13,Low,Yes
+PP-1968,Manager,77,750000,1837,Universal Life,2019-02-04,High,Yes
+PP-1969,Physicist,49,750000,743,Universal Life,2018-09-20,Medium,Yes
+PP-1970,Military Officer,57,1000000,1058,Term Life,2020-01-05,Medium,Yes
+PP-1971,Chef,24,10000000,7833,Term Life,2024-01-27,Medium,Yes
+PP-1972,Graphic Designer,68,50000,28,Universal Life,2022-03-25,Low,No
+PP-1973,Photographer,18,10000000,3666,Universal Life,2023-09-24,Low,Yes
+PP-1974,Truck Driver,71,750000,440,Universal Life,2021-03-09,Low,Yes
+PP-1975,Artist,27,500000,808,Universal Life,2023-08-22,High,Yes
+PP-1976,Truck Driver,36,500000,220,Universal Life,2024-07-08,Low,Yes
+PP-1977,Retired,29,15000000,6187,Universal Life,2018-05-09,Low,Yes
+PP-1978,Physicist,44,500000,237,Universal Life,2023-03-25,Low,Yes
+PP-1979,Software Engineer,18,50000,18,Term Life,2020-03-18,Low,No
+PP-1980,Manager,27,250000,101,Term Life,2024-07-06,Low,No
+PP-1981,Scientist,68,750000,1725,Universal Life,2019-02-21,High,Yes
+PP-1982,Manager,78,250000,154,Universal Life,2019-09-08,Low,No
+PP-1983,Software Engineer,77,750000,459,Term Life,2019-04-02,Low,Yes
+PP-1984,High-Risk Driver,30,10000000,16666,Whole Life,2019-07-13,High,Yes
+PP-1985,Physicist,33,250000,214,Universal Life,2023-10-06,Medium,No
+PP-1986,Therapist,19,50000,18,Universal Life,2020-05-03,Low,No
+PP-1987,Chemical Plant Operator,67,250000,142,Term Life,2018-03-04,Low,No
+PP-1988,Attorney,32,500000,425,Universal Life,2018-07-21,Medium,Yes
+PP-1989,Miner,27,25000,40,Universal Life,2021-05-09,High,No
+PP-1990,Pharmacist,51,5000000,2520,Term Life,2018-08-14,Low,Yes
+PP-1991,Artist,72,5000000,11833,Term Life,2020-12-19,High,Yes
+PP-1992,Writer,57,15000000,31750,Term Life,2018-02-12,High,Yes
+PP-1993,Professional Athlete,34,25000,43,Whole Life,2018-06-20,High,No
+PP-1994,Retired,70,250000,291,Universal Life,2022-06-27,Medium,No
+PP-1995,Civil Engineer,69,25000,57,Whole Life,2022-10-24,High,No
+PP-1996,Pharmacist,51,15000000,7562,Whole Life,2020-11-12,Low,Yes
+PP-1997,Dentist,36,100000,88,Term Life,2023-09-28,Medium,No
+PP-1998,Student,20,750000,281,Whole Life,2023-04-18,Low,Yes
+PP-1999,Healthcare Worker,61,750000,1637,Universal Life,2019-04-21,High,Yes
+PP-2000,Attorney,55,25000,13,Term Life,2018-06-22,Low,No
+PP-2001,Biologist,67,250000,570,Term Life,2019-03-23,High,No
+PP-2002,Chemist,22,500000,191,Term Life,2023-01-06,Low,Yes
+PP-2003,Healthcare Worker,75,10000000,12083,Universal Life,2023-02-25,Medium,Yes
+PP-2004,Factory Worker,66,1000000,566,Term Life,2019-07-19,Low,Yes
+PP-2005,Air Traffic Controller,38,250000,225,Universal Life,2024-04-01,Medium,No
+PP-2006,Construction Worker,78,10000000,12333,Universal Life,2021-01-21,Medium,Yes
+PP-2007,Factory Worker,80,50000,31,Term Life,2024-04-28,Low,No
+PP-2008,Air Traffic Controller,28,750000,612,Whole Life,2023-11-08,Medium,Yes
+PP-2009,Physicist,33,100000,42,Whole Life,2021-12-20,Low,No
+PP-2010,Firefighter,54,10000000,5166,Whole Life,2022-06-07,Low,Yes
+PP-2011,Surgeon,33,2000000,1716,Whole Life,2018-05-28,Medium,Yes
+PP-2012,Taxi Driver,64,1000000,558,Universal Life,2018-04-07,Low,Yes
+PP-2013,Scientist,20,750000,1125,Universal Life,2024-02-02,High,Yes
+PP-2014,Dancer,63,10000000,5541,Universal Life,2021-05-21,Low,Yes
+PP-2015,Pilot,56,15000000,31500,Term Life,2024-12-30,High,Yes
+PP-2016,Pilot,34,2000000,3466,Term Life,2023-04-29,High,Yes
+PP-2017,Musician,59,5000000,5375,Universal Life,2022-05-10,Medium,Yes
+PP-2018,Software Engineer,32,250000,212,Term Life,2023-08-25,Medium,No
+PP-2019,Skilled Laborer,39,15000000,6812,Term Life,2018-09-28,Low,Yes
+PP-2020,Bus Driver,35,250000,109,Whole Life,2018-02-16,Low,No
+PP-2021,Artist,36,15000000,26500,Whole Life,2022-11-08,High,Yes
+PP-2022,Scientist,22,500000,383,Whole Life,2019-04-24,Medium,Yes
+PP-2023,Teacher,51,25000,12,Whole Life,2021-04-23,Low,No
+PP-2024,Pilot,55,25000,26,Term Life,2022-12-02,Medium,No
+PP-2025,Police Officer,26,50000,80,Whole Life,2023-08-28,High,No
+PP-2026,Air Traffic Controller,49,250000,123,Whole Life,2021-10-08,Low,No
+PP-2027,Manager,45,15000000,28750,Whole Life,2018-08-07,High,Yes
+PP-2028,Chemical Plant Operator,74,500000,300,Whole Life,2019-12-28,Low,Yes
+PP-2029,Chemical Plant Operator,69,1000000,579,Universal Life,2019-07-19,Low,Yes
+PP-2030,Pharmacist,52,10000000,5083,Universal Life,2019-03-02,Low,Yes
+PP-2031,Researcher,41,5000000,4625,Universal Life,2022-03-10,Medium,Yes
+PP-2032,Graphic Designer,58,10000000,21333,Term Life,2024-03-26,High,Yes
+PP-2033,Electrician,20,10000000,3750,Universal Life,2024-10-13,Low,Yes
+PP-2034,Journalist,27,25000,10,Whole Life,2024-04-22,Low,No
+PP-2035,Artist,51,500000,252,Term Life,2022-05-18,Low,Yes
+PP-2036,Musician,61,25000,27,Universal Life,2023-11-17,Medium,No
+PP-2037,Accountant,79,10000000,12416,Term Life,2018-04-30,Medium,Yes
+PP-2038,Artist,58,50000,106,Whole Life,2024-09-01,High,No
+PP-2039,Taxi Driver,74,250000,300,Term Life,2022-03-07,Medium,No
+PP-2040,Graphic Designer,63,5000000,11083,Whole Life,2022-12-12,High,Yes
+PP-2041,Firefighter,63,25000,27,Term Life,2024-11-14,Medium,No
+PP-2042,Pilot,18,2000000,1466,Universal Life,2021-02-09,Medium,Yes
+PP-2043,Musician,79,2000000,1241,Term Life,2023-12-09,Low,Yes
+PP-2044,Skilled Laborer,32,1000000,1700,Term Life,2023-05-25,High,Yes
+PP-2045,Dancer,44,100000,190,Universal Life,2020-05-03,High,No
+PP-2046,Professional Athlete,25,2000000,791,Universal Life,2024-01-19,Low,Yes
+PP-2047,Dancer,52,15000000,7625,Term Life,2020-04-24,Low,Yes
+PP-2048,Dancer,29,100000,82,Term Life,2018-11-29,Medium,No
+PP-2049,Chemical Plant Operator,23,750000,581,Term Life,2023-03-28,Medium,Yes
+PP-2050,Police Officer,64,500000,558,Term Life,2024-01-04,Medium,Yes
+PP-2051,Accountant,76,250000,152,Universal Life,2019-03-03,Low,No
+PP-2052,Physicist,47,15000000,7312,Term Life,2020-06-25,Low,Yes
+PP-2053,Professional Athlete,74,250000,150,Universal Life,2018-02-02,Low,No
+PP-2054,Electrician,52,1000000,2033,Term Life,2019-12-10,High,Yes
+PP-2055,Nurse,48,10000000,4916,Term Life,2022-07-29,Low,Yes
+PP-2056,Taxi Driver,32,1000000,850,Term Life,2024-03-04,Medium,Yes
+PP-2057,Plumber,48,5000000,2458,Universal Life,2024-07-17,Low,Yes
+PP-2058,Firefighter,80,10000000,12500,Term Life,2021-12-14,Medium,Yes
+PP-2059,Veterinarian,66,50000,113,Whole Life,2018-02-25,High,No
+PP-2060,Graphic Designer,51,750000,1512,Term Life,2018-02-01,High,Yes
+PP-2061,Attorney,22,500000,191,Whole Life,2023-03-26,Low,Yes
+PP-2062,Nurse,40,10000000,18333,Whole Life,2020-07-21,High,Yes
+PP-2063,Writer,39,1000000,1816,Universal Life,2019-04-05,High,Yes
+PP-2064,Writer,34,25000,10,Universal Life,2020-06-12,Low,No
+PP-2065,Student,34,750000,1300,Universal Life,2021-06-06,High,Yes
+PP-2066,Musician,67,2000000,2283,Whole Life,2022-09-15,Medium,Yes
+PP-2067,Plumber,79,1000000,620,Whole Life,2023-10-16,Low,Yes
+PP-2068,Dentist,72,25000,29,Whole Life,2020-04-25,Medium,No
+PP-2069,Photographer,35,15000000,13125,Universal Life,2024-06-27,Medium,Yes
+PP-2070,Retired,67,100000,114,Universal Life,2020-07-23,Medium,No
+PP-2071,Software Engineer,20,1000000,1500,Universal Life,2021-12-17,High,Yes
+PP-2072,Dentist,37,750000,668,Term Life,2020-03-18,Medium,Yes
+PP-2073,Electrician,28,1000000,1633,Universal Life,2021-02-08,High,Yes
+PP-2074,Scientist,27,2000000,808,Whole Life,2019-06-27,Low,Yes
+PP-2075,Professional Athlete,18,2000000,733,Term Life,2018-10-17,Low,Yes
+PP-2076,Pharmacist,34,100000,43,Universal Life,2024-11-14,Low,No
+PP-2077,Air Traffic Controller,80,15000000,37500,Term Life,2020-05-29,High,Yes
+PP-2078,Student,72,25000,59,Term Life,2021-03-06,High,No
+PP-2079,Surgeon,25,1000000,395,Universal Life,2024-07-14,Low,Yes
+PP-2080,Bus Driver,77,1000000,1225,Whole Life,2024-08-08,Medium,Yes
+PP-2081,Artist,52,500000,508,Term Life,2020-11-14,Medium,Yes
+PP-2082,Manager,57,15000000,31750,Universal Life,2022-03-13,High,Yes
+PP-2083,Pilot,53,10000000,10250,Term Life,2024-08-16,Medium,Yes
+PP-2084,Teacher,50,1000000,500,Term Life,2022-12-21,Low,Yes
+PP-2085,Healthcare Worker,75,100000,120,Whole Life,2018-04-30,Medium,No
+PP-2086,Electrician,19,2000000,741,Term Life,2019-02-01,Low,Yes
+PP-2087,Writer,34,100000,86,Term Life,2023-12-29,Medium,No
+PP-2088,Service Worker,79,2000000,4966,Universal Life,2022-04-26,High,Yes
+PP-2089,Taxi Driver,52,15000000,30500,Term Life,2018-01-23,High,Yes
+PP-2090,Student,46,750000,1450,Universal Life,2019-07-30,High,Yes
+PP-2091,Air Traffic Controller,21,250000,189,Term Life,2021-05-17,Medium,No
+PP-2092,Scientist,32,250000,212,Universal Life,2021-01-08,Medium,No
+PP-2093,Pharmacist,51,25000,25,Term Life,2022-04-15,Medium,No
+PP-2094,Plumber,75,750000,453,Universal Life,2019-03-29,Low,Yes
+PP-2095,Professional Athlete,51,15000000,7562,Universal Life,2021-03-20,Low,Yes
+PP-2096,Pharmacist,49,15000000,14875,Whole Life,2020-11-21,Medium,Yes
+PP-2097,Therapist,38,5000000,2250,Universal Life,2018-07-14,Low,Yes
+PP-2098,Dentist,80,750000,468,Universal Life,2019-05-10,Low,Yes
+PP-2099,Veterinarian,66,15000000,33999,Whole Life,2024-08-18,High,Yes
+PP-2100,Electrician,44,100000,95,Whole Life,2023-10-25,Medium,No
+PP-2101,Graphic Designer,68,250000,143,Universal Life,2021-06-29,Low,No
+PP-2102,Musician,44,25000,47,Whole Life,2024-06-24,High,No
+PP-2103,Dentist,45,750000,718,Term Life,2020-03-19,Medium,Yes
+PP-2104,Commercial Pilot,60,25000,13,Universal Life,2018-07-22,Low,No
+PP-2105,Healthcare Worker,51,5000000,2520,Term Life,2023-02-17,Low,Yes
+PP-2106,Chemical Plant Operator,54,250000,258,Whole Life,2022-06-09,Medium,No
+PP-2107,Dancer,59,250000,537,Term Life,2023-02-18,High,No
+PP-2108,Miner,66,100000,113,Term Life,2020-11-25,Medium,No
+PP-2109,Attorney,42,10000000,4666,Term Life,2019-05-22,Low,Yes
+PP-2110,Military Officer,58,50000,53,Whole Life,2019-11-09,Medium,No
+PP-2111,Professional Athlete,79,250000,155,Term Life,2020-05-19,Low,No
+PP-2112,Chef,71,250000,293,Universal Life,2020-02-24,Medium,No
+PP-2113,Surgeon,66,15000000,33999,Term Life,2024-05-04,High,Yes
+PP-2114,Civil Engineer,75,10000000,6041,Whole Life,2019-01-23,Low,Yes
+PP-2115,Skilled Laborer,54,500000,1033,Whole Life,2018-04-02,High,Yes
+PP-2116,Photographer,75,750000,906,Universal Life,2018-02-28,Medium,Yes
+PP-2117,Plumber,55,10000000,20833,Whole Life,2022-02-08,High,Yes
+PP-2118,Skilled Laborer,30,100000,41,Whole Life,2021-07-14,Low,No
+PP-2119,Veterinarian,75,50000,30,Term Life,2019-05-17,Low,No
+PP-2120,Accountant,36,25000,44,Whole Life,2020-03-28,High,No
+PP-2121,Accountant,41,250000,462,Term Life,2021-05-10,High,No
+PP-2122,Artist,27,750000,1212,Term Life,2020-10-22,High,Yes
+PP-2123,Chemical Plant Operator,55,15000000,15625,Term Life,2019-07-18,Medium,Yes
+PP-2124,High-Risk Driver,30,250000,104,Whole Life,2022-08-03,Low,No
+PP-2125,Attorney,53,5000000,2562,Whole Life,2020-03-21,Low,Yes
+PP-2126,Surgeon,66,15000000,16999,Whole Life,2018-04-28,Medium,Yes
+PP-2127,Software Engineer,59,100000,53,Universal Life,2023-06-20,Low,No
+PP-2128,Miner,36,250000,110,Term Life,2022-05-21,Low,No
+PP-2129,Artist,65,1000000,1125,Term Life,2023-05-23,Medium,Yes
+PP-2130,Musician,74,15000000,18000,Universal Life,2022-03-20,Medium,Yes
+PP-2131,Healthcare Worker,65,5000000,2812,Term Life,2018-11-19,Low,Yes
+PP-2132,Military Officer,54,750000,387,Term Life,2022-10-03,Low,Yes
+PP-2133,Pharmacist,18,5000000,3666,Term Life,2018-06-28,Medium,Yes
+PP-2134,Chemist,76,2000000,1216,Universal Life,2022-08-22,Low,Yes
+PP-2135,Journalist,44,250000,475,Term Life,2020-04-22,High,No
+PP-2136,Miner,22,50000,76,Universal Life,2022-06-07,High,No
+PP-2137,Graphic Designer,43,750000,353,Whole Life,2019-03-04,Low,Yes
+PP-2138,Artist,25,50000,39,Whole Life,2024-04-22,Medium,No
+PP-2139,Artist,19,250000,370,Universal Life,2023-01-29,High,No
+PP-2140,Dancer,68,50000,28,Universal Life,2020-04-06,Low,No
+PP-2141,Chef,69,15000000,17375,Whole Life,2020-07-15,Medium,Yes
+PP-2142,Dentist,59,100000,107,Term Life,2024-07-06,Medium,No
+PP-2143,Service Worker,21,15000000,5687,Term Life,2024-02-01,Low,Yes
+PP-2144,Therapist,53,10000000,10250,Universal Life,2018-04-06,Medium,Yes
+PP-2145,Architect,44,500000,237,Universal Life,2024-06-16,Low,Yes
+PP-2146,Factory Worker,22,15000000,11500,Whole Life,2024-08-27,Medium,Yes
+PP-2147,Mechanical Engineer,20,15000000,5625,Whole Life,2020-02-13,Low,Yes
+PP-2148,Journalist,44,100000,47,Universal Life,2018-02-19,Low,No
+PP-2149,Taxi Driver,69,1000000,2316,Whole Life,2021-10-27,High,Yes
+PP-2150,Pilot,32,100000,42,Term Life,2021-09-18,Low,No
+PP-2151,Chemical Plant Operator,19,15000000,22250,Whole Life,2023-06-23,High,Yes
+PP-2152,Pilot,78,500000,308,Whole Life,2021-03-29,Low,Yes
+PP-2153,Air Traffic Controller,74,2000000,2400,Term Life,2018-10-09,Medium,Yes
+PP-2154,High-Risk Driver,22,10000000,3833,Whole Life,2024-04-06,Low,Yes
+PP-2155,Pharmacist,46,2000000,3866,Universal Life,2021-12-04,High,Yes
+PP-2156,Scientist,20,750000,1125,Term Life,2023-05-23,High,Yes
+PP-2157,Therapist,69,50000,57,Universal Life,2023-08-31,Medium,No
+PP-2158,Chemical Plant Operator,44,250000,475,Term Life,2023-06-28,High,No
+PP-2159,Plumber,75,5000000,3020,Universal Life,2021-11-12,Low,Yes
+PP-2160,Chef,19,250000,185,Term Life,2019-03-04,Medium,No
+PP-2161,Surgeon,30,15000000,25000,Term Life,2019-08-22,High,Yes
+PP-2162,Software Engineer,25,250000,197,Whole Life,2019-07-02,Medium,No
+PP-2163,Skilled Laborer,64,250000,139,Universal Life,2023-08-08,Low,No
+PP-2164,Veterinarian,19,250000,92,Whole Life,2020-08-24,Low,No
+PP-2165,Surgeon,22,100000,153,Term Life,2023-01-22,High,No
+PP-2166,Artist,49,500000,247,Whole Life,2023-04-18,Low,Yes
+PP-2167,Bus Driver,28,100000,40,Term Life,2019-09-20,Low,No
+PP-2168,Healthcare Worker,75,500000,604,Universal Life,2021-02-25,Medium,Yes
+PP-2169,Dentist,52,2000000,4066,Universal Life,2018-02-26,High,Yes
+PP-2170,Truck Driver,35,100000,43,Term Life,2024-04-07,Low,No
+PP-2171,Factory Worker,25,100000,79,Term Life,2018-09-29,Medium,No
+PP-2172,Retired,69,250000,144,Whole Life,2022-05-04,Low,No
+PP-2173,Physicist,64,5000000,5583,Whole Life,2023-12-09,Medium,Yes
+PP-2174,Journalist,63,25000,13,Universal Life,2019-06-18,Low,No
+PP-2175,Software Engineer,40,15000000,27500,Term Life,2022-10-28,High,Yes
+PP-2176,Writer,68,250000,287,Term Life,2019-10-23,Medium,No
+PP-2177,Photographer,80,100000,62,Term Life,2024-06-24,Low,No
+PP-2178,Artist,23,100000,77,Universal Life,2021-11-25,Medium,No
+PP-2179,Retired,51,15000000,15125,Universal Life,2024-03-02,Medium,Yes
+PP-2180,Chemist,76,2000000,1216,Universal Life,2019-07-28,Low,Yes
+PP-2181,Truck Driver,40,100000,45,Universal Life,2021-01-23,Low,No
+PP-2182,Journalist,64,25000,27,Universal Life,2018-01-09,Medium,No
+PP-2183,Attorney,75,750000,906,Term Life,2022-06-07,Medium,Yes
+PP-2184,Civil Engineer,33,15000000,25750,Whole Life,2022-08-27,High,Yes
+PP-2185,Police Officer,72,10000000,11833,Term Life,2018-07-30,Medium,Yes
+PP-2186,Attorney,73,100000,59,Universal Life,2019-09-06,Low,No
+PP-2187,Photographer,73,250000,595,Whole Life,2019-05-27,High,No
+PP-2188,Attorney,21,750000,1137,Universal Life,2023-03-01,High,Yes
+PP-2189,Electrician,76,15000000,9125,Whole Life,2022-08-13,Low,Yes
+PP-2190,Police Officer,58,50000,53,Term Life,2018-09-14,Medium,No
+PP-2191,Bus Driver,26,15000000,6000,Whole Life,2022-05-14,Low,Yes
+PP-2192,Student,43,250000,235,Whole Life,2019-10-04,Medium,No
+PP-2193,Journalist,48,2000000,983,Term Life,2018-05-26,Low,Yes
+PP-2194,High-Risk Driver,50,500000,500,Term Life,2023-01-16,Medium,Yes
+PP-2195,Photographer,76,5000000,6083,Universal Life,2022-05-07,Medium,Yes
+PP-2196,Photographer,23,10000000,15500,Whole Life,2020-07-10,High,Yes
+PP-2197,Air Traffic Controller,28,500000,816,Term Life,2024-06-24,High,Yes
+PP-2198,Dancer,61,25000,27,Universal Life,2022-11-06,Medium,No
+PP-2199,Writer,26,750000,600,Term Life,2024-10-14,Medium,Yes
+PP-2200,Manager,46,250000,120,Whole Life,2023-12-05,Low,No
