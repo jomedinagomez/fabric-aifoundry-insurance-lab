@@ -1,61 +1,201 @@
 claim_id,policy_id,customer_id,claim_date,claim_amount,claim_status,days_to_resolution,cause_of_death,age_at_claim,occupation_related,pre_existing_condition,claim_region,payout_amount,explanation
-CLM-3001,LIF-1551,CUST-1001,2023-05-14,380000.0,Approved,45,Heart Disease,40,No,Yes,Midwest,380000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3002,LIF-1301,CUST-1001,2022-11-20,300000.0,Approved,90,Accidental fall,63,Yes,No,Midwest,300000.0,Workplace accident verified through employer incident report
-CLM-3003,LIF-1668,CUST-1002,2023-06-01,500000.0,Approved,75,Respiratory Disease,63,No,Yes,Southeast,500000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3004,LIF-1309,CUST-1001,2021-12-15,320000.0,Approved,35,Cancer,49,No,Yes,Midwest,320000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3005,LIF-1018,CUST-1002,2022-08-30,500000.0,Approved,60,Workplace accident,64,Yes,No,Southwest,500000.0,Workplace accident verified through employer incident report
-CLM-3006,LIF-1498,CUST-1001,2021-10-05,1300000.0,Approved,40,Stroke,52,No,No,Southeast,1300000.0,
-CLM-3007,LIF-1336,CUST-1003,2023-01-12,400000.0,Approved,55,Accidental vehicle incident,39,Yes,No,Southwest,400000.0,Workplace accident verified through employer incident report
-CLM-3008,LIF-1226,CUST-1004,2019-12-01,430000.0,Approved,50,Cancer,54,No,Yes,Midwest,430000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3009,LIF-1047,CUST-1005,2021-06-20,390000.0,Approved,70,Heart Disease,41,No,Yes,Midwest,390000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3010,LIF-1381,CUST-1006,2022-04-15,390000.0,Approved,65,Workplace accident,58,Yes,No,Southeast,390000.0,Workplace accident verified through employer incident report
-CLM-3011,LIF-1671,CUST-1007,2023-03-10,900000.0,Approved,42,Cancer,44,No,Yes,West,900000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3012,LIF-1028,CUST-1006,2019-04-05,480000.0,Denied,90,Stroke,61,No,No,Northeast,0.0,Policy lapsed due to non-payment prior to claim date
-CLM-3013,LIF-1079,CUST-1008,2020-10-30,7200000.0,Approved,100,Natural Causes,52,No,No,Southwest,7200000.0,
-CLM-3014,LIF-1196,CUST-1007,2022-09-10,700000.0,Approved,55,Accidental fall,57,Yes,No,Midwest,700000.0,Workplace accident verified through employer incident report
-CLM-3015,LIF-1726,CUST-1009,2023-05-18,740000.0,Approved,60,Cancer,58,No,Yes,Midwest,740000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3016,LIF-1723,CUST-1010,2023-08-20,1180000.0,Approved,58,Heart Disease,42,No,Yes,Northeast,1180000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3017,LIF-1303,CUST-1011,2023-02-27,560000.0,Approved,48,Vehicle accident,46,Yes,No,Southwest,560000.0,Workplace accident verified through employer incident report
-CLM-3018,LIF-1193,CUST-1012,2021-12-15,415000.0,Approved,40,Stroke,42,No,Yes,Southeast,415000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3019,LIF-1085,CUST-1013,2022-07-22,1100000.0,Approved,95,Respiratory Disease,64,No,Yes,Southeast,1100000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3020,LIF-1595,CUST-1014,2023-04-02,640000.0,Approved,60,Natural Causes,49,No,No,Southeast,640000.0,
-CLM-3021,LIF-1717,CUST-1001,2020-06-10,620000.0,Approved,90,Heart Disease,55,No,Yes,Midwest,620000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3022,LIF-1154,CUST-1001,2021-07-15,530000.0,Approved,45,Vehicle Accident,47,Yes,No,Southeast,530000.0,Workplace accident verified through employer incident report
-CLM-3023,LIF-1516,CUST-1001,2019-12-08,370000.0,Approved,75,Cancer,46,No,Yes,Southeast,370000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3024,LIF-1293,CUST-1002,2022-01-22,1450000.0,Approved,100,Stroke,58,No,No,Midwest,1450000.0,
-CLM-3025,LIF-1252,CUST-1003,2023-05-05,1350000.0,Approved,60,Accidental Fall,47,Yes,No,Southeast,1350000.0,Workplace accident verified through employer incident report
-CLM-3026,LIF-1247,CUST-1004,2022-08-12,950000.0,Approved,85,Respiratory Disease,60,No,Yes,Northeast,950000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3027,LIF-1346,CUST-1005,2021-11-07,260000.0,Approved,72,Heart Disease,46,No,Yes,Midwest,260000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3028,LIF-1372,CUST-1006,2021-09-23,850000.0,Approved,50,Natural Causes,44,No,No,West,850000.0,
-CLM-3029,LIF-1476,CUST-1007,2023-02-14,300000.0,Approved,80,Stroke,38,No,No,Southeast,300000.0,
-CLM-3030,LIF-1218,CUST-1008,2023-06-30,480000.0,Approved,65,Vehicle Accident,52,Yes,No,Southeast,480000.0,Workplace accident verified through employer incident report
-CLM-3031,LIF-1343,CUST-1009,2021-04-12,850000.0,Approved,95,Cancer,52,No,Yes,Midwest,850000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3032,LIF-1669,CUST-1010,2020-06-16,1350000.0,Approved,40,Natural Causes,56,No,No,Northeast,1350000.0,
-CLM-3033,LIF-1199,CUST-1010,2022-10-11,700000.0,Approved,55,Stroke,47,No,No,Southeast,700000.0,
-CLM-3034,LIF-1152,CUST-1011,2020-05-03,420000.0,Approved,75,Workplace Accident,58,Yes,No,Southwest,420000.0,Workplace accident verified through employer incident report
-CLM-3035,LIF-1243,CUST-1012,2022-09-19,600000.0,Approved,68,Respiratory Disease,58,No,Yes,Southwest,600000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3036,LIF-1216,CUST-1013,2021-07-01,600000.0,Approved,81,Cancer,55,No,Yes,Southeast,600000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3037,LIF-1408,CUST-1014,2022-11-18,800000.0,Approved,90,Accidental Fall,49,Yes,No,Southeast,800000.0,Workplace accident verified through employer incident report
-CLM-3038,LIF-1145,CUST-1015,2019-09-30,265000.0,Denied,70,Natural Causes,52,No,No,Southeast,0.0,Claim denied due to material misrepresentation on application
-CLM-3039,LIF-1013,CUST-1016,2023-02-22,600000.0,Approved,48,Heart Disease,42,No,Yes,Northeast,600000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3040,LIF-1027,CUST-1017,2021-10-02,780000.0,Approved,82,Vehicle Accident,47,Yes,No,Midwest,780000.0,Workplace accident verified through employer incident report
-CLM-3041,LIF-1449,CUST-1001,2022-11-15,260000.0,Approved,45,Heart Disease,43,No,Yes,Southeast,260000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3042,LIF-1644,CUST-1002,2023-01-23,1180000.0,Approved,60,Natural Causes,46,No,No,Southeast,1180000.0,
-CLM-3043,LIF-1321,CUST-1003,2021-12-05,530000.0,Approved,35,Stroke,38,No,No,West,530000.0,
-CLM-3044,LIF-1264,CUST-1004,2023-05-11,1650000.0,Approved,85,Cancer,57,No,Yes,West,1650000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3045,LIF-1126,CUST-1005,2022-08-22,580000.0,Approved,50,Vehicle Accident,51,Yes,No,Midwest,580000.0,Workplace accident verified through employer incident report
-CLM-3046,LIF-1076,CUST-1006,2023-02-28,800000.0,Approved,40,Respiratory Disease,48,No,Yes,Northeast,800000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3047,LIF-1073,CUST-1007,2022-06-17,1650000.0,Approved,90,Workplace Accident,44,Yes,No,Southwest,1650000.0,Workplace accident verified through employer incident report
-CLM-3048,LIF-1007,CUST-1008,2021-11-01,500000.0,Approved,110,Cancer,59,No,Yes,Midwest,500000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3049,LIF-1312,CUST-1009,2022-05-24,590000.0,Approved,75,Stroke,40,No,No,West,590000.0,
-CLM-3050,LIF-1169,CUST-1010,2022-09-30,470000.0,Approved,60,Heart Disease,63,No,Yes,Midwest,470000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3051,LIF-1166,CUST-1011,2021-09-12,535000.0,Approved,70,Natural Causes,55,No,No,Midwest,535000.0,
-CLM-3052,LIF-1049,CUST-1012,2020-06-10,790000.0,Approved,100,Vehicle Accident,49,Yes,No,Southeast,790000.0,Workplace accident verified through employer incident report
-CLM-3053,LIF-1703,CUST-1013,2021-09-15,440000.0,Approved,55,Respiratory Disease,55,No,Yes,Southwest,440000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3054,LIF-1147,CUST-1014,2022-01-23,490000.0,Approved,40,Cancer,53,No,No,Southeast,490000.0,
-CLM-3055,LIF-1624,CUST-1015,2022-03-05,340000.0,Approved,65,Stroke,55,No,Yes,Southeast,340000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3056,LIF-1711,CUST-1016,2022-04-28,540000.0,Approved,95,Workplace Accident,58,Yes,No,Northeast,540000.0,Workplace accident verified through employer incident report
-CLM-3057,LIF-1225,CUST-1017,2023-03-14,1085000.0,Approved,80,Natural Causes,54,No,No,West,1085000.0,
-CLM-3058,LIF-1305,CUST-1018,2022-01-17,265000.0,Denied,75,Cancer,67,No,No,Southeast,0.0,Claim denied due to material misrepresentation on application
-CLM-3059,LIF-1188,CUST-1019,2023-01-09,310000.0,Approved,45,Respiratory Disease,64,No,Yes,Northeast,310000.0,Claim approved after medical review confirmed pre-existing condition
-CLM-3060,LIF-1373,CUST-1020,2021-11-22,400000.0,Approved,60,Stroke,47,No,No,Northeast,400000.0,
+CLM-3001,LIF-1365,CUST-1001,2022-05-20,540000.0,Approved,45,Heart Disease,42,No,Yes,Southeast,540000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3002,LIF-1099,CUST-1002,2022-12-12,520000.0,Approved,60,Accidental Fall,54,Yes,No,Midwest,520000.0,Workplace accident verified through employer incident report
+CLM-3003,LIF-1453,CUST-1003,2023-04-10,350000.0,Approved,40,Cancer,39,No,Yes,West,350000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3004,LIF-1020,CUST-1004,2023-06-15,600000.0,Approved,35,Stroke,54,No,No,Southeast,600000.0,
+CLM-3005,LIF-1483,CUST-1004,2023-02-20,600000.0,Approved,70,Workplace Accident,57,Yes,No,Southwest,600000.0,Workplace accident verified through employer incident report
+CLM-3006,LIF-1602,CUST-1005,2022-11-30,1800000.0,Approved,55,Cancer,49,No,No,Northeast,1800000.0,
+CLM-3007,LIF-1577,CUST-1006,2023-01-25,600000.0,Approved,50,Heart Disease,53,No,Yes,Southeast,600000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3008,LIF-1650,CUST-1007,2022-08-20,2000000.0,Approved,60,Natural Causes,58,No,No,Northeast,2000000.0,
+CLM-3009,LIF-1323,CUST-1008,2023-03-10,1100000.0,Approved,65,Respiratory Disease,55,No,Yes,Southwest,1100000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3010,LIF-1590,CUST-1009,2023-06-01,290000.0,Approved,43,Vehicle Accident,50,Yes,No,Midwest,290000.0,Workplace accident verified through employer incident report
+CLM-3011,LIF-1229,CUST-1010,2024-01-10,280000.0,Approved,38,Natural Causes,32,No,No,West,280000.0,
+CLM-3012,LIF-1371,CUST-1010,2023-05-05,600000.0,Approved,60,Truck Accident,51,Yes,No,Southeast,600000.0,Workplace accident verified through employer incident report
+CLM-3013,LIF-1334,CUST-1011,2021-06-10,550000.0,Denied,80,Stroke,64,No,Yes,Midwest,0.0,Claim denied due to material misrepresentation on application
+CLM-3014,LIF-1194,CUST-1012,2020-08-20,410000.0,Approved,72,Respiratory Disease,59,No,Yes,Midwest,410000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3015,LIF-1671,CUST-1012,2023-07-15,900000.0,Approved,55,Cancer,44,No,No,West,900000.0,
+CLM-3016,LIF-1287,CUST-1013,2023-09-17,940000.0,Approved,40,Stroke,47,No,No,Northeast,940000.0,
+CLM-3017,LIF-1524,CUST-1014,2022-10-11,800000.0,Approved,58,Heart Disease,42,No,No,Southeast,800000.0,
+CLM-3018,LIF-1087,CUST-1015,2022-05-17,410000.0,Approved,48,Natural Causes,58,No,No,Northeast,410000.0,
+CLM-3019,LIF-1233,CUST-1015,2023-03-22,360000.0,Approved,55,Accidental Fall,50,No,No,Midwest,360000.0,
+CLM-3020,LIF-1443,CUST-1016,2023-12-05,4000000.0,Approved,65,Natural Causes,56,No,No,Midwest,4000000.0,
+CLM-3021,LIF-1261,CUST-1001,2023-05-20,750000.0,Approved,45,Heart Disease,40,No,No,Midwest,750000.0,
+CLM-3022,LIF-1264,CUST-1002,2022-10-10,1350000.0,Approved,57,Cancer,57,No,Yes,West,1350000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3023,LIF-1637,CUST-1003,2023-03-15,820000.0,Approved,90,Stroke,52,No,No,Northeast,820000.0,
+CLM-3024,LIF-1404,CUST-1004,2022-07-13,280000.0,Approved,82,Workplace accident,57,Yes,No,Midwest,280000.0,Workplace accident verified through employer incident report
+CLM-3025,LIF-1632,CUST-1005,2023-01-20,600000.0,Approved,75,Respiratory Disease,50,No,Yes,Midwest,600000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3026,LIF-1416,CUST-1006,2023-08-25,250000.0,Approved,60,Accidental fall,26,Yes,No,Southwest,250000.0,Workplace accident verified through employer incident report
+CLM-3027,LIF-1687,CUST-1007,2023-04-12,540000.0,Approved,59,Vehicle accident,48,Yes,No,Midwest,540000.0,Workplace accident verified through employer incident report
+CLM-3028,LIF-1695,CUST-1007,2023-02-18,800000.0,Approved,62,Cancer,47,No,Yes,Midwest,800000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3029,LIF-1502,CUST-1008,2023-05-05,380000.0,Approved,60,Respiratory Disease,58,No,Yes,Northeast,380000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3030,LIF-1030,CUST-1009,2023-06-15,540000.0,Approved,55,Heart Disease,59,No,Yes,Southeast,540000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3031,LIF-1568,CUST-1010,2023-03-30,480000.0,Approved,88,Vehicle accident,57,Yes,No,Midwest,480000.0,Workplace accident verified through employer incident report
+CLM-3032,LIF-1518,CUST-1011,2023-07-03,780000.0,Approved,42,Natural Causes,43,No,No,Northeast,780000.0,
+CLM-3033,LIF-1294,CUST-1012,2023-04-01,890000.0,Approved,72,Stroke,45,No,No,Northeast,890000.0,
+CLM-3034,LIF-1692,CUST-1011,2022-11-20,380000.0,Approved,50,Accidental fall,44,Yes,No,Southeast,380000.0,Workplace accident verified through employer incident report
+CLM-3035,LIF-1274,CUST-1013,2023-02-10,410000.0,Approved,88,Respiratory Disease,52,No,Yes,Northeast,410000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3036,LIF-1184,CUST-1014,2023-05-15,260000.0,Approved,58,Cancer,59,No,Yes,Midwest,260000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3037,LIF-1094,CUST-1015,2023-01-05,950000.0,Approved,73,Heart Disease,67,No,Yes,Northeast,950000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3038,LIF-1685,CUST-1016,2023-06-12,590000.0,Denied,120,Stroke,62,No,No,Midwest,0.0,Claim denied due to material misrepresentation on application
+CLM-3039,LIF-1547,CUST-1017,2023-03-25,250000.0,Approved,45,Natural Causes,45,No,No,Southeast,250000.0,
+CLM-3040,LIF-1246,CUST-1018,2023-06-21,320000.0,Approved,60,Medical Condition,47,No,No,Northeast,320000.0,
+CLM-3041,LIF-1216,CUST-1001,2019-11-20,580000.0,Approved,45,Heart Disease,53,No,Yes,Southeast,580000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3042,LIF-1049,CUST-1001,2021-06-15,750000.0,Approved,60,Vehicle Accident,50,Yes,No,Southeast,750000.0,Workplace accident verified through employer incident report
+CLM-3043,LIF-1295,CUST-1001,2023-05-10,430000.0,Approved,75,Cancer,64,No,Yes,West,430000.0,
+CLM-3044,LIF-1124,CUST-1005,2021-01-18,400000.0,Approved,50,Stroke,55,No,Yes,Southeast,400000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3045,LIF-1615,CUST-1005,2022-12-01,550000.0,Approved,40,Falls,50,Yes,No,Northeast,550000.0,Workplace accident verified through employer incident report
+CLM-3046,LIF-1408,CUST-1007,2023-04-30,750000.0,Approved,90,Respiratory Disease,50,No,Yes,Southeast,750000.0,
+CLM-3047,LIF-1516,CUST-1007,2019-10-05,360000.0,Approved,30,Workplace Accident,46,Yes,No,Southeast,360000.0,Workplace accident verified through employer incident report
+CLM-3048,LIF-1609,CUST-1008,2022-07-22,580000.0,Approved,70,Heart Disease,48,No,Yes,Southeast,580000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3049,LIF-1544,CUST-1008,2022-08-15,440000.0,Approved,65,Cancer,57,No,Yes,Southeast,440000.0,
+CLM-3050,LIF-1724,CUST-1012,2023-02-28,490000.0,Denied,150,Stroke,52,No,Yes,Southeast,0.0,Policy lapsed due to non-payment prior to claim date
+CLM-3051,LIF-1729,CUST-1012,2023-06-10,840000.0,Approved,55,Natural Causes,42,No,No,Midwest,840000.0,
+CLM-3052,LIF-1034,CUST-1002,2023-01-30,500000.0,Approved,72,Accident,56,Yes,No,Midwest,500000.0,Workplace accident verified through employer incident report
+CLM-3053,LIF-1126,CUST-1003,2022-09-15,590000.0,Approved,62,Cancer,52,No,Yes,Midwest,590000.0,
+CLM-3054,LIF-1724,CUST-1012,2019-03-25,200000.0,Approved,35,Vehicle Accident,48,Yes,No,Southeast,200000.0,Workplace accident verified through employer incident report
+CLM-3055,LIF-1513,CUST-1010,2020-06-12,695000.0,Approved,86,Heart Disease,53,No,Yes,Midwest,695000.0,
+CLM-3056,LIF-1304,CUST-1009,2024-04-20,430000.0,Approved,33,Natural Causes,39,No,No,Midwest,430000.0,
+CLM-3057,LIF-1021,CUST-1013,2020-08-15,660000.0,Approved,60,Accident,49,Yes,No,Midwest,660000.0,Workplace accident verified through employer incident report
+CLM-3058,LIF-1556,CUST-1014,2021-03-12,280000.0,Approved,45,Medical Condition,48,No,Yes,Southwest,280000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3059,LIF-1674,CUST-1004,2022-11-10,460000.0,Approved,53,Cancer,54,No,No,Southeast,460000.0,
+CLM-3060,LIF-1126,CUST-1003,2021-12-20,590000.0,Approved,67,Stroke,51,No,Yes,Midwest,590000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3061,LIF-1564,CUST-1001,2022-07-15,650000.0,Approved,45,Heart Disease,53,No,Yes,Midwest,650000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3062,LIF-1576,CUST-1002,2023-03-10,400000.0,Approved,38,Cancer,44,No,No,West,400000.0,
+CLM-3063,LIF-1358,CUST-1001,2021-12-05,475000.0,Approved,60,Stroke,46,No,No,Southeast,475000.0,
+CLM-3064,LIF-1495,CUST-1003,2019-12-01,275000.0,Approved,40,Vehicle accident,39,Yes,No,Southeast,275000.0,Workplace accident verified through employer incident report
+CLM-3065,LIF-1525,CUST-1004,2020-06-20,150000.0,Approved,35,Respiratory Disease,48,No,Yes,Midwest,150000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3066,LIF-1188,CUST-1005,2022-04-10,320000.0,Approved,55,Cancer,64,No,Yes,Northeast,320000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3067,LIF-1075,CUST-1003,2022-01-07,580000.0,Approved,62,Natural Causes,40,No,No,Northeast,580000.0,
+CLM-3068,LIF-1263,CUST-1006,2023-08-15,480000.0,Approved,30,Accidental fall,44,Yes,No,Southwest,480000.0,Workplace accident verified through employer incident report
+CLM-3069,LIF-1351,CUST-1007,2021-11-23,580000.0,Approved,50,Stroke,50,No,No,Southeast,580000.0,
+CLM-3070,LIF-1373,CUST-1006,2021-05-11,420000.0,Approved,70,Respiratory Disease,47,No,Yes,Northeast,420000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3071,LIF-1746,CUST-1008,2022-09-18,700000.0,Approved,90,Workplace accident,55,Yes,No,Southeast,700000.0,Workplace accident verified through employer incident report
+CLM-3072,LIF-1082,CUST-1009,2023-04-05,850000.0,Approved,60,Cancer,46,No,No,Northeast,850000.0,
+CLM-3073,LIF-1554,CUST-1007,2023-02-22,700000.0,Approved,40,Natural Causes,37,No,No,Northeast,700000.0,
+CLM-3074,LIF-1236,CUST-1010,2020-03-28,560000.0,Denied,60,Cancer,54,No,No,West,0.0,Claim denied due to material misrepresentation on application
+CLM-3075,LIF-1606,CUST-1008,2022-11-14,540000.0,Approved,48,Heart Disease,52,No,Yes,Midwest,540000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3076,LIF-1051,CUST-1011,2021-12-30,550000.0,Approved,35,Vehicle accident,54,Yes,No,Southeast,550000.0,Workplace accident verified through employer incident report
+CLM-3077,LIF-1716,CUST-1012,2023-06-10,350000.0,Approved,55,Natural Causes,48,No,No,Midwest,350000.0,
+CLM-3078,LIF-1575,CUST-1013,2022-08-22,1500000.0,Approved,75,Stroke,55,No,No,Southeast,1500000.0,
+CLM-3079,LIF-1721,CUST-1014,2023-01-15,400000.0,Approved,32,Accidental fall,39,No,No,West,400000.0,
+CLM-3080,LIF-1672,CUST-1015,2021-04-02,680000.0,Approved,80,Respiratory Disease,57,No,Yes,Southwest,680000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3081,LIF-1016,CUST-1001,2023-10-10,380000.0,Approved,75,Heart Disease,43,No,No,West,380000.0,
+CLM-3082,LIF-1023,CUST-1002,2022-07-12,540000.0,Approved,40,Lung Cancer,54,No,Yes,Southeast,540000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3083,LIF-1559,CUST-1003,2021-12-03,320000.0,Approved,55,Workplace Accident,54,Yes,No,Northeast,320000.0,Workplace accident verified through employer incident report
+CLM-3084,LIF-1712,CUST-1004,2023-03-18,1080000.0,Approved,33,Stroke,64,No,No,Northeast,1080000.0,
+CLM-3085,LIF-1038,CUST-1005,2022-05-21,670000.0,Approved,90,Respiratory Disease,47,No,Yes,Midwest,670000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3086,LIF-1269,CUST-1006,2023-06-17,540000.0,Approved,60,Accidental Vehicle Collision,55,Yes,No,Southeast,540000.0,Workplace accident verified through employer incident report
+CLM-3087,LIF-1249,CUST-1007,2021-11-29,300000.0,Denied,125,Death by Suicide,55,No,No,Southeast,0.0,Contestability period applies per policy terms
+CLM-3088,LIF-1434,CUST-1008,2022-12-15,2400000.0,Approved,105,Natural Causes,50,No,No,Northeast,2400000.0,
+CLM-3089,LIF-1017,CUST-1008,2023-04-05,1400000.0,Approved,45,Cancer,50,No,Yes,Northeast,1400000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3090,LIF-1108,CUST-1007,2022-08-07,650000.0,Approved,70,Stroke,48,No,No,Northeast,650000.0,
+CLM-3091,LIF-1477,CUST-1009,2023-01-27,1200000.0,Approved,90,Cardiac Arrest,45,No,Yes,West,1200000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3092,LIF-1162,CUST-1010,2022-03-02,900000.0,Approved,40,Accident Fall,47,Yes,No,Northeast,900000.0,Workplace accident verified through employer incident report
+CLM-3093,LIF-1384,CUST-1011,2023-04-22,460000.0,Approved,95,Lung Cancer,55,No,Yes,Northeast,460000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3094,LIF-1068,CUST-1010,2022-04-10,9500000.0,Approved,85,Natural Causes,60,No,No,West,9500000.0,
+CLM-3095,LIF-1681,CUST-1012,2023-06-12,440000.0,Approved,35,Heart Disease,38,No,No,Northeast,440000.0,
+CLM-3096,LIF-1085,CUST-1013,2021-11-20,1180000.0,Approved,60,Workplace Accident,64,Yes,No,Southeast,1180000.0,Workplace accident verified through employer incident report
+CLM-3097,LIF-1195,CUST-1014,2023-09-05,595000.0,Approved,50,Stroke,48,No,No,Southeast,595000.0,
+CLM-3098,LIF-1572,CUST-1015,2023-04-10,290000.0,Approved,32,Medical Complications,32,No,No,West,290000.0,
+CLM-3099,LIF-1750,CUST-1016,2023-06-21,1300000.0,Approved,80,Cancer,45,No,Yes,Northeast,1300000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3100,LIF-1301,CUST-1015,2022-08-15,320000.0,Approved,110,Electrical Accident,64,Yes,No,Midwest,320000.0,Workplace accident verified through employer incident report
+CLM-3101,LIF-1749,CUST-1001,2021-12-05,900000.0,Approved,65,Heart Disease,54,No,Yes,Midwest,900000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3102,LIF-1201,CUST-1001,2022-03-15,400000.0,Approved,45,Accident - Vehicle,36,No,No,West,400000.0,
+CLM-3103,LIF-1749,CUST-1001,2023-01-20,700000.0,Approved,75,Cancer,57,No,Yes,Midwest,700000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3104,LIF-1201,CUST-1001,2023-04-18,350000.0,Approved,40,Accident - Fall,38,No,No,West,350000.0,
+CLM-3105,LIF-1749,CUST-1001,2024-02-10,1400000.0,Approved,80,Stroke,58,No,No,Midwest,1400000.0,
+CLM-3106,LIF-1201,CUST-1001,2024-03-25,740000.0,Denied,90,Death by suicide,38,No,No,West,0.0,Contestability period applies per policy terms
+CLM-3107,LIF-1749,CUST-1001,2020-10-05,800000.0,Approved,50,Respiratory Disease,53,No,Yes,Midwest,800000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3108,LIF-1201,CUST-1001,2021-06-25,450000.0,Approved,60,Cancer,35,No,No,West,450000.0,
+CLM-3109,LIF-1749,CUST-1001,2022-08-11,500000.0,Approved,55,Accident - Vehicle,56,No,No,Midwest,500000.0,
+CLM-3110,LIF-1201,CUST-1001,2022-11-30,200000.0,Approved,35,Stroke,37,No,No,West,200000.0,
+CLM-3111,LIF-1749,CUST-1001,2023-06-10,600000.0,Approved,70,Natural Causes,57,No,Yes,Midwest,600000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3112,LIF-1201,CUST-1001,2023-09-05,500000.0,Approved,50,Medical Complications - Diabetes,38,No,Yes,West,500000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3113,LIF-1749,CUST-1001,2020-12-15,400000.0,Approved,60,Accident - Fall,54,No,No,Midwest,400000.0,
+CLM-3114,LIF-1201,CUST-1001,2021-05-20,250000.0,Approved,40,Accident - Workplace,36,Yes,No,West,250000.0,Workplace accident verified through employer incident report
+CLM-3115,LIF-1749,CUST-1001,2022-01-08,300000.0,Approved,55,Cancer,55,No,Yes,Midwest,300000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3116,LIF-1201,CUST-1001,2023-02-18,150000.0,Approved,38,Natural Causes,37,No,No,West,150000.0,
+CLM-3117,LIF-1749,CUST-1001,2022-05-29,1100000.0,Approved,90,Stroke,56,No,Yes,Midwest,1100000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3118,LIF-1201,CUST-1001,2023-07-23,350000.0,Approved,42,Medical Conditions - Kidney Failure,38,No,Yes,West,350000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3119,LIF-1749,CUST-1001,2021-03-11,500000.0,Approved,65,Accident - Vehicle,53,No,No,Midwest,500000.0,
+CLM-3120,LIF-1201,CUST-1001,2021-08-14,350000.0,Approved,48,Cancer,36,No,No,West,350000.0,
+CLM-3121,LIF-1693,CUST-1001,2023-04-15,500000.0,Approved,45,Heart Disease,60,No,Yes,Northeast,500000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3122,LIF-1291,CUST-1001,2024-01-10,8000000.0,Approved,30,Natural Causes,48,No,No,Northeast,8000000.0,
+CLM-3123,LIF-1010,CUST-1001,2023-11-05,350000.0,Approved,60,Accident - Vehicle Accident,50,Yes,No,Southeast,350000.0,Workplace accident verified through employer incident report
+CLM-3124,LIF-1693,CUST-1001,2022-05-20,400000.0,Approved,50,Cancer,59,No,Yes,Northeast,400000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3125,LIF-1010,CUST-1001,2024-02-14,200000.0,Pending,0,Respiratory Disease,50,No,Yes,Southeast,0.0,
+CLM-3126,LIF-1291,CUST-1001,2023-07-18,5000000.0,Approved,40,Stroke,48,No,No,Northeast,5000000.0,
+CLM-3127,LIF-1693,CUST-1001,2023-08-30,650000.0,Approved,35,Accident - Fall,60,Yes,No,Northeast,650000.0,Workplace accident verified through employer incident report
+CLM-3128,LIF-1291,CUST-1001,2020-09-15,450000.0,Denied,90,Death by suicide,45,No,No,Northeast,0.0,Contestability period applies per policy terms
+CLM-3129,LIF-1010,CUST-1001,2021-10-22,150000.0,Approved,55,Cancer,48,No,Yes,Southeast,150000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3130,LIF-1693,CUST-1001,2021-12-01,700000.0,Approved,80,Accident - Vehicle Accident,59,Yes,No,Northeast,700000.0,Workplace accident verified through employer incident report
+CLM-3131,LIF-1291,CUST-1001,2022-06-10,1000000.0,Approved,65,Natural Causes,48,No,No,Northeast,1000000.0,
+CLM-3132,LIF-1693,CUST-1001,2024-03-01,600000.0,Approved,60,Stroke,60,No,Yes,Northeast,600000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3133,LIF-1010,CUST-1001,2023-07-15,250000.0,Approved,48,Medical Condition - Complications of Diabetes,50,No,Yes,Southeast,250000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3134,LIF-1291,CUST-1001,2023-05-22,750000.0,Approved,35,Cancer,48,No,No,Northeast,750000.0,
+CLM-3135,LIF-1693,CUST-1001,2022-01-08,450000.0,Approved,40,Respiratory Disease,59,No,Yes,Northeast,450000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3136,LIF-1010,CUST-1001,2023-09-01,320000.0,Approved,50,Accident - Fall,50,Yes,No,Southeast,320000.0,Workplace accident verified through employer incident report
+CLM-3137,LIF-1291,CUST-1001,2024-04-05,1200000.0,Approved,70,Natural Causes,48,No,No,Northeast,1200000.0,
+CLM-3138,LIF-1693,CUST-1001,2020-08-20,300000.0,Approved,45,Heart Disease,57,No,Yes,Northeast,300000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3139,LIF-1010,CUST-1001,2022-07-30,200000.0,Approved,55,Medical Condition - Chronic Kidney Disease,49,No,Yes,Southeast,200000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3140,LIF-1291,CUST-1001,2021-11-17,3800000.0,Approved,65,Cancer,47,No,No,Northeast,3800000.0,
+CLM-3141,LIF-1624,CUST-1001,2023-11-10,280000.0,Approved,45,Heart Disease,55,No,Yes,Southeast,280000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3142,LIF-1489,CUST-1002,2023-06-01,850000.0,Approved,60,Cancer,49,No,No,Northeast,850000.0,
+CLM-3143,LIF-1181,CUST-1003,2023-03-15,250000.0,Approved,35,Workplace Accident,39,Yes,No,Southwest,250000.0,Workplace accident verified through employer incident report
+CLM-3144,LIF-1442,CUST-1004,2023-09-20,1250000.0,Approved,90,Stroke,49,No,No,Northeast,1250000.0,
+CLM-3145,LIF-1545,CUST-1005,2023-04-14,580000.0,Approved,40,Respiratory Disease,51,No,Yes,Northeast,580000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3146,LIF-1297,CUST-1006,2023-02-11,540000.0,Approved,55,Accidental Fall,52,Yes,No,West,540000.0,Workplace accident verified through employer incident report
+CLM-3147,LIF-1658,CUST-1007,2024-01-05,950000.0,Approved,80,Natural Causes,54,No,No,Northeast,950000.0,
+CLM-3148,LIF-1090,CUST-1008,2023-12-10,320000.0,Approved,30,Vehicle Accident,49,Yes,No,Midwest,320000.0,Workplace accident verified through employer incident report
+CLM-3149,LIF-1666,CUST-1009,2024-04-12,965000.0,Approved,70,Cancer,46,No,Yes,West,965000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3150,LIF-1496,CUST-1010,2023-11-28,575000.0,Approved,60,Heart Disease,60,No,Yes,Midwest,575000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3151,LIF-1711,CUST-1011,2023-06-20,530000.0,Denied,90,Death by Suicide,59,No,No,Northeast,0.0,Contestability period applies per policy terms
+CLM-3152,LIF-1222,CUST-1012,2024-02-15,290000.0,Approved,35,Natural Causes,35,No,No,Northeast,290000.0,
+CLM-3153,LIF-1103,CUST-1013,2023-07-21,365000.0,Approved,50,Cancer,51,No,No,Northeast,365000.0,
+CLM-3154,LIF-1530,CUST-1014,2023-05-10,300000.0,Approved,60,Accidental Fall,55,Yes,No,Southeast,300000.0,Workplace accident verified through employer incident report
+CLM-3155,LIF-1744,CUST-1015,2023-03-15,320000.0,Approved,38,Stroke,50,No,Yes,Southeast,320000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3156,LIF-1368,CUST-1015,2023-10-11,475000.0,Approved,48,Heart Disease,49,No,Yes,Midwest,475000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3157,LIF-1732,CUST-1016,2023-08-05,280000.0,Approved,55,Vehicle Accident,60,Yes,No,Midwest,280000.0,Workplace accident verified through employer incident report
+CLM-3158,LIF-1173,CUST-1017,2023-12-22,250000.0,Approved,40,Respiratory Disease,32,No,No,Southwest,250000.0,
+CLM-3159,LIF-1456,CUST-1018,2023-04-18,600000.0,Approved,75,Vehicle Accident,53,Yes,No,Southeast,600000.0,Workplace accident verified through employer incident report
+CLM-3160,LIF-1007,CUST-1019,2023-06-30,520000.0,Approved,65,Cancer,60,No,Yes,Midwest,520000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3161,LIF-1076,CUST-1001,2021-09-14,820000.0,Approved,45,Heart Disease,46,No,Yes,Northeast,820000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3162,LIF-1481,CUST-1002,2022-03-10,450000.0,Approved,60,Accidental Fall,36,No,No,West,450000.0,Workplace accident verified through employer incident report
+CLM-3163,LIF-1333,CUST-1003,2023-05-18,780000.0,Approved,35,Cancer,59,No,Yes,Southeast,780000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3164,LIF-1043,CUST-1004,2023-02-25,650000.0,Approved,50,Stroke,41,No,No,Southwest,650000.0,
+CLM-3165,LIF-1592,CUST-1005,2022-07-19,400000.0,Approved,55,Vehicle Accident,59,Yes,No,Southwest,400000.0,Workplace accident verified through employer incident report
+CLM-3166,LIF-1170,CUST-1006,2022-10-11,800000.0,Approved,40,Respiratory Disease,51,No,Yes,Northeast,800000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3167,LIF-1015,CUST-1007,2021-06-05,720000.0,Approved,70,Workplace Accident,54,Yes,No,Midwest,720000.0,Workplace accident verified through employer incident report
+CLM-3168,LIF-1028,CUST-1008,2023-04-23,500000.0,Denied,90,Stroke,62,No,Yes,Northeast,0.0,Claim denied due to material misrepresentation on application
+CLM-3169,LIF-1227,CUST-1008,2021-12-15,1500000.0,Approved,65,Natural Causes,41,No,No,Midwest,1500000.0,
+CLM-3170,LIF-1412,CUST-1009,2021-11-10,350000.0,Approved,40,Heart Disease,49,No,Yes,Southeast,350000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3171,LIF-1210,CUST-1010,2022-01-22,300000.0,Approved,38,Accidental Fall,54,No,No,Midwest,300000.0,
+CLM-3172,LIF-1714,CUST-1011,2021-10-02,780000.0,Approved,42,Cancer,46,No,Yes,Southeast,780000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3173,LIF-1369,CUST-1012,2020-08-29,950000.0,Approved,55,Respiratory Disease,54,No,Yes,West,950000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3174,LIF-1133,CUST-1013,2020-09-19,275000.0,Approved,60,Vehicle Accident,53,Yes,No,Southeast,275000.0,Workplace accident verified through employer incident report
+CLM-3175,LIF-1322,CUST-1014,2021-04-13,750000.0,Approved,32,Heart Disease,46,No,Yes,Northeast,750000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3176,LIF-1364,CUST-1015,2023-05-01,1200000.0,Approved,35,Natural Causes,47,No,No,Midwest,1200000.0,
+CLM-3177,LIF-1054,CUST-1016,2023-04-10,500000.0,Approved,50,Stroke,46,No,Yes,Northeast,500000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3178,LIF-1305,CUST-1017,2023-03-05,270000.0,Approved,75,Workplace Accident,67,Yes,No,Southeast,270000.0,Workplace accident verified through employer incident report
+CLM-3179,LIF-1718,CUST-1018,2022-08-22,2700000.0,Approved,45,Cancer,54,No,Yes,Southwest,2700000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3180,LIF-1129,CUST-1019,2021-12-05,850000.0,Approved,40,Heart Disease,44,No,No,Northeast,850000.0,
+CLM-3181,LIF-1169,CUST-1001,2022-09-15,480000.0,Approved,45,Heart Disease,64,No,Yes,Midwest,480000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3182,LIF-1541,CUST-1001,2023-03-22,1100000.0,Approved,75,Cancer,48,No,Yes,Northeast,1100000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3183,LIF-1284,CUST-1002,2021-12-04,350000.0,Approved,38,Workplace accident,57,Yes,No,Southwest,350000.0,Workplace accident verified through employer incident report
+CLM-3184,LIF-1198,CUST-1003,2022-07-10,375000.0,Approved,60,Respiratory Disease,58,No,Yes,Southwest,375000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3185,LIF-1074,CUST-1004,2023-01-19,700000.0,Approved,55,Vehicle accident,47,Yes,No,Southeast,700000.0,Workplace accident verified through employer incident report
+CLM-3186,LIF-1004,CUST-1005,2022-05-24,630000.0,Approved,50,Stroke,58,No,Yes,Southeast,630000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3187,LIF-1142,CUST-1004,2023-04-02,800000.0,Approved,42,Cancer,58,No,Yes,Northeast,800000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3188,LIF-1526,CUST-1006,2020-09-15,150000.0,Approved,40,Complications of diabetes,53,No,Yes,Midwest,150000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3189,LIF-1748,CUST-1006,2023-06-21,460000.0,Approved,110,Construction site accident,64,Yes,No,Southeast,460000.0,Workplace accident verified through employer incident report
+CLM-3190,LIF-1095,CUST-1007,2023-01-17,450000.0,Approved,35,Natural Causes,34,No,No,West,450000.0,
+CLM-3191,LIF-1621,CUST-1008,2023-03-30,480000.0,Approved,50,Heart Disease,52,No,Yes,Midwest,480000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3192,LIF-1065,CUST-1009,2023-05-12,1250000.0,Approved,80,Fall from height at construction site,58,Yes,No,Midwest,1250000.0,Workplace accident verified through employer incident report
+CLM-3193,LIF-1585,CUST-1010,2019-03-01,0.09,Denied,120,Stroke,58,No,Yes,Midwest,0.0,Claim denied due to material misrepresentation on application
+CLM-3194,LIF-1517,CUST-1011,2023-04-18,400000.0,Approved,55,Cancer,40,No,Yes,Midwest,400000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3195,LIF-1682,CUST-1010,2023-01-25,700000.0,Approved,38,Accidental drowning,34,No,No,West,700000.0,
+CLM-3196,LIF-1523,CUST-1012,2022-07-17,3200000.0,Approved,95,Natural Causes,49,No,No,Southwest,3200000.0,
+CLM-3197,LIF-1465,CUST-1013,2021-11-05,395000.0,Approved,42,Lung Cancer,46,No,Yes,Midwest,395000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3198,LIF-1417,CUST-1012,2023-02-10,1050000.0,Approved,60,Acute myocardial infarction,40,No,Yes,West,1050000.0,Claim approved after medical review confirmed pre-existing condition
+CLM-3199,LIF-1325,CUST-1014,2022-08-30,850000.0,Approved,57,Stroke,52,No,No,Midwest,850000.0,
+CLM-3200,LIF-1002,CUST-1015,2020-06-15,750000.0,Approved,70,Accidental fall,46,No,No,Northeast,750000.0,
