@@ -195,16 +195,48 @@ Instructions: |
 ```
 
 ### Step 3: Connect Fabric Data Agent
-1. **Add Resource**: Connect your published Fabric Data Agent
-2. **Configure Access**: Ensure all agents can query the lakehouse data
-3. **Test Connection**: Verify agents can access policy and claims data
+1. **Add Resource**: Connect your published Fabric Data Agent resource
+2. **Configure Data Access**: Ensure all agents can query these enhanced datasets:
+   - `policy_portfolio.csv` - 1,252+ policy records including 50 specialized aviation professionals (LIF-1800 to LIF-1849)
+   - `claims_portfolio.csv` - 217+ claims records including 16 aviation-specific claims (CLM-4001 to CLM-4016)
+   - **Aviation Enhancement**: 22 unique aviation occupations from flight instructors to senior captains
+   - **Elizabeth Darcy Peers**: Direct comparison data for similar aviation professionals and risk profiles
+3. **Test Connection**: Verify agents can execute queries against lakehouse data
+4. **Validate Queries**: Test sample queries for aviation professional comparisons and claims pattern analysis
+5. **Aviation Benchmarking**: Confirm access to aviation-specific risk patterns, coverage ratios, and industry claims data
 
 ### Step 4: Agent Configuration
 For each agent, configure:
-- **Data Access**: Connect to Fabric Data Agent resource
+- **Data Access**: Connect to enhanced Fabric Data Agent resource with aviation datasets
 - **Instructions**: Use the role-specific instructions above
-- **Capabilities**: Enable file analysis and data querying
+- **Capabilities**: Enable file analysis, data querying, and aviation peer comparison
 - **Collaboration**: Ensure agents can coordinate with each other
+- **Aviation Intelligence**: Access to 50 aviation professionals and 16 aviation claims for benchmarking
+
+### Step 4.1: Aviation Data Enhancement Overview
+Your multi-agent system now has access to comprehensive aviation industry data:
+
+#### **Enhanced Aviation Professional Dataset**
+- **50 Aviation Policies**: LIF-1800 to LIF-1849 with specialized aviation occupations
+- **22 Unique Occupations**: From flight instructors to senior airline captains, corporate pilots, agricultural pilots
+- **Risk Distribution**: Risk B (2%), Risk C (26%), Risk D (48%), Risk E (24%) - realistic aviation risk spread
+- **Coverage Range**: $500K to $3M policies matching Elizabeth Darcy's profile range
+- **Geographic Spread**: All 5 US regions represented with aviation professionals
+
+#### **Aviation Claims Intelligence Dataset**  
+- **16 Aviation Claims**: CLM-4001 to CLM-4016 with aviation-specific causes and patterns
+- **Industry-Realistic Causes**: 25% aviation accidents, 37.5% medical causes, 37.5% other causes
+- **Approval Patterns**: 81.2% approved, 12.5% pending, 6.2% denied (industry standards)
+- **Occupation Correlation**: 50% occupation-related claims reflecting aviation industry risks
+- **Processing Intelligence**: Average 16.2 day resolution for aviation professionals
+
+#### **Elizabeth Darcy Peer Comparison Data**
+Your agents can now perform sophisticated peer analysis:
+- **Direct Peer Matching**: Compare to similar age aviation professionals (40-47 years)
+- **Coverage Ratio Validation**: Elizabeth's 10.9x income ratio vs. aviation peer range (8.5x-12.5x)
+- **Risk Classification**: Validate her Risk C rating against 24 aviation professionals in same category
+- **Industry Claims Context**: Analyze similar aviation professionals' claims patterns for risk assessment
+- **Geographic Benchmarking**: Compare against aviation professionals in similar regions
 
 ---
 
@@ -255,23 +287,29 @@ You'll work with **4 separate document files** that agents must analyze:
 **AI Agent Results (expected within minutes):**
 Each specialist agent will identify the same gaps PLUS additional details:
 
-**Medical Risk Agent** identifies:
+**Medical Risk Agent** identifies (Expected: 2-3 minutes):
 - Same: Vague family medical history responses (matches human finding)
 - Enhanced: Specific medical details needed for hypertension risk assessment
 - Additional: Aviation medical compliance requirements not noted by human
 - Advantage: Immediate access to supporting medical documentation for gap resolution
 
-**Financial Analysis Agent** identifies:
+**Financial Analysis Agent** identifies (Expected: 2-3 minutes):
 - Same: Approximate income figures need verification (matches human finding)  
 - Enhanced: Specific asset/debt documentation requirements with dollar amounts
 - Additional: Aviation industry compensation structure analysis
 - Advantage: Instant verification against supporting financial documentation
 
-**Compliance Agent** identifies:
+**Compliance Agent** identifies (Expected: 2-3 minutes):
 - Same: Incomplete beneficiary designations (matches human finding)
 - Enhanced: Specific regulatory requirements for trust arrangements
 - Additional: Colorado state-specific compliance requirements
 - Advantage: Immediate regulatory compliance verification
+
+**Master Orchestrator** synthesizes (Expected: 5-10 minutes):
+- Complete gap resolution coordination
+- Final risk assessment synthesis
+- Comprehensive underwriting recommendation
+- Performance comparison vs human process
 
 #### 6.3 Information Access and Gap Resolution
 **Key Advantage Demonstration**: While human underwriters must wait weeks for documentation to arrive separately, AI agents access all supporting documentation instantly:
@@ -284,12 +322,15 @@ Each specialist agent will identify the same gaps PLUS additional details:
 - **Human Process**: 3+ weeks waiting for documentation, multiple follow-ups, "cannot rate" result
 - **AI Process**: Minutes to identify gaps AND resolve them with complete recommendations
 
-#### 6.4 Data Integration with Fabric Agent
+#### 6.4 Enhanced Data Integration with Fabric Agent
 Simultaneously, agents access the Fabric Data Agent to:
-- **Compare similar aviation professional profiles** from the lakehouse
-- **Benchmark coverage amounts** against industry data  
-- **Analyze claim patterns** for similar occupations and risk factors
-- **Validate risk ratings** against historical underwriting data
+- **Compare Elizabeth Darcy to Aviation Peers**: Query 50 specialized aviation professional profiles (LIF-1800 to LIF-1849) representing 22 unique aviation occupations
+- **Benchmark Coverage Amounts**: Analyze Elizabeth's $2.5M coverage against similar aviation professionals (10.9x income ratio validation)
+- **Analyze Aviation Claims Patterns**: Review 16 aviation-specific claims (CLM-4001 to CLM-4016) for similar occupations and risk factors
+- **Validate Aviation Risk Ratings**: Compare Elizabeth's Risk C rating against regional captains, corporate pilots, and major airline professionals
+- **Industry-Specific Analysis**: Access aviation accident patterns, medical emergency trends, and occupation-related claims data
+- **Peer Coverage Ratios**: Validate coverage multiples against aviation industry standards (range: 8.5x to 12.5x income)
+- **Regional Benchmarking**: Compare against aviation professionals in similar geographic regions and route types
 
 ### Step 7: Collaborative Decision Making
 
@@ -333,9 +374,10 @@ Your multi-agent system should demonstrate:
 
 #### **Information Access and Integration**
 - **Supporting Documentation**: Agents access complete medical and financial records
-- **Fabric Data Integration**: Use lakehouse data for benchmarking and validation
-- **Cross-Reference Analysis**: Compare applicant to similar profiles in database
-- **Industry Standards**: Apply current underwriting guidelines and market practices
+- **Enhanced Fabric Data Integration**: Use comprehensive lakehouse data including 50 aviation professionals and 16 aviation claims for benchmarking and validation
+- **Aviation Peer Analysis**: Compare Elizabeth Darcy directly to similar aviation professionals (age 40-47, international routes, major airline captains)
+- **Claims Pattern Recognition**: Analyze aviation-specific claims data (aviation accidents, medical emergencies, occupational risks) for risk model validation
+- **Industry Coverage Standards**: Apply current aviation underwriting guidelines with peer comparison data from 22 aviation occupation types
 
 #### **Final Assessment Results**
 Agents should provide comprehensive evaluation:
@@ -369,15 +411,19 @@ Agents should provide comprehensive analysis:
 
 #### **Final Underwriting Recommendation**
 - **Coverage**: $2,500,000 Term Life Insurance - APPROVED
-- **Risk Classification**: Standard Plus 
-- **Annual Premium**: Approximately $3,400 (competitive for aviation professional)
+- **Risk Classification**: Standard Plus (validated against 24 similar aviation professionals in Risk C category)
+- **Annual Premium**: Approximately $3,400 (competitive for aviation professional, benchmarked against peer data)
 - **Policy Conditions**: Standard aviation exclusions, medical monitoring continuation
+- **Peer Validation**: Coverage ratio 10.9x income aligns with aviation industry standards (peer range: 8.5x-12.5x)
+- **Claims Context**: Risk assessment informed by 16 aviation claims including 4 aviation accidents and 6 medical causes
 
 #### **Decision Rationale**
-- **Medical**: Controlled hypertension with excellent compliance meets Standard Plus criteria
-- **Financial**: Coverage fully justified by income and family protection needs
-- **Occupation**: Aviation risks mitigated by excellent safety record and major airline employment
-- **Overall**: Well-qualified applicant presenting standard plus risk profile
+- **Medical**: Controlled hypertension with excellent compliance meets Standard Plus criteria (validated against 6 aviation medical claims in peer data)
+- **Financial**: Coverage fully justified by income and family protection needs (10.9x ratio within aviation industry peer range of 8.5x-12.5x)
+- **Aviation Occupation**: Risks mitigated by excellent safety record and major airline employment (peer data shows 25% aviation accident rate among all aviation claims, but lower for major airline captains)
+- **Peer Benchmarking**: Elizabeth's profile aligns with approved aviation professionals in similar age range (40-47) and coverage amounts ($2M-$3M)
+- **Claims Intelligence**: Aviation claims data shows 81.2% approval rate with 16.2 day average resolution, confirming standard processing expectations
+- **Overall**: Well-qualified applicant presenting standard plus risk profile with strong peer validation from comprehensive aviation dataset
 
 ### Automation Benefits Demonstrated
 
@@ -411,16 +457,19 @@ Use these questions for team discussion and reflection:
 
 ### Technical Implementation
 1. **How did agent specialization improve analysis quality?**
-2. **What role did the Fabric Data Agent play in benchmarking?**
-3. **How could this system scale to handle hundreds of applications daily?**
+2. **What role did the enhanced Fabric Data Agent play in aviation benchmarking?**
+3. **How did the 50 aviation professionals and 16 aviation claims enhance Elizabeth Darcy's assessment?**
+4. **How could this system scale to handle hundreds of applications daily with specialized industry datasets?**
 
 ### Business Impact
 1. **What's the ROI of this multi-agent approach vs. manual processing?**
-   - *Consider: 3+ weeks to "cannot rate" vs. 2-3 hours to complete recommendation*
+   - *Consider: 3+ weeks to "cannot rate" vs. 2-3 hours to complete recommendation with aviation peer validation*
 2. **How does this improve customer experience and satisfaction?**
-   - *Consider: Faster decisions, fewer document requests, proactive gap identification*
-3. **What compliance benefits does systematic analysis provide?**
-   - *Consider: Complete audit trails, consistent regulatory adherence, reduced human error*
+   - *Consider: Faster decisions, fewer document requests, proactive gap identification, industry-specific expertise*
+3. **What compliance benefits does systematic analysis with specialized datasets provide?**
+   - *Consider: Complete audit trails, consistent regulatory adherence, reduced human error, aviation industry compliance*
+4. **How does specialized industry data (like aviation datasets) enhance underwriting accuracy?**
+   - *Consider: 22 aviation occupations, 16 aviation claims, peer risk validation, industry-specific patterns*
 
 ### Industry Applications
 1. **How could this approach apply to other insurance products?**
@@ -435,15 +484,15 @@ By the end of this lab, your team should have:
 
 ### **Technical Achievements**
 - [ ] Successfully created 4 specialized agents
-- [ ] Connected agents to Fabric Data Agent resource
-- [ ] Executed coordinated gap analysis workflow
-- [ ] Generated comprehensive underwriting report
+- [ ] Connected agents to enhanced Fabric Data Agent resource with aviation datasets
+- [ ] Executed coordinated gap analysis workflow with aviation peer benchmarking
+- [ ] Generated comprehensive underwriting report with industry-specific validation
 
 ### **Business Understanding**
 - [ ] Identified all major information gaps
-- [ ] Understood aviation occupation risk factors
-- [ ] Appreciated multi-agent coordination benefits
-- [ ] Recognized automation value proposition
+- [ ] Understood aviation occupation risk factors with peer data validation
+- [ ] Appreciated multi-agent coordination benefits with specialized industry datasets
+- [ ] Recognized automation value proposition with enhanced data intelligence
 
 ### **Strategic Insights**
 - [ ] Envisioned scaled implementation across Sterling Insurance
