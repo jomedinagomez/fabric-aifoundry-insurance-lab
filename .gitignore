@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 .env
 
+# Data generation scripts and sensitive files
+case_study/data/data_generation_scripts/
+
 # C extensions
 *.so
 *lab_planning_insights*

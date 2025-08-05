@@ -1,0 +1,101 @@
+policy_id,occupation,age,coverage_amount,premium,policy_type,issue_date,risk_rating,medical_exam_required,state,annual_income,health_status,smoking_status,beneficiary_relationship,payment_frequency,policy_status,underwriter_id,agent_id,last_premium_paid_date,policy_value,region,application_channel,explanation
+LIF-1001,Software Engineer,32,450000.0,3800.0,Term Life,2019-06-15,A,No,CA,120000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW01,AGT01,2024-05-15,0.0,West,Agent,
+LIF-1002,Registered Nurse,45,900000.0,13500.0,Whole Life,2020-11-03,B,Yes,NY,95000.0,Good,Non-Smoker,Child,Monthly,Active,UW02,AGT05,2024-06-10,530000.0,Northeast,Online,
+LIF-1003,Construction Worker,54,1200000.0,28500.0,Universal Life,2018-08-24,D,Yes,TX,51000.0,Fair,Smoker,Spouse,Quarterly,Lapsed,UW03,AGT12,2021-10-30,215000.0,Southwest,Broker,Policy lapsed due to missed payments consistent with service occupation and payment gaps.
+LIF-1004,University Professor,38,600000.0,6200.0,Term Life,2019-02-20,A,Yes,MA,88000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW04,AGT03,2024-04-25,0.0,Northeast,Agent,
+LIF-1005,Sales Representative,47,400000.0,7400.0,Whole Life,2021-01-10,C,No,FL,67000.0,Good,Non-Smoker,Child,Monthly,Active,UW05,AGT06,2024-06-01,215000.0,Southeast,Broker,
+LIF-1006,Financial Advisor,43,1100000.0,15800.0,Universal Life,2018-04-11,B,Yes,IL,140000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW06,AGT21,2024-05-28,725000.0,Midwest,Agent,
+LIF-1007,Auto Mechanic,50,550000.0,11500.0,Whole Life,2022-05-05,D,Yes,OH,56000.0,Fair,Smoker,Spouse,Monthly,Lapsed,UW07,AGT18,2023-01-15,175000.0,Midwest,Direct Mail,Policy lapsed with higher risk occupation and payment delays.
+LIF-1008,Architect,36,750000.0,7850.0,Term Life,2018-09-02,A,Yes,WA,110000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW08,AGT09,2024-06-05,0.0,West,Agent,
+LIF-1009,Truck Driver,58,950000.0,22000.0,Universal Life,2019-03-15,E,Yes,GA,58000.0,Fair,Smoker,Other,Quarterly,Suspended,UW09,AGT15,2023-11-20,189000.0,Southeast,Phone,Recent premium payment gap led to suspension; higher risk profile.
+LIF-1010,Pharmacist,39,850000.0,9200.0,Whole Life,2020-07-19,A,Yes,NJ,115000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW10,AGT24,2024-06-09,485000.0,Northeast,Online,
+LIF-1011,Physician,53,2300000.0,38500.0,Universal Life,2018-01-21,B,Yes,CA,320000.0,Good,Non-Smoker,Child,Annual,Active,UW11,AGT20,2024-06-07,1450000.0,West,Agent,
+LIF-1012,Retail Manager,42,480000.0,9700.0,Term Life,2019-12-05,C,Yes,MI,65000.0,Good,Non-Smoker,Spouse,Monthly,Active,UW12,AGT25,2024-06-03,0.0,Midwest,Agent,
+LIF-1013,Physical Therapist,46,700000.0,12500.0,Whole Life,2021-04-11,B,Yes,PA,90000.0,Good,Non-Smoker,Parent,Quarterly,Active,UW13,AGT07,2024-05-30,360000.0,Northeast,Broker,
+LIF-1014,Restaurant Worker,61,300000.0,10800.0,Term Life,2018-02-19,E,Yes,AL,43000.0,Fair,Smoker,Other,Monthly,Lapsed,UW14,AGT16,2021-05-20,0.0,Southeast,Direct Mail,Higher risk occupation and age with missed payments resulted in lapse.
+LIF-1015,Insurance Agent,35,650000.0,7450.0,Term Life,2021-10-01,A,Yes,CO,100000.0,Excellent,Non-Smoker,Child,Annual,Active,UW15,AGT08,2024-06-10,0.0,West,Agent,
+LIF-1016,Warehouse Personnel,57,750000.0,23000.0,Universal Life,2019-08-10,E,Yes,IN,52000.0,Fair,Smoker,Spouse,Quarterly,Suspended,UW01,AGT27,2023-12-15,280000.0,Midwest,Online,Suspended due to payment non-compliance and higher risk occupation.
+LIF-1017,Attorney,48,1500000.0,19500.0,Whole Life,2020-03-22,B,Yes,VA,130000.0,Good,Non-Smoker,Spouse,Annual,Active,UW02,AGT13,2024-06-01,890000.0,Southeast,Agent,
+LIF-1018,Electrician,41,520000.0,12800.0,Whole Life,2018-07-30,C,Yes,MN,75000.0,Good,Non-Smoker,Child,Monthly,Active,UW03,AGT28,2024-05-27,240000.0,Midwest,Online,
+LIF-1019,Truck Driver,60,625000.0,22500.0,Universal Life,2019-12-20,E,Yes,LA,48000.0,Fair,Smoker,Spouse,Quarterly,Lapsed,UW04,AGT02,2022-08-15,175000.0,Southwest,Broker,"Lapsed due to age, health, high-risk occupation, and payment defaults."
+LIF-1020,Medical Technician,34,375000.0,4600.0,Term Life,2021-05-14,A,No,OR,74000.0,Excellent,Non-Smoker,Spouse,Monthly,Active,UW05,AGT29,2024-06-07,0.0,West,Online,
+LIF-1021,Property Manager,39,850000.0,11200.0,Whole Life,2018-11-23,C,Yes,NV,98000.0,Good,Non-Smoker,Spouse,Annual,Active,UW06,AGT11,2024-06-09,420000.0,West,Agent,
+LIF-1022,Business Manager,37,1750000.0,21000.0,Universal Life,2019-10-29,B,Yes,CT,160000.0,Good,Non-Smoker,Child,Annual,Active,UW07,AGT14,2024-06-10,1050000.0,Northeast,Broker,
+LIF-1023,Hair Stylist,44,275000.0,5600.0,Term Life,2022-01-15,D,No,SC,39000.0,Good,Non-Smoker,Spouse,Monthly,Active,UW08,AGT17,2024-06-10,0.0,Southeast,Agent,
+LIF-1024,Plumber,53,1150000.0,25100.0,Universal Life,2019-05-08,D,Yes,WI,78000.0,Fair,Smoker,Spouse,Quarterly,Lapsed,UW09,AGT22,2022-12-30,345000.0,Midwest,Broker,Lapse likely from payment gaps and risk class D occupation.
+LIF-1025,Insurance Broker,29,500000.0,4300.0,Term Life,2023-03-10,A,No,AZ,75000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW10,AGT30,2024-06-09,0.0,Southwest,Online,
+LIF-1026,Software Engineer,34,480000.0,4150.0,Term Life,2019-06-15,A,No,CA,120000.0,Excellent,Non-Smoker,Spouse,Monthly,Active,UW01,AGT05,2024-06-10,0.0,West,Agent,
+LIF-1027,Registered Nurse,42,760000.0,9850.0,Whole Life,2020-11-28,B,Yes,NY,85000.0,Good,Non-Smoker,Child,Annual,Active,UW08,AGT26,2024-01-15,85000.0,Northeast,Online,
+LIF-1028,Financial Advisor,50,2000000.0,38000.0,Universal Life,2018-03-05,B,Yes,IL,190000.0,Excellent,Non-Smoker,Spouse,Quarterly,Active,UW11,AGT12,2024-05-20,1200000.0,Midwest,Agent,
+LIF-1029,Construction Worker,58,600000.0,15600.0,Term Life,2018-09-10,D,Yes,TX,75000.0,Fair,Smoker,Child,Monthly,Lapsed,UW04,AGT18,2021-07-15,0.0,Southwest,Broker,Lapsed due to payment gaps and higher risk occupation.
+LIF-1030,Architect,36,350000.0,4200.0,Term Life,2022-08-23,A,No,WA,90000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW07,AGT03,2024-05-15,0.0,West,Online,
+LIF-1031,Truck Driver,47,550000.0,14800.0,Whole Life,2019-01-19,C,Yes,OH,62000.0,Good,Smoker,Other,Monthly,Suspended,UW02,AGT22,2023-08-20,35000.0,Midwest,Agent,Suspended due to recent premium payment delay.
+LIF-1032,Marketing Manager,29,1200000.0,13200.0,Universal Life,2023-02-17,A,Yes,FL,110000.0,Excellent,Non-Smoker,Spouse,Quarterly,Active,UW03,AGT11,2024-06-01,650000.0,Southeast,Broker,
+LIF-1033,University Professor,55,900000.0,28000.0,Whole Life,2018-05-30,B,Yes,MA,98000.0,Good,Non-Smoker,Spouse,Annual,Active,UW05,AGT29,2024-03-22,410000.0,Northeast,Agent,
+LIF-1034,Electrician,43,430000.0,8120.0,Term Life,2021-10-12,C,No,PA,68000.0,Good,Non-Smoker,Parent,Quarterly,Active,UW10,AGT17,2024-06-07,0.0,Northeast,Phone,
+LIF-1035,Pharmacist,38,790000.0,24600.0,Whole Life,2019-07-14,A,Yes,CO,115000.0,Excellent,Non-Smoker,Spouse,Monthly,Active,UW09,AGT08,2024-05-25,370000.0,West,Direct Mail,
+LIF-1036,Retail Manager,45,400000.0,10600.0,Term Life,2018-11-20,C,No,GA,48000.0,Fair,Smoker,Child,Monthly,Lapsed,UW06,AGT14,2022-04-10,0.0,Southeast,Broker,Lapsed policy due to payment lapse and smoking status.
+LIF-1037,Business Manager,39,1500000.0,15500.0,Universal Life,2022-04-04,B,Yes,MN,135000.0,Good,Non-Smoker,Spouse,Annual,Active,UW15,AGT21,2024-06-04,750000.0,Midwest,Online,
+LIF-1038,Construction Worker,60,350000.0,14250.0,Term Life,2018-12-01,E,Yes,AL,53000.0,Poor,Smoker,Spouse,Monthly,Terminated,UW13,AGT19,2021-03-02,0.0,Southeast,Direct Mail,Terminated due to severe health and payment non-compliance.
+LIF-1039,Insurance Agent,33,310000.0,4300.0,Term Life,2023-01-15,A,No,OH,65000.0,Excellent,Non-Smoker,Spouse,Quarterly,Active,UW14,AGT10,2024-06-10,0.0,Midwest,Agent,
+LIF-1040,Plumber,48,475000.0,14000.0,Term Life,2020-06-08,D,No,MI,72000.0,Good,Non-Smoker,Spouse,Monthly,Active,UW12,AGT28,2024-04-30,0.0,Midwest,Direct Mail,
+LIF-1041,School Teacher,44,530000.0,13250.0,Whole Life,2019-09-21,B,Yes,VA,58000.0,Good,Non-Smoker,Parent,Annual,Active,UW10,AGT01,2024-06-05,150000.0,Southeast,Agent,
+LIF-1042,Auto Mechanic,35,280000.0,4600.0,Term Life,2021-11-11,C,No,MO,53000.0,Good,Non-Smoker,Other,Quarterly,Active,UW04,AGT20,2024-06-01,0.0,Midwest,Online,
+LIF-1043,Attorney,41,1200000.0,23200.0,Universal Life,2018-07-04,B,Yes,NJ,130000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW01,AGT24,2024-05-28,600000.0,Northeast,Direct Mail,
+LIF-1044,Electrician,53,680000.0,21000.0,Whole Life,2019-03-30,C,Yes,TX,80000.0,Fair,Smoker,Child,Monthly,Suspended,UW02,AGT27,2023-01-15,60000.0,Southwest,Agent,Suspended due to payment compliance issues.
+LIF-1045,Restaurant Manager,39,440000.0,7800.0,Term Life,2023-03-14,C,No,NV,50000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW09,AGT06,2024-06-09,0.0,West,Broker,
+LIF-1046,Physician (Non-Surgical),46,2350000.0,56000.0,Whole Life,2018-02-25,A,Yes,MD,220000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW14,AGT16,2024-06-06,1250000.0,Northeast,Agent,
+LIF-1047,Sales Representative,37,320000.0,6000.0,Term Life,2020-12-08,C,No,AZ,45000.0,Good,Non-Smoker,Child,Monthly,Active,UW08,AGT13,2024-05-30,0.0,Southwest,Online,
+LIF-1048,Physical Therapist,54,455000.0,14800.0,Whole Life,2021-07-19,B,Yes,OR,67000.0,Good,Non-Smoker,Spouse,Annual,Active,UW03,AGT25,2024-06-07,120000.0,West,Direct Mail,
+LIF-1049,Registered Nurse,38,625000.0,18000.0,Whole Life,2019-04-26,B,Yes,NC,78000.0,Good,Non-Smoker,Spouse,Monthly,Terminated,UW06,AGT09,2021-12-20,95000.0,Southeast,Agent,Terminated for medical condition deterioration.
+LIF-1050,Corporate Executive,44,8000000.0,125000.0,Universal Life,2018-10-11,A,Yes,NY,600000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW13,AGT30,2024-06-10,3700000.0,Northeast,Agent,
+LIF-1051,Software Engineer,29,400000.0,310.0,Whole Life,2019-06-12,A,Yes,MA,110000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW02,AGT03,2024-05-01,25000.0,Northeast,Agent,
+LIF-1052,Construction Worker,54,750000.0,4200.0,Term Life,2020-09-15,D,Yes,TX,65000.0,Fair,Smoker,Child,Monthly,Lapsed,UW07,AGT18,2022-11-10,0.0,Southwest,Broker,Lapsed due to payment gaps and higher risk occupation.
+LIF-1053,University Professor,43,1200000.0,1450.0,Universal Life,2018-04-22,B,Yes,IL,95000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW05,AGT09,2024-05-15,250000.0,Midwest,Online,
+LIF-1054,Truck Driver,58,500000.0,3750.0,Term Life,2019-12-01,D,Yes,OH,55000.0,Good,Non-Smoker,Spouse,Monthly,Lapsed,UW06,AGT14,2021-09-20,0.0,Midwest,Agent,Policy lapsed due to premium payment lapses.
+LIF-1055,Pharmacist,35,2200000.0,2950.0,Whole Life,2021-08-20,A,Yes,CA,140000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW03,AGT28,2024-06-10,130000.0,West,Agent,
+LIF-1056,Retail Manager,47,350000.0,1320.0,Term Life,2018-03-30,C,No,GA,48000.0,Good,Non-Smoker,Child,Annual,Terminated,UW09,AGT12,2023-06-01,0.0,Southeast,Broker,Terminated due to recent medical condition.
+LIF-1057,Financial Advisor,39,1500000.0,2750.0,Universal Life,2022-01-11,B,Yes,NY,120000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW11,AGT04,2024-06-12,50000.0,Northeast,Online,
+LIF-1058,Electrician,50,520000.0,3100.0,Term Life,2018-11-18,E,Yes,MI,70000.0,Fair,Smoker,Other,Monthly,Suspended,UW13,AGT25,2023-03-15,0.0,Midwest,Direct Mail,Suspended due to payment compliance issues.
+LIF-1059,Pharmacist,33,950000.0,2440.0,Whole Life,2019-07-10,A,Yes,MA,115000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW01,AGT15,2024-05-28,60000.0,Northeast,Agent,
+LIF-1060,Delivery Driver,44,330000.0,1550.0,Term Life,2019-05-22,D,No,FL,42000.0,Good,Non-Smoker,Spouse,Annual,Active,UW04,AGT10,2024-04-25,0.0,Southeast,Online,
+LIF-1061,Accountant,39,1100000.0,2600.0,Universal Life,2020-12-03,B,Yes,WA,100000.0,Good,Non-Smoker,Spouse,Annual,Active,UW08,AGT22,2024-06-14,40000.0,West,Agent,
+LIF-1062,Restaurant Worker,31,270000.0,1350.0,Term Life,2020-02-27,E,No,AZ,31000.0,Fair,Smoker,Parent,Monthly,Lapsed,UW12,AGT20,2021-08-10,0.0,Southwest,Direct Mail,Lapsed - payment gaps and high risk status.
+LIF-1063,Software Developer,27,600000.0,1300.0,Term Life,2023-03-15,A,Yes,CO,85000.0,Excellent,Non-Smoker,Spouse,Quarterly,Active,UW10,AGT01,2024-06-12,0.0,West,Online,
+LIF-1064,Property Manager,52,850000.0,4100.0,Term Life,2018-07-07,D,Yes,IN,60000.0,Fair,Smoker,Child,Monthly,Suspended,UW09,AGT30,2022-12-01,0.0,Midwest,Broker,Suspended due to recent premium gaps.
+LIF-1065,Attorney,41,1000000.0,2400.0,Whole Life,2021-10-19,B,Yes,NJ,130000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW01,AGT07,2024-06-13,55000.0,Northeast,Agent,
+LIF-1066,Warehouse Personnel,55,430000.0,3800.0,Term Life,2019-08-01,E,Yes,IL,51000.0,Fair,Smoker,Spouse,Monthly,Lapsed,UW15,AGT26,2021-11-20,0.0,Midwest,Broker,Lapsed due to poor payment compliance and risk factors.
+LIF-1067,Sales Representative,38,540000.0,2300.0,Universal Life,2022-04-14,C,Yes,OR,70000.0,Good,Non-Smoker,Spouse,Annual,Active,UW03,AGT21,2024-06-01,20000.0,West,Online,
+LIF-1068,Certified Public Accountant,48,1400000.0,2850.0,Whole Life,2018-10-05,A,Yes,PA,110000.0,Excellent,Non-Smoker,Child,Annual,Active,UW05,AGT11,2024-05-20,85000.0,Northeast,Agent,
+LIF-1069,Nurse,35,650000.0,2100.0,Whole Life,2021-05-23,C,Yes,VA,78000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW07,AGT05,2024-06-14,35000.0,Southeast,Agent,
+LIF-1070,Auto Mechanic,43,270000.0,1350.0,Term Life,2019-01-17,D,No,KY,42000.0,Good,Smoker,Parent,Monthly,Terminated,UW13,AGT17,2023-04-01,0.0,Southeast,Direct Mail,Terminated due to recent health concerns.
+LIF-1071,Civil Engineer,45,1700000.0,3050.0,Universal Life,2020-06-20,B,Yes,MN,98000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW14,AGT02,2024-06-11,60000.0,Midwest,Broker,
+LIF-1072,Truck Driver,59,400000.0,3800.0,Term Life,2018-09-30,E,Yes,NC,47000.0,Poor,Smoker,Spouse,Monthly,Lapsed,UW06,AGT08,2021-07-15,0.0,Southeast,Phone,Lapsed for payment non-compliance and health risk.
+LIF-1073,Business Manager,42,1500000.0,2900.0,Whole Life,2019-11-12,B,Yes,NV,95000.0,Good,Non-Smoker,Spouse,Annual,Active,UW01,AGT23,2024-06-09,72000.0,West,Agent,
+LIF-1074,Restaurant Manager,37,330000.0,1400.0,Term Life,2022-08-04,D,No,TN,50000.0,Good,Non-Smoker,Child,Annual,Active,UW12,AGT16,2024-05-30,0.0,Southeast,Broker,
+LIF-1075,Architect,34,900000.0,2350.0,Whole Life,2023-01-20,A,Yes,WA,92000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW10,AGT06,2024-06-15,48000.0,West,Online,
+LIF-1076,Software Engineer,32,450000.0,1700.0,Term Life,2019-06-15,A,No,CA,120000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW01,AGT01,2024-05-01,0.0,West,Agent,
+LIF-1077,Registered Nurse,45,800000.0,5200.0,Whole Life,2020-11-20,B,Yes,NY,90000.0,Good,Non-Smoker,Child,Monthly,Active,UW02,AGT02,2024-06-10,150000.0,Northeast,Online,
+LIF-1078,Construction Worker,55,1200000.0,13500.0,Universal Life,2018-03-05,D,Yes,TX,60000.0,Fair,Smoker,Spouse,Quarterly,Active,UW03,AGT03,2024-05-15,210000.0,Southwest,Broker,
+LIF-1079,Financial Advisor,40,600000.0,5200.0,Term Life,2019-12-11,A,Yes,IL,150000.0,Good,Non-Smoker,Parent,Annual,Active,UW04,AGT04,2024-06-01,0.0,Midwest,Agent,
+LIF-1080,Truck Driver,38,400000.0,4800.0,Whole Life,2021-08-22,C,No,GA,70000.0,Good,Non-Smoker,Spouse,Monthly,Active,UW05,AGT05,2024-05-28,50000.0,Southeast,Agent,
+LIF-1081,University Professor,52,900000.0,7800.0,Universal Life,2018-07-19,B,Yes,OH,110000.0,Good,Non-Smoker,Spouse,Annual,Lapsed,UW06,AGT06,2022-03-10,180000.0,Midwest,Broker,Payment gap due to health issues
+LIF-1082,Retail Manager,41,350000.0,2900.0,Term Life,2021-01-10,C,No,FL,65000.0,Fair,Smoker,Child,Quarterly,Active,UW07,AGT07,2024-06-05,0.0,Southeast,Direct Mail,
+LIF-1083,Software Developer,27,2000000.0,10500.0,Whole Life,2020-09-05,A,Yes,WA,180000.0,Excellent,Non-Smoker,Spouse,Monthly,Active,UW08,AGT08,2024-06-15,320000.0,West,Online,
+LIF-1084,Restaurant Manager,36,480000.0,4100.0,Term Life,2019-04-18,C,Yes,NV,85000.0,Good,Non-Smoker,Other,Annual,Active,UW09,AGT09,2024-05-20,0.0,West,Agent,
+LIF-1085,Electrician,47,750000.0,6300.0,Universal Life,2018-10-30,C,Yes,MI,90000.0,Good,Non-Smoker,Spouse,Monthly,Lapsed,UW10,AGT10,2021-11-15,120000.0,Midwest,Phone,Premium payment delinquency
+LIF-1086,Attorney,50,1300000.0,11200.0,Whole Life,2020-05-11,B,Yes,MA,165000.0,Excellent,Non-Smoker,Spouse,Quarterly,Active,UW11,AGT11,2024-06-10,280000.0,Northeast,Online,
+LIF-1087,Truck Driver,60,350000.0,6000.0,Term Life,2019-02-14,D,No,AL,52000.0,Fair,Smoker,Child,Monthly,Terminated,UW12,AGT12,2023-01-10,0.0,Southeast,Agent,Policy terminated due to health deterioration
+LIF-1088,Pharmacist,44,750000.0,6800.0,Whole Life,2019-08-23,A,Yes,NJ,140000.0,Excellent,Non-Smoker,Spouse,Annual,Active,UW13,AGT13,2024-06-05,160000.0,Northeast,Broker,
+LIF-1089,Sales Representative,39,420000.0,3600.0,Term Life,2021-07-14,C,No,CO,75000.0,Good,Smoker,Other,Monthly,Suspended,UW14,AGT14,2023-12-20,0.0,West,Direct Mail,Recent non-payment
+LIF-1090,Business Manager,35,950000.0,7800.0,Universal Life,2020-12-01,B,Yes,OR,130000.0,Good,Non-Smoker,Spouse,Annual,Active,UW15,AGT15,2024-06-10,220000.0,West,Agent,
+LIF-1091,Plumber,43,380000.0,3300.0,Term Life,2019-09-09,D,No,PA,72000.0,Good,Non-Smoker,Child,Quarterly,Active,UW01,AGT16,2024-05-30,0.0,Northeast,Online,
+LIF-1092,Accountant,34,500000.0,4200.0,Whole Life,2021-03-21,A,Yes,MN,85000.0,Excellent,Non-Smoker,Spouse,Monthly,Active,UW02,AGT17,2024-06-12,120000.0,Midwest,Broker,
+LIF-1093,Electrician,37,420000.0,4500.0,Term Life,2018-11-27,C,No,OH,70000.0,Good,Non-Smoker,Spouse,Annual,Active,UW03,AGT18,2024-06-01,0.0,Midwest,Agent,
+LIF-1094,Teacher,41,390000.0,3500.0,Term Life,2020-02-15,B,No,WI,60000.0,Good,Non-Smoker,Child,Quarterly,Active,UW04,AGT19,2024-05-29,0.0,Midwest,Agent,
+LIF-1095,Pharmacist,49,1300000.0,11500.0,Whole Life,2019-05-05,A,Yes,CA,160000.0,Excellent,Non-Smoker,Spouse,Annual,Lapsed,UW05,AGT20,2022-10-15,300000.0,West,Online,Payment history issues
+LIF-1096,Restaurant Worker,29,250000.0,2600.0,Term Life,2021-06-12,D,No,TX,45000.0,Good,Non-Smoker,Parent,Monthly,Active,UW06,AGT21,2024-06-14,0.0,Southwest,Agent,
+LIF-1097,Software Engineer,30,1000000.0,7500.0,Universal Life,2018-12-03,A,Yes,IL,140000.0,Excellent,Non-Smoker,Spouse,Monthly,Active,UW07,AGT22,2024-06-10,160000.0,Midwest,Online,
+LIF-1098,Auto Mechanic,44,480000.0,4700.0,Term Life,2019-10-20,D,Yes,NY,70000.0,Good,Non-Smoker,Spouse,Annual,Suspended,UW08,AGT23,2023-11-15,0.0,Northeast,Direct Mail,Recent premium interruption
+LIF-1099,Architect,39,600000.0,5200.0,Whole Life,2020-07-07,B,Yes,VA,100000.0,Good,Non-Smoker,Spouse,Quarterly,Active,UW09,AGT24,2024-06-13,140000.0,Southeast,Agent,
+LIF-1100,Property Manager,42,430000.0,4000.0,Term Life,2018-01-25,C,No,NC,75000.0,Good,Non-Smoker,Child,Monthly,Active,UW10,AGT25,2024-06-02,0.0,Southeast,Online,
