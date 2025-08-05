@@ -1,7 +1,7 @@
 # Captain Elizabeth Darcy Case Study Lab Guide
 *Multi-Agent Insurance Underwriting Analysis*
 
-## 🎯 Lab Overview
+## Lab Overview
 
 This hands-on lab demonstrates advanced multi-agent capabilities for complex insurance underwriting scenarios. You'll analyze Captain Elizabeth Darcy's life insurance application using specialized AI agents that collaborate to identify gaps, assess risks, and generate comprehensive underwriting recommendations.
 
@@ -11,7 +11,7 @@ This hands-on lab demonstrates advanced multi-agent capabilities for complex ins
 
 ---
 
-## 📋 Case Study Background
+## Case Study Background
 
 ### Meet Captain Elizabeth Darcy
 - **Age**: 42
@@ -30,7 +30,7 @@ By the end of this lab, you will:
 
 ---
 
-## 🚀 Phase 1: Azure AI Foundry Multi-Agent Setup (20 minutes)
+## Phase 1: Azure AI Foundry Multi-Agent Setup (20 minutes)
 
 ### Step 1: Access Your AI Foundry Project
 1. **Navigate to Azure AI Foundry** ([ai.azure.com](https://ai.azure.com))
@@ -40,7 +40,7 @@ By the end of this lab, you will:
 ### Step 2: Create Specialized Agent System
 You'll create **4 specialized agents** that work together:
 
-#### 🏥 **Medical Risk Assessment Agent**
+#### **Medical Risk Assessment Agent**
 ```yaml
 Name: Medical Risk Analyzer
 Role: Identify medical information gaps and assess health risks
@@ -74,7 +74,7 @@ Instructions: |
   4. RECOMMENDATIONS: Provide clear medical underwriting recommendations with risk ratings and any conditions based on complete medical information.
 ```
 
-#### 💰 **Financial Analysis Agent**
+#### **Financial Analysis Agent**
 ```yaml
 Name: Financial Underwriter
 Role: Identify financial gaps and verify coverage justification
@@ -112,7 +112,7 @@ Instructions: |
      - Financially sustainable based on complete financial picture
 ```
 
-#### ⚖️ **Regulatory Compliance Agent**
+#### **Regulatory Compliance Agent**
 ```yaml
 Name: Compliance Officer
 Role: Identify compliance gaps and ensure regulatory adherence
@@ -150,7 +150,7 @@ Instructions: |
      - Anti-money laundering compliance standards
 ```
 
-#### 🎯 **Master Orchestrator Agent**
+#### **Master Orchestrator Agent**
 ```yaml 
 Name: Senior Underwriter
 Role: Coordinate analysis and synthesize final recommendations
@@ -208,7 +208,7 @@ For each agent, configure:
 
 ---
 
-## 🔍 Phase 2: Captain Darcy Case Study Analysis (25 minutes)
+## Phase 2: Captain Darcy Case Study Analysis (25 minutes)
 
 ### Step 5: Upload Application Documents
 
@@ -305,24 +305,24 @@ The Senior Underwriter agent will:
 
 ---
 
-## 📊 Expected Results & Learning Outcomes
+## Expected Results & Learning Outcomes
 
 ### Gap Analysis and Resolution Report
 Your multi-agent system should demonstrate:
 
-#### 🔍 **Gap Identification Capabilities**
+#### **Gap Identification Capabilities**
 - **Application Analysis**: Systematic identification of missing information
 - **Specialist Expertise**: Each agent finds domain-specific gaps
 - **Comprehensive Coverage**: No information gaps overlooked
 - **Prioritization**: Gaps ranked by impact on underwriting decision
 
-#### 📊 **Information Access and Integration**
+#### **Information Access and Integration**
 - **Supporting Documentation**: Agents access complete medical and financial records
 - **Fabric Data Integration**: Use lakehouse data for benchmarking and validation
 - **Cross-Reference Analysis**: Compare applicant to similar profiles in database
 - **Industry Standards**: Apply current underwriting guidelines and market practices
 
-#### 🎯 **Final Assessment Results**
+#### **Final Assessment Results**
 Agents should provide comprehensive evaluation:
 
 #### **Medical Risk Assessment**
@@ -382,7 +382,7 @@ Agents should provide comprehensive analysis:
 
 ---
 
-## 🎯 Discussion Questions
+## Discussion Questions
 
 Use these questions for team discussion and reflection:
 
@@ -407,19 +407,19 @@ Use these questions for team discussion and reflection:
 
 By the end of this lab, your team should have:
 
-### ✅ **Technical Achievements**
+### **Technical Achievements**
 - [ ] Successfully created 4 specialized agents
 - [ ] Connected agents to Fabric Data Agent resource
 - [ ] Executed coordinated gap analysis workflow
 - [ ] Generated comprehensive underwriting report
 
-### ✅ **Business Understanding**
+### **Business Understanding**
 - [ ] Identified all major information gaps
 - [ ] Understood aviation occupation risk factors
 - [ ] Appreciated multi-agent coordination benefits
 - [ ] Recognized automation value proposition
 
-### ✅ **Strategic Insights**
+### **Strategic Insights**
 - [ ] Envisioned scaled implementation across Sterling Insurance
 - [ ] Understood competitive advantages of AI-powered underwriting  
 - [ ] Appreciated customer experience improvements
