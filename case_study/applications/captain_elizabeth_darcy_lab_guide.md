@@ -230,44 +230,59 @@ You'll work with **4 separate document files** that agents must analyze:
 - **Agent Task**: Use this complete information to fill financial gaps identified in the application
 
 #### Document 4: APP-2024-5847_processing_notes.txt
-- **Purpose**: Internal underwriting notes showing what documentation is still needed
-- **Content**: Processing timeline, required documentation checklist, and underwriter observations
-- **Agent Task**: Reference this to understand what specific information gaps need to be filled
+- **Purpose**: Human underwriter's initial gap analysis for AI performance comparison
+- **Content**: Processing timeline, required documentation checklist, and preliminary risk assessment showing "CANNOT RATE - Too many critical gaps"
+- **Strategic Use**: Upload alongside application form to show what human underwriters identified vs. what AI agents will find
+- **Learning Objective**: Demonstrate AI agents can identify same gaps faster AND provide complete recommendations instead of just gap identification
 
 ### Step 6: Execute Multi-Agent Analysis Workflow
 
 #### 6.1 Initial Gap Detection Phase
 1. **Upload elizabeth_darcy_application_form.md** to your multi-agent system
-2. **Also provide APP-2024-5847_processing_notes.txt** for context on what gaps need identification
-3. **Trigger Gap Analysis**: Each specialist agent analyzes their domain for insufficient information
-4. **Monitor Gap Detection**: Watch agents identify where responses are too vague or incomplete for proper underwriting
+2. **CRITICAL: Also upload APP-2024-5847_processing_notes.txt** immediately for context and benchmarking
+3. **Set Context**: Explain to participants: *"This processing notes file shows 3 weeks of human underwriting work. The application scored 6.2/10 and is stuck with 'CANNOT RATE' status due to gaps. Let's see if our AI agents can do better."*
+4. **Trigger Gap Analysis**: Each specialist agent analyzes their domain for insufficient information
+5. **Performance Comparison**: Monitor how AI agents identify the same gaps the human found PLUS additional gaps, all in minutes instead of days
 
-#### 6.2 Gap Identification Results
-Each specialist agent will identify specific gaps from the application form:
+#### 6.2 Gap Identification Results & Human vs. AI Comparison
+**Human Underwriter Results (from processing notes):**
+- 3 days of initial review
+- Application scored 6.2/10 (below processing threshold)
+- Found: Financial incomplete, family medical history missing, beneficiary insufficient
+- Result: "CANNOT RATE - Too many critical gaps"
+- Timeline: 3+ weeks with multiple follow-ups required
+
+**AI Agent Results (expected within minutes):**
+Each specialist agent will identify the same gaps PLUS additional details:
 
 **Medical Risk Agent** identifies:
-- Vague family medical history responses that need detailed clarification
-- Incomplete medical condition details requiring specific information  
-- Missing detailed exercise and lifestyle information for risk assessment
-- Need for complete medical documentation to make proper risk determination
+- Same: Vague family medical history responses (matches human finding)
+- Enhanced: Specific medical details needed for hypertension risk assessment
+- Additional: Aviation medical compliance requirements not noted by human
+- Advantage: Immediate access to supporting medical documentation for gap resolution
 
 **Financial Analysis Agent** identifies:
-- Approximate income figures that need precise verification
-- Vague asset and debt descriptions requiring specific amounts and documentation
-- Coverage justification based on peer comparison rather than needs analysis
-- Need for detailed financial documentation to verify appropriateness of coverage amount
+- Same: Approximate income figures need verification (matches human finding)  
+- Enhanced: Specific asset/debt documentation requirements with dollar amounts
+- Additional: Aviation industry compensation structure analysis
+- Advantage: Instant verification against supporting financial documentation
 
 **Compliance Agent** identifies:
-- Incomplete beneficiary designation information missing required details
-- Unclear trust arrangements that need proper legal structure
-- Vague estate planning status requiring coordination assessment
-- Need for complete regulatory compliance documentation
+- Same: Incomplete beneficiary designations (matches human finding)
+- Enhanced: Specific regulatory requirements for trust arrangements
+- Additional: Colorado state-specific compliance requirements
+- Advantage: Immediate regulatory compliance verification
 
 #### 6.3 Information Access and Gap Resolution
-Agents then access the supporting documentation files to fill gaps:
-- **Medical Agent**: Uses `elizabeth_darcy_medical_summary.md` to provide full health risk assessment
-- **Financial Agent**: Uses `elizabeth_darcy_financial_verification.md` to verify coverage justification
-- **Compliance Agent**: Uses regulatory information from supporting docs to complete compliance requirements
+**Key Advantage Demonstration**: While human underwriters must wait weeks for documentation to arrive separately, AI agents access all supporting documentation instantly:
+
+- **Medical Agent**: Uses `elizabeth_darcy_medical_summary.md` to provide complete health risk assessment immediately
+- **Financial Agent**: Uses `elizabeth_darcy_financial_verification.md` to verify coverage justification within minutes  
+- **Compliance Agent**: Uses regulatory information from supporting docs to complete compliance requirements instantly
+
+**Processing Time Comparison**:
+- **Human Process**: 3+ weeks waiting for documentation, multiple follow-ups, "cannot rate" result
+- **AI Process**: Minutes to identify gaps AND resolve them with complete recommendations
 
 #### 6.4 Data Integration with Fabric Agent
 Simultaneously, agents access the Fabric Data Agent to:
@@ -366,19 +381,27 @@ Agents should provide comprehensive analysis:
 
 ### Automation Benefits Demonstrated
 
-#### **Speed Comparison**
-- **Manual Process**: 2-3 weeks for complete review
-- **Multi-Agent Process**: 2-3 hours for gap identification and preliminary assessment
+#### **Speed Comparison - Dramatic Improvement**
+- **Human Process (from processing notes)**: 
+  - Initial review: 3 days
+  - Documentation requests: 15-day response time
+  - Follow-ups: Multiple calls and emails over 3+ weeks
+  - Result: "CANNOT RATE" - still stuck in process
+- **Multi-Agent Process**: 
+  - Gap identification: Minutes
+  - Supporting documentation access: Instant
+  - Complete risk assessment: 2-3 hours total
+  - Result: Full underwriting recommendation with specific risk rating and premium
 
 #### **Accuracy Improvements**
-- **Systematic Gap Detection**: No overlooked requirements
-- **Regulatory Compliance**: Automated compliance checking
-- **Risk Correlation**: Data-driven risk pattern analysis
+- **Human Limitations**: Found major gaps but missed nuanced requirements and aviation-specific considerations
+- **AI Advantages**: More systematic gap detection, comprehensive regulatory compliance, industry-specific expertise
+- **Regulatory Compliance**: Automated compliance checking with complete audit trail vs. manual checklist tracking
 
 #### **Consistency Benefits**
-- **Standardized Analysis**: Same thorough review for every application
-- **Audit Trail**: Complete documentation of decision process
-- **Quality Assurance**: Multiple agent validation of findings
+- **Human Variability**: Different underwriters might miss different gaps, inconsistent follow-up
+- **AI Standardization**: Same thorough review for every application, complete documentation of decision process
+- **Quality Assurance**: Multiple agent validation of findings vs. single underwriter review
 
 ---
 
@@ -393,8 +416,11 @@ Use these questions for team discussion and reflection:
 
 ### Business Impact
 1. **What's the ROI of this multi-agent approach vs. manual processing?**
+   - *Consider: 3+ weeks to "cannot rate" vs. 2-3 hours to complete recommendation*
 2. **How does this improve customer experience and satisfaction?**
+   - *Consider: Faster decisions, fewer document requests, proactive gap identification*
 3. **What compliance benefits does systematic analysis provide?**
+   - *Consider: Complete audit trails, consistent regulatory adherence, reduced human error*
 
 ### Industry Applications
 1. **How could this approach apply to other insurance products?**
@@ -470,6 +496,49 @@ By the end of this lab, your team should have:
 ### Getting Help
 - **Lab Facilitators**: Available for technical assistance
 - **Team Collaboration**: Work with teammates to solve issues
+
+---
+
+## INSTRUCTOR GUIDANCE: Strategic Use of Processing Notes
+
+### When to Introduce the Processing Notes
+**TIMING**: Introduce `APP-2024-5847_processing_notes.txt` **immediately** when uploading the application form in Step 6.1
+
+### Why This Timing is Critical
+1. **Sets realistic context** - Shows this represents a real-world processing scenario with identified gaps
+2. **Creates performance benchmark** - Provides baseline for comparing human vs. AI capabilities  
+3. **Demonstrates workflow reality** - Shows how applications actually get stuck in traditional processes
+
+### Recommended Instructor Script
+```
+"Before we let our AI agents analyze this application, let's see what happened 
+with traditional human underwriting. This processing notes file shows the current 
+status after 3 weeks of human review.
+
+Notice the application scored 6.2/10 - below the threshold for processing. 
+The underwriter concluded 'CANNOT RATE - Too many critical gaps' and the 
+application is stuck waiting for documentation.
+
+Now let's see if our AI agents can:
+1. Identify the same gaps in minutes (not days)
+2. Find additional gaps humans missed  
+3. Access supporting documentation immediately
+4. Provide complete recommendations instead of 'cannot rate'
+
+This demonstrates the transformational impact of multi-agent AI on traditional 
+insurance underwriting workflows."
+```
+
+### Key Learning Outcomes to Emphasize
+- **Speed**: 3 weeks human process vs. 2-3 hours AI process
+- **Completeness**: "Cannot rate" vs. complete risk assessment with specific recommendations
+- **Accuracy**: Human found major gaps; AI finds same gaps plus aviation-specific requirements
+- **Integration**: Human waits for documents; AI accesses all supporting information instantly
+
+### Discussion Points During Analysis
+- **Gap Identification**: "The human found these 3 major gaps. Watch as our AI agents identify the same ones plus additional details..."
+- **Processing Efficiency**: "The human process is stuck waiting for documentation. Our AI agents access everything immediately..."
+- **Decision Quality**: "After 3 weeks, the human could only say 'cannot rate.' Our AI agents will provide specific risk ratings and premium recommendations..."
 - **Documentation**: Reference Azure AI Foundry documentation
 - **Fallback Plan**: Manual analysis using provided guidelines if needed
 
