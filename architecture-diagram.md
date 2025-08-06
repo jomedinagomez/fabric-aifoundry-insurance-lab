@@ -6,7 +6,7 @@
 graph TB
     subgraph "LAB INFRASTRUCTURE"
         subgraph "MICROSOFT FABRIC"
-            F2[Single F2+ Capacity<br/>Shared Resource]
+            F2[Single F16 Capacity<br/>Shared Resource]
             F2 --> WS[10 Workspaces<br/>1 per team]
         end
         
@@ -92,14 +92,14 @@ flowchart TD
     style E2 fill:#fff3e0
 ```
 
-**Team Allocation:** 50 Participants → 10 Teams (5 participants each)
+**Team Allocation:** 50 Participants  10 Teams (5 participants each)
 
 ## Resource Allocation Matrix
 
 ```mermaid
 graph TB
     subgraph "SHARED INFRASTRUCTURE"
-        FC[Fabric Capacity F2+<br/>Shared across all teams]
+        FC[Fabric Capacity F16<br/>Shared across all teams]
         FI[Foundry Instance<br/>Shared across all teams]
     end
     
@@ -143,7 +143,7 @@ graph TB
 - **Total Teams:** 10
 - **Fabric Workspaces:** 10 (1 per team)
 - **Foundry Projects:** 10 (1 per team)
-- **Shared Capacity:** 1 Fabric F2+ instance
+- **Shared Capacity:** 1 Fabric F16 instance
 - **Shared Foundry:** 1 instance
 
 ## Integration Architecture
@@ -216,10 +216,10 @@ flowchart LR
 ```
 
 **Integration Flow:**
-1. **Data Sources** → Published Data Agents (Fabric side)
-2. **Published Agents** → Participant Agents (Foundry side)
-3. **Participant Agents** → Playground Testing
-4. **Testing** → Policy evaluation and refinement
+1. **Data Sources**  Published Data Agents (Fabric side)
+2. **Published Agents**  Participant Agents (Foundry side)
+3. **Participant Agents**  Playground Testing
+4. **Testing**  Policy evaluation and refinement
 
 This architecture ensures:
 - **Scalability**: Single capacity serves all teams efficiently
@@ -243,7 +243,7 @@ graph TB
         end
         
         subgraph FABRIC_INFRA["Microsoft Fabric Infrastructure"]
-            FC[Fabric Capacity F2+<br/>Shared Resource]
+            FC[Fabric Capacity F16<br/>Shared Resource]
             WS1[Workspace 1<br/>fabric-ws-01]
             WS2[Workspace 2<br/>fabric-ws-02]
             WS_ETC[... 8 more workspaces]
@@ -305,10 +305,10 @@ graph TB
 ### Infrastructure Requirements Checklist
 
 #### **Core Azure Services**
-- [ ] **Microsoft Fabric Capacity** (F2 or higher)
+- [ ] **Microsoft Fabric Capacity** (F16 or higher)
   - Supports concurrent workload for 50 users
   - Enables lakehouse and data agent capabilities
-  - Estimated cost: ~$8,000-12,000/month for F2
+  - Estimated cost: ~$24,000-36,000/month for F16
   
 - [ ] **Azure AI Foundry Hub**
   - Single shared instance
@@ -340,18 +340,18 @@ graph TB
 
 ### Communication Flows
 
-1. **Authentication**: Entra ID → Fabric/Foundry services
-2. **Data Upload**: Participants → OneLake via Fabric workspaces  
-3. **Agent Publishing**: Fabric Data Agents → Foundry integration endpoints
-4. **Model Access**: Foundry projects → Shared AI model deployments
+1. **Authentication**: Entra ID  Fabric/Foundry services
+2. **Data Upload**: Participants  OneLake via Fabric workspaces  
+3. **Agent Publishing**: Fabric Data Agents  Foundry integration endpoints
+4. **Model Access**: Foundry projects  Shared AI model deployments
 5. **Cross-Service Integration**: Published agents accessible across Fabric/Foundry boundary
 
 ### Estimated Costs (Monthly)
-- **Fabric F2 Capacity**: $8,000 - $12,000
+- **Fabric F16 Capacity**: $24,000 - $36,000
 - **Azure AI Foundry**: $500 - $1,500 (depends on model usage)
 - **Storage (OneLake)**: $50 - $200
 - **Networking**: $0 - $500 (if private endpoints used)
-- **Total**: ~$8,550 - $14,200/month during lab period
+- **Total**: ~$24,550 - $38,200/month during lab period
 
 ### Post-Lab Cleanup
 - [ ] Deprovision Fabric capacity to avoid ongoing costs

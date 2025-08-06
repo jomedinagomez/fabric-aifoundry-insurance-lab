@@ -5,7 +5,7 @@
 
 This hands-on lab demonstrates advanced multi-agent capabilities for complex insurance underwriting scenarios. You'll analyze Captain Elizabeth Darcy's life insurance application using specialized AI agents that collaborate to identify gaps, assess risks, and generate comprehensive underwriting recommendations.
 
-**Duration**: 45 minutes (25 min case study + 20 min multi-agent setup)  
+**Duration**: 45 minutes (25 min case study + 20 min agent setup)  
 **Participants**: Teams of 5-6 people  
 **Scenario**: Complex aviation professional application with intentional information gaps
 
@@ -23,24 +23,42 @@ This hands-on lab demonstrates advanced multi-agent capabilities for complex ins
 
 ### Learning Objectives
 By the end of this lab, you will:
-1. **Experience Multi-Agent Coordination** - See how specialized agents collaborate
-2. **Understand Gap Detection** - Learn how AI identifies missing information
-3. **Apply Industry Knowledge** - Use underwriting guidelines for real decisions
-4. **Demonstrate Automation Benefits** - Compare AI vs. manual processing
+1. Create and configure specialized AI agents for insurance underwriting
+2. Execute multi-agent workflows for gap analysis and risk assessment
+3. Apply industry-specific data for peer comparison and validation
+4. Generate comprehensive underwriting recommendations
 
 ---
 
 ## Phase 1: Azure AI Foundry Multi-Agent Setup (20 minutes)
 
+### Pre-Lab Technical Checklist
+**Before starting, verify the following setup:**
+- Azure AI Foundry project access confirmed for your team (Team 1-10)
+- Fabric workspace (F16 capacity or higher) contains policy_portfolio.csv with LIF-1800+ aviation records
+- Claims data loaded with CLM-4001-4016 aviation claims
+- Fabric Data Agent published and accessible
+- All 4 Elizabeth Darcy documents ready for upload:
+  - elizabeth_darcy_application_form.md
+  - elizabeth_darcy_medical_summary.md  
+  - elizabeth_darcy_financial_verification.md
+  - APP-2024-5847_processing_notes.txt
+
 ### Step 1: Access Your AI Foundry Project
-1. **Navigate to Azure AI Foundry** ([ai.azure.com](https://ai.azure.com))
-2. **Select Your Project**: Use project assigned to your team (Team 1-10)
-3. **Verify Permissions**: Ensure you can create agents and access resources
+1. **Open your web browser** and go to [ai.azure.com](https://ai.azure.com)
+2. **Sign in** with your Azure credentials if prompted
+3. **Find your assigned project**: Look for "Team X Project" where X is your team number (1-10)
+4. **Click on your project** to open it
+5. **Verify you can see the main dashboard** with options to create agents
 
-### Step 2: Create Specialized Agent System
-You'll create **4 specialized agents** that work together:
+### Step 2: Create Your First Agent (Medical Risk Analyzer)
+You'll create 4 specialized agents. Let's start with the first one:
 
-#### **Medical Risk Assessment Agent**
+1. **Click "Create Agent"** (or similar button on your dashboard)
+2. **Name your agent**: Type "Medical Risk Analyzer"  
+3. **Copy and paste the instructions below** into the agent's instruction box:
+
+#### **Medical Risk Assessment Agent Instructions**
 ```yaml
 Name: Medical Risk Analyzer
 Role: Identify medical information gaps and assess health risks
@@ -74,7 +92,11 @@ Instructions: |
   4. RECOMMENDATIONS: Provide clear medical underwriting recommendations with risk ratings and any conditions based on complete medical information.
 ```
 
-#### **Financial Analysis Agent**
+4. **Save your agent** when done
+5. **Repeat this process** for the other 3 agents below:
+
+#### **Financial Analysis Agent Instructions** 
+(Create a second agent called "Financial Underwriter")
 ```yaml
 Name: Financial Underwriter
 Role: Identify financial gaps and verify coverage justification
@@ -112,7 +134,8 @@ Instructions: |
      - Financially sustainable based on complete financial picture
 ```
 
-#### **Regulatory Compliance Agent**
+#### **Regulatory Compliance Agent Instructions**
+(Create a third agent called "Compliance Officer")
 ```yaml
 Name: Compliance Officer
 Role: Identify compliance gaps and ensure regulatory adherence
@@ -150,7 +173,8 @@ Instructions: |
      - Anti-money laundering compliance standards
 ```
 
-#### **Master Orchestrator Agent**
+#### **Main Orchestrator Agent Instructions**
+(Create a fourth agent called "Senior Underwriter")
 ```yaml 
 Name: Senior Underwriter
 Role: Coordinate analysis and synthesize final recommendations
@@ -194,16 +218,36 @@ Instructions: |
      - Document complete audit trail
 ```
 
-### Step 3: Connect Fabric Data Agent
-1. **Add Resource**: Connect your published Fabric Data Agent resource
-2. **Configure Data Access**: Ensure all agents can query these enhanced datasets:
-   - `policy_portfolio.csv` - 1,252+ policy records including 50 specialized aviation professionals (LIF-1800 to LIF-1849)
-   - `claims_portfolio.csv` - 217+ claims records including 16 aviation-specific claims (CLM-4001 to CLM-4016)
-   - **Aviation Enhancement**: 22 unique aviation occupations from flight instructors to senior captains
-   - **Elizabeth Darcy Peers**: Direct comparison data for similar aviation professionals and risk profiles
-3. **Test Connection**: Verify agents can execute queries against lakehouse data
-4. **Validate Queries**: Test sample queries for aviation professional comparisons and claims pattern analysis
-5. **Aviation Benchmarking**: Confirm access to aviation-specific risk patterns, coverage ratios, and industry claims data
+### Step 3: Connect Your Agents to Data
+**What this does**: This connects your agents to the insurance data they need to make decisions.
+
+1. **Look for "Add Resource" or "Connect Data"** in your project
+2. **Find and select "Fabric Data Agent"** from the list
+3. **Confirm the connection** - you should see it's connected to:
+   - Policy data with aviation professionals (records LIF-1800 to LIF-1849)
+   - Claims data with aviation claims (records CLM-4001 to CLM-4016)
+
+**Quick Test**: Ask one of your agents: *"How many aviation professionals are in our data?"*
+Expected answer: Around 50 aviation professionals
+
+#### **What Data Your Agents Can Access**
+- **1,200+ insurance policies** including 50 specialized aviation professionals  
+- **200+ claims records** including 16 aviation-specific claims
+- **22 different aviation jobs** from flight instructors to senior captains
+- **Elizabeth Darcy's peer profiles** for direct comparison
+
+#### **Technical Note: How Fabric Integration Works**
+- **Fabric Data Agent** acts as the natural language query interface to your OneLake data
+- **The aviation data (LIF-1800-1849) is already loaded** in policy_portfolio.csv 
+- **Aviation claims (CLM-4001-4016) are available** in claims_portfolio.csv
+- **AI agents will use natural language** to query this structured data through the Fabric Agent
+- **No SQL knowledge required** - agents ask questions like "Show me airline captains aged 40-47 with $2M+ coverage"
+
+#### **Simple Questions to Test Your Data Connection**
+Try asking your agents these questions to confirm everything is working:
+1. *"Find aviation professionals with Risk C rating"*
+2. *"Show me airline captains aged 40-47"*  
+3. *"How many aviation claims were due to accidents?"*
 
 ### Step 4: Agent Configuration
 For each agent, configure:
@@ -238,126 +282,121 @@ Your agents can now perform sophisticated peer analysis:
 - **Industry Claims Context**: Analyze similar aviation professionals' claims patterns for risk assessment
 - **Geographic Benchmarking**: Compare against aviation professionals in similar regions
 
+#### **Data Verification Quick Test**
+Before proceeding, verify your data access with these test queries:
+```
+Test Query 1: "Show me policy LIF-1800 details" 
+Expected: Should return Captain Elizabeth Darcy's peer profile
+
+Test Query 2: "How many aviation claims involve accidents?"
+Expected: Should reference CLM-4001, CLM-4006, CLM-4007 (3 aviation accidents)
+
+Test Query 3: "What's the coverage range for airline captains?"
+Expected: Should show $1.6M-$2.5M range from the aviation dataset
+```
+
 ---
 
 ## Phase 2: Captain Darcy Case Study Analysis (25 minutes)
 
-### Step 5: Upload Application Documents
+### Step 4: Upload Elizabeth Darcy's Documents
+**What you're doing**: Giving your agents the insurance application to analyze.
 
-You'll work with **4 separate document files** that agents must analyze:
+You have 4 documents to upload. **Upload them in this order**:
 
-#### Document 1: elizabeth_darcy_application_form.md
-- **Purpose**: Completed application form with subtle gaps and incomplete information
-- **Content**: Application appears complete but contains vague responses, missing details, and insufficient information that agents must identify
-- **Agent Task**: Analyze responses to identify where additional information or clarification is needed for proper underwriting
+#### **Document 1: Upload the Application** 
+- **File**: `elizabeth_darcy_application_form.md`
+- **What it is**: Elizabeth's life insurance application (has gaps on purpose)
+- **How to upload**: Look for "Upload File" or "Add Document" button and select this file
 
-#### Document 2: elizabeth_darcy_medical_summary.md  
-- **Purpose**: Complete medical documentation for gap resolution
-- **Content**: Comprehensive medical history, family history, physical exam results, and aviation medical certification
-- **Agent Task**: Use this complete information to fill medical gaps identified in the application
+#### **Document 2: Upload the Processing Notes**
+- **File**: `APP-2024-5847_processing_notes.txt` 
+- **What it is**: Shows what a human underwriter found after 3 weeks of work
+- **Why important**: This shows the human said "CANNOT RATE" - let's see if AI can do better
 
-#### Document 3: elizabeth_darcy_financial_verification.md
-- **Purpose**: Complete financial documentation for gap resolution  
-- **Content**: Verified income, tax returns, asset/liability statements, and coverage justification analysis
-- **Agent Task**: Use this complete information to fill financial gaps identified in the application
+#### **Document 3: Upload Medical Records**
+- **File**: `elizabeth_darcy_medical_summary.md`
+- **What it is**: Complete medical information that fills in the gaps
 
-#### Document 4: APP-2024-5847_processing_notes.txt
-- **Purpose**: Human underwriter's initial gap analysis for AI performance comparison
-- **Content**: Processing timeline, required documentation checklist, and preliminary risk assessment showing "CANNOT RATE - Too many critical gaps"
-- **Strategic Use**: Upload alongside application form to show what human underwriters identified vs. what AI agents will find
-- **Learning Objective**: Demonstrate AI agents can identify same gaps faster AND provide complete recommendations instead of just gap identification
+#### **Document 4: Upload Financial Records** 
+- **File**: `elizabeth_darcy_financial_verification.md`
+- **What it is**: Complete financial information that fills in the gaps
 
-### Step 6: Execute Multi-Agent Analysis Workflow
+### Step 5: Start the Analysis
+**What happens now**: Your agents will work together to analyze Elizabeth's application.
 
-#### 6.1 Initial Gap Detection Phase
-1. **Upload elizabeth_darcy_application_form.md** to your multi-agent system
-2. **CRITICAL: Also upload APP-2024-5847_processing_notes.txt** immediately for context and benchmarking
-3. **Set Context**: Explain to participants: *"This processing notes file shows 3 weeks of human underwriting work. The application scored 6.2/10 and is stuck with 'CANNOT RATE' status due to gaps. Let's see if our AI agents can do better."*
-4. **Trigger Gap Analysis**: Each specialist agent analyzes their domain for insufficient information
-5. **Performance Comparison**: Monitor how AI agents identify the same gaps the human found PLUS additional gaps, all in minutes instead of days
+1. **Ask your Senior Underwriter agent**: *"Please analyze Elizabeth Darcy's application and identify any gaps or missing information. Coordinate with the other agents to provide a complete assessment."*
 
-#### 6.2 Gap Identification Results & Human vs. AI Comparison
-**Human Underwriter Results (from processing notes):**
-- 3 days of initial review
-- Application scored 6.2/10 (below processing threshold)
-- Found: Financial incomplete, family medical history missing, beneficiary insufficient
-- Result: "CANNOT RATE - Too many critical gaps"
-- Timeline: 3+ weeks with multiple follow-ups required
+2. **Watch what happens**: 
+   - Each agent will examine their specialty area
+   - They'll identify gaps in the application
+   - They'll use the complete documents to fill those gaps
+   - They'll compare Elizabeth to similar aviation professionals in our data
 
-**AI Agent Results (expected within minutes):**
-Each specialist agent will identify the same gaps PLUS additional details:
+3. **What to expect**:
+   - **Medical Agent** finds health-related gaps and resolves them
+   - **Financial Agent** finds income/coverage gaps and resolves them  
+   - **Compliance Agent** finds regulatory gaps and resolves them
+   - **Senior Underwriter** coordinates everything and makes final recommendation
 
-**Medical Risk Agent** identifies (Expected: 2-3 minutes):
-- Same: Vague family medical history responses (matches human finding)
-- Enhanced: Specific medical details needed for hypertension risk assessment
-- Additional: Aviation medical compliance requirements not noted by human
-- Advantage: Immediate access to supporting medical documentation for gap resolution
+**This process should take 5-10 minutes**
 
-**Financial Analysis Agent** identifies (Expected: 2-3 minutes):
-- Same: Approximate income figures need verification (matches human finding)  
-- Enhanced: Specific asset/debt documentation requirements with dollar amounts
-- Additional: Aviation industry compensation structure analysis
-- Advantage: Instant verification against supporting financial documentation
+### Step 6: Review the Results
+**What you should see**: Your agents will provide a complete analysis that includes:
 
-**Compliance Agent** identifies (Expected: 2-3 minutes):
-- Same: Incomplete beneficiary designations (matches human finding)
-- Enhanced: Specific regulatory requirements for trust arrangements
-- Additional: Colorado state-specific compliance requirements
-- Advantage: Immediate regulatory compliance verification
+#### **What the Human Underwriter Found (after 3 weeks)**
+- Application scored 6.2/10 (too low to process)
+- Found gaps in: medical history, financial info, beneficiary details
+- **Result**: "CANNOT RATE - Too many gaps"
+- **Status**: Application stuck, waiting for more information
 
-**Master Orchestrator** synthesizes (Expected: 5-10 minutes):
-- Complete gap resolution coordination
-- Final risk assessment synthesis
-- Comprehensive underwriting recommendation
-- Performance comparison vs human process
+#### **What Your AI Agents Should Find (in minutes)**
+Each agent will identify the same gaps PLUS additional details:
 
-#### 6.3 Information Access and Gap Resolution
-**Key Advantage Demonstration**: While human underwriters must wait weeks for documentation to arrive separately, AI agents access all supporting documentation instantly:
+**Medical Agent Results**:
+- ✅ Found the same medical gaps the human found
+- ➕ PLUS: Specific aviation medical requirements
+- ➕ PLUS: Used complete medical records to resolve gaps immediately
+- **Result**: Can provide actual medical risk rating
 
-- **Medical Agent**: Uses `elizabeth_darcy_medical_summary.md` to provide complete health risk assessment immediately
-- **Financial Agent**: Uses `elizabeth_darcy_financial_verification.md` to verify coverage justification within minutes  
-- **Compliance Agent**: Uses regulatory information from supporting docs to complete compliance requirements instantly
+**Financial Agent Results**:
+- ✅ Found the same financial gaps the human found  
+- ➕ PLUS: Aviation industry compensation analysis
+- ➕ PLUS: Used complete financial records to verify coverage needs
+- **Result**: Can confirm coverage is appropriate ($2.5M for $229,800 income)
 
-**Processing Time Comparison**:
-- **Human Process**: 3+ weeks waiting for documentation, multiple follow-ups, "cannot rate" result
-- **AI Process**: Minutes to identify gaps AND resolve them with complete recommendations
+**Compliance Agent Results**:
+- ✅ Found the same regulatory gaps the human found
+- ➕ PLUS: Colorado-specific requirements
+- ➕ PLUS: Aviation-specific compliance needs
+- **Result**: Can confirm all requirements are met
 
-#### 6.4 Enhanced Data Integration with Fabric Agent
-Simultaneously, agents access the Fabric Data Agent to:
-- **Compare Elizabeth Darcy to Aviation Peers**: Query 50 specialized aviation professional profiles (LIF-1800 to LIF-1849) representing 22 unique aviation occupations
-- **Benchmark Coverage Amounts**: Analyze Elizabeth's $2.5M coverage against similar aviation professionals (10.9x income ratio validation)
-- **Analyze Aviation Claims Patterns**: Review 16 aviation-specific claims (CLM-4001 to CLM-4016) for similar occupations and risk factors
-- **Validate Aviation Risk Ratings**: Compare Elizabeth's Risk C rating against regional captains, corporate pilots, and major airline professionals
-- **Industry-Specific Analysis**: Access aviation accident patterns, medical emergency trends, and occupation-related claims data
-- **Peer Coverage Ratios**: Validate coverage multiples against aviation industry standards (range: 8.5x to 12.5x income)
-- **Regional Benchmarking**: Compare against aviation professionals in similar geographic regions and route types
+**Senior Underwriter Final Recommendation**:
+- **Coverage**: $2,500,000 Term Life Insurance - **APPROVED**
+- **Risk Level**: Standard Plus 
+- **Annual Premium**: Approximately $3,400
+- **Reasoning**: All gaps resolved, aviation peer comparison validates coverage amount
 
-### Step 7: Collaborative Decision Making
+---
 
-#### 7.1 Agent Coordination and Gap Resolution
-Watch as agents collaborate to resolve identified gaps:
-```
-Medical Agent → Financial Agent: "Family history shows cardiovascular 
-risk, but applicant has excellent health management. Medical rating 
-Standard Plus appropriate."
+## What You Just Accomplished
 
-Financial Agent → Medical Agent: "Income of $229,800 verified, 
-coverage ratio 10.9x is appropriate for aviation professional 
-with this risk profile."
+### The Key Difference
+- **Human Underwriter**: 3+ weeks → "CANNOT RATE" 
+- **AI Multi-Agent System**: 10 minutes → Complete approval with specific terms
 
-Compliance Agent → Master Orchestrator: "All beneficiary designations 
-now complete, trust arrangements recommended for minor children."
+### Why This Matters for Your Business
+1. **Faster Decisions**: Customers get answers in hours, not weeks
+2. **Better Analysis**: AI found gaps humans missed AND resolved them
+3. **Consistent Quality**: Every application gets the same thorough review
+4. **Competitive Edge**: While competitors are still processing, you're already approving
 
-Master Orchestrator → All Agents: "Gap resolution complete. 
-Synthesizing final recommendation based on complete information."
-```
-
-#### 7.2 Master Orchestrator Synthesis
-The Senior Underwriter agent will:
-1. **Compile Gap Resolutions** - Integrate all identified and resolved gaps
-2. **Synthesize Risk Assessment** - Combine medical, financial, and compliance findings
-3. **Apply Industry Benchmarks** - Use Fabric data for comparative analysis
-4. **Generate Final Recommendation** - Provide comprehensive underwriting decision
+### Technical Achievement 
+You successfully demonstrated:
+- Multi-agent AI coordination
+- Automated gap detection and resolution
+- Industry-specific data integration
+- Complete underwriting workflow automation
 
 ---
 
@@ -427,124 +466,97 @@ Agents should provide comprehensive analysis:
 
 ### Automation Benefits Demonstrated
 
-#### **Speed Comparison - Dramatic Improvement**
-- **Human Process (from processing notes)**: 
-  - Initial review: 3 days
-  - Documentation requests: 15-day response time
-  - Follow-ups: Multiple calls and emails over 3+ weeks
-  - Result: "CANNOT RATE" - still stuck in process
-- **Multi-Agent Process**: 
-  - Gap identification: Minutes
-  - Supporting documentation access: Instant
-  - Complete risk assessment: 2-3 hours total
-  - Result: Full underwriting recommendation with specific risk rating and premium
+#### Accuracy Improvements
+- Systematic gap detection with comprehensive regulatory compliance
+- Industry-specific expertise application
 
-#### **Accuracy Improvements**
-- **Human Limitations**: Found major gaps but missed nuanced requirements and aviation-specific considerations
-- **AI Advantages**: More systematic gap detection, comprehensive regulatory compliance, industry-specific expertise
-- **Regulatory Compliance**: Automated compliance checking with complete audit trail vs. manual checklist tracking
-
-#### **Consistency Benefits**
-- **Human Variability**: Different underwriters might miss different gaps, inconsistent follow-up
-- **AI Standardization**: Same thorough review for every application, complete documentation of decision process
-- **Quality Assurance**: Multiple agent validation of findings vs. single underwriter review
+#### Consistency Benefits
+- Standardized review process for every application
+- Complete documentation of decision process
 
 ---
 
-## Discussion Questions
+## Discussion Questions for Your Team
 
-Use these questions for team discussion and reflection:
+### For Leadership
+1. How could this speed up our customer experience?
+2. What would faster underwriting mean for our sales team?
+3. How does this compare to our current process?
+4. What other products could benefit from this approach?
 
-### Technical Implementation
-1. **How did agent specialization improve analysis quality?**
-2. **What role did the enhanced Fabric Data Agent play in aviation benchmarking?**
-3. **How did the 50 aviation professionals and 16 aviation claims enhance Elizabeth Darcy's assessment?**
-4. **How could this system scale to handle hundreds of applications daily with specialized industry datasets?**
+### For Technical Teams  
+1. How did the agents coordinate their analysis?
+2. What role did the aviation data play in the decision?
+3. How could we scale this to hundreds of applications?
+4. What additional data would enhance this further?
 
-### Business Impact
-1. **What's the ROI of this multi-agent approach vs. manual processing?**
-   - *Consider: 3+ weeks to "cannot rate" vs. 2-3 hours to complete recommendation with aviation peer validation*
-2. **How does this improve customer experience and satisfaction?**
-   - *Consider: Faster decisions, fewer document requests, proactive gap identification, industry-specific expertise*
-3. **What compliance benefits does systematic analysis with specialized datasets provide?**
-   - *Consider: Complete audit trails, consistent regulatory adherence, reduced human error, aviation industry compliance*
-4. **How does specialized industry data (like aviation datasets) enhance underwriting accuracy?**
-   - *Consider: 22 aviation occupations, 16 aviation claims, peer risk validation, industry-specific patterns*
-
-### Industry Applications
-1. **How could this approach apply to other insurance products?**
-2. **What other industries could benefit from similar multi-agent systems?**
-3. **How does this position Sterling Insurance competitively?**
+### For Sales Teams
+1. How would customers react to getting decisions in hours vs. weeks?
+2. What competitive advantages does this create?
+3. How could this help with difficult cases like aviation professionals?
+4. What other challenging occupations could this help with?
 
 ---
 
-## 📈 Success Metrics
+## Lab Success Checklist
 
-By the end of this lab, your team should have:
+By the end of this lab, you should have:
 
-### **Technical Achievements**
-- [ ] Successfully created 4 specialized agents
-- [ ] Connected agents to enhanced Fabric Data Agent resource with aviation datasets
-- [ ] Executed coordinated gap analysis workflow with aviation peer benchmarking
-- [ ] Generated comprehensive underwriting report with industry-specific validation
+### ✅ Technical Success
+- Created 4 specialized AI agents
+- Connected them to insurance data  
+- Uploaded Elizabeth Darcy's documents
+- Received a complete underwriting recommendation
 
-### **Business Understanding**
-- [ ] Identified all major information gaps
-- [ ] Understood aviation occupation risk factors with peer data validation
-- [ ] Appreciated multi-agent coordination benefits with specialized industry datasets
-- [ ] Recognized automation value proposition with enhanced data intelligence
+### ✅ Business Understanding  
+- Saw AI identify gaps faster than humans
+- Understood how aviation data improves decisions
+- Recognized the speed advantage (minutes vs. weeks)
+- Appreciated the consistency of AI analysis
 
-### **Strategic Insights**
-- [ ] Envisioned scaled implementation across Sterling Insurance
-- [ ] Understood competitive advantages of AI-powered underwriting  
-- [ ] Appreciated customer experience improvements
-- [ ] Recognized operational efficiency gains
-
----
-
-## 🔄 Next Steps & Real-World Application
-
-### Immediate Follow-Up
-1. **Complete Application**: Use gap analysis to request missing information
-2. **Risk Rating**: Apply findings to determine final risk classification
-3. **Premium Calculation**: Use risk assessment for pricing decisions
-
-### Production Implementation
-1. **System Integration**: Connect to core underwriting systems
-2. **Workflow Automation**: Implement triggered multi-agent analysis
-3. **Quality Assurance**: Establish human oversight protocols
-4. **Performance Monitoring**: Track accuracy and efficiency metrics
-
-### Continuous Improvement
-1. **Agent Training**: Update agents based on new regulations and patterns
-2. **Data Enhancement**: Expand lakehouse with additional risk factors
-3. **Process Optimization**: Refine workflows based on usage patterns
-4. **Regulatory Updates**: Keep compliance agents current with law changes
+### ✅ Strategic Value
+- Envisioned using this for other complex cases
+- Understood competitive advantages
+- Recognized customer experience improvements
+- Appreciated operational efficiency gains
 
 ---
 
-## 🆘 Troubleshooting Guide
+## Next Steps
 
-### Common Issues
+### Immediate Actions
+1. **Share Results**: Discuss findings with your team
+2. **Consider Applications**: Think about other use cases in your business
+3. **Plan Implementation**: Consider how this could work in production
 
-#### **Agents Not Communicating**
-- **Check resource connections** - Ensure all agents can access Fabric Data Agent
-- **Verify permissions** - Confirm agents have necessary access rights
-- **Review instructions** - Make sure agent roles are clearly defined
+### Future Possibilities  
+1. **Scale Up**: Apply to hundreds of applications daily
+2. **Expand Coverage**: Add other insurance products
+3. **Enhance Data**: Include more specialized datasets
+4. **Integrate Systems**: Connect to core underwriting platforms
 
-#### **Gap Detection Incomplete**
-- **Document upload issues** - Ensure all 3 documents uploaded successfully
-- **Missing context** - Verify agents have underwriting guidelines access
-- **Coordination failures** - Check agent-to-agent communication logs
+---
 
-#### **Data Access Problems**
-- **Fabric connection** - Test Fabric Data Agent connectivity
-- **Query failures** - Verify lakehouse data accessibility
-- **Authentication issues** - Check Azure permissions
+## Need Help? Quick Troubleshooting
 
-### Getting Help
-- **Lab Facilitators**: Available for technical assistance
-- **Team Collaboration**: Work with teammates to solve issues
+### "I can't find my project"
+- Go to [ai.azure.com](https://ai.azure.com) and look for "Team X Project"
+
+### "My agents aren't responding"
+- Make sure all 4 agents are created and connected to data
+- Try asking the Senior Underwriter to start the analysis
+
+### "No aviation data found"
+- Ask an agent: *"How many aviation professionals are in our data?"*
+- Expected: Around 50. If not, ask your instructor for help
+
+### "Upload not working"
+- Look for "Upload Document" button in the conversation area
+- Upload all 4 files before starting analysis
+
+---
+
+
 
 ---
 
@@ -593,7 +605,7 @@ insurance underwriting workflows."
 
 ---
 
-## 📚 Additional Resources
+##  Additional Resources
 
 ### Sterling Insurance Guidelines
 - [Life Insurance Underwriting Guidelines](../underwriting_guidelines/life_insurance_underwriting_guidelines.md)
@@ -612,4 +624,4 @@ insurance underwriting workflows."
 
 ---
 
-*This lab demonstrates the future of insurance underwriting - where AI agents collaborate to provide faster, more accurate, and more consistent risk assessments while maintaining the human judgment needed for complex cases.*
+*This lab demonstrates multi-agent insurance underwriting - where AI agents collaborate to provide faster, more accurate, and more consistent risk assessments.*

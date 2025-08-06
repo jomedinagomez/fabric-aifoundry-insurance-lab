@@ -7,8 +7,8 @@
     "participants_per_team": 5
   },
   "fabric_settings": {
-    "capacity_name": "fabric-lab-capacity-f2",
-    "capacity_sku": "F2",
+    "capacity_name": "fabric-lab-capacity-f16",
+    "capacity_sku": "F16",
     "region": "East US"
   },
   "foundry_settings": {

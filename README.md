@@ -1,4 +1,3 @@
-
 # Insurance Policy Review Hands-On Lab
 
 This README provides setup instructions and resources for a 90-minute hands-on lab where 50 participants will create and publish Microsoft Fabric Data Agents and integrate them with Azure AI Foundry to evaluate insurance policies against underwriting guidelines.
@@ -20,7 +19,7 @@ Before starting the lab, ensure all participants have:
 - [ ] Participants have logged into both Fabric and AI Foundry platforms
 - [ ] Participants have **OneLake access** to upload and manage datasets
 - [ ] Sample datasets ready for upload to **OneLake data lake**
-- [ ] Fabric capacity (F2+) provisioned and accessible
+- [ ] Fabric capacity (F16) provisioned and accessible
 - [ ] AI Foundry projects created and configured with proper role assignments
 - [ ] Team assignments distributed with specific workspace/project mappings
 
@@ -35,18 +34,18 @@ Before starting the lab, ensure all participants have:
 
 | Time       | Segment                        | Description |
 |------------|--------------------------------|-------------|
-| 0–10 min   | Introduction & Setup           | Introduce Fabric Data Agents and Azure AI Foundry. Outline the general insurance underwriting scenario. Ensure access to Fabric workspace, Foundry project, and OneLake. |
-| 10–30 min  | Data Upload & Agent Creation   | Upload general insurance datasets to OneLake data lake, create lakehouse, then build Fabric Data Agent connected to comprehensive underwriting data. Add instructions for general insurance queries and test with industry-wide questions. |
-| 30–40 min  | Publish Fabric Data Agent      | Finalize agent configuration, test with general underwriting queries (claims analysis, risk assessment, portfolio benchmarking), and publish the agent to make it available for Foundry integration. |
-| 40–70 min  | Azure AI Foundry Integration   | Create specialized multi-agent system in Foundry, connect the published Fabric Data Agent as a resource, introduce Captain Elizabeth Darcy pilot case study, and configure specialized agents for complex underwriting scenarios. |
-| 70–85 min  | Multi-Agent Case Study         | Use the multi-agent system to analyze Captain Elizabeth Darcy's application with intentional gaps, demonstrate gap-filling workflow using complete supporting documents, and showcase automation benefits. |
-| 85–90 min  | Wrap-Up & Next Steps           | Summarize accomplishments, highlight real-world applications, and gather feedback. |
+| 010 min   | Introduction & Setup           | Introduce Fabric Data Agents and Azure AI Foundry. Outline the general insurance underwriting scenario. Ensure access to Fabric workspace, Foundry project, and OneLake. |
+| 1030 min  | Data Upload & Agent Creation   | Upload general insurance datasets to OneLake data lake, create lakehouse, then build Fabric Data Agent connected to comprehensive underwriting data. Add instructions for general insurance queries and test with industry-wide questions. |
+| 3040 min  | Publish Fabric Data Agent      | Finalize agent configuration, test with general underwriting queries (claims analysis, risk assessment, portfolio benchmarking), and publish the agent to make it available for Foundry integration. |
+| 4070 min  | Azure AI Foundry Integration   | Create specialized multi-agent system in Foundry, connect the published Fabric Data Agent as a resource, introduce Captain Elizabeth Darcy pilot case study, and configure specialized agents for complex underwriting scenarios. |
+| 7085 min  | Multi-Agent Case Study         | Use the multi-agent system to analyze Captain Elizabeth Darcy's application with intentional gaps, demonstrate gap-filling workflow using complete supporting documents, and showcase automation benefits. |
+| 8590 min  | Wrap-Up & Next Steps           | Summarize accomplishments, highlight real-world applications, and gather feedback. |
 
 ---
 
 ## Team Structure
 
-- 50 participants split into **10 teams** (5–6 people per team)
+- 50 participants split into **10 teams** (56 people per team)
 - Each team has:
   - 1 Microsoft Fabric Workspace
   - 1 Azure AI Foundry Project
@@ -58,7 +57,7 @@ Before starting the lab, ensure all participants have:
 
 | Service                  | Purpose |
 |--------------------------|---------|
-| Microsoft Fabric (F2+)   | Workspace creation, Data Agent publishing, lakehouse management |
+| Microsoft Fabric (F16)   | Workspace creation, Data Agent publishing, lakehouse management |
 | OneLake                  | Data lake storage for datasets, unified data storage across Fabric |
 | Azure AI Foundry         | Agent orchestration, Playground chat, integration with Fabric agents |
 | Microsoft Entra          | Identity and access control (RBAC for workspace and project roles) |
@@ -71,7 +70,7 @@ Before starting the lab, ensure all participants have:
 |--------------------------|----------|-------|
 | Fabric Workspaces        | 10       | One per team |
 | Azure AI Foundry Projects| 10       | One per team |
-| Fabric Capacity          | 1 (F2+)  | Shared across all teams |
+| Fabric Capacity          | 1 (F16)  | Shared across all teams |
 | Foundry Resource         | 1        | Shared across all teams |
 
 ---
@@ -142,5 +141,3 @@ Each participant should successfully:
 - [ ] Show agents using general lakehouse data for benchmarking
 - [ ] Generate comprehensive underwriting recommendation
 - [ ] Compare automation benefits vs. manual process
-
----

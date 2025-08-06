@@ -178,7 +178,7 @@
 - Blood Pressure: 128/82 mmHg (well-controlled on medication)
 - Heart Rate: 68 bpm (resting, excellent)
 - BMI: 22.9 (normal range)
-- Temperature: 98.6°F
+- Temperature: 98.6F
 
 **Family Support System**:
 **Spouse**: David Michael Darcy, Age 44  

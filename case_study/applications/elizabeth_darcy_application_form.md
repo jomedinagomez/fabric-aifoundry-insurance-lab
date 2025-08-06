@@ -154,7 +154,7 @@ Employment verification letter
 | **Measurement** | **Value** | **BMI Calculation** | **Risk Category** |
 |----------------|-----------|-------------------|------------------|
 | **Height** | 5'6" (66 inches) | BMI = 22.9 | Normal Range |
-| **Weight** | 142 lbs | (142 ÷ 66²) × 703 | Optimal |
+| **Weight** | 142 lbs | (142  66)  703 | Optimal |
 | **Build** | Athletic/Medium | - | Favorable |
 
 ### Lifestyle Factors
@@ -301,5 +301,5 @@ I certify that I have reviewed this application with the applicant and that all 
 
 ---
 
-*Sterling Insurance Company • Form SIC-2024-TERM v12.3*  
+*Sterling Insurance Company  Form SIC-2024-TERM v12.3*  
 *Application processed in accordance with Sterling Insurance underwriting guidelines and Colorado insurance regulations*

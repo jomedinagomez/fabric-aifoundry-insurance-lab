@@ -6,19 +6,19 @@ These guidelines establish the comprehensive framework for life insurance underw
 
 ---
 
-## **🎯 Coverage Types & Limits**
+## ** Coverage Types & Limits**
 
 ### **Term Life Insurance**
 - **Maximum Coverage**: $10M per applicant
 - **Age Limits**: 18-75 years at application
 - **Term Options**: 10, 15, 20, 30 years
-- **Medical Exam Required**: Coverage ≥ $500K
+- **Medical Exam Required**: Coverage  $500K
 - **Sample Premium**: $32.50/month (Male 30, $500K, 20-year term)
 
 ### **Whole Life Insurance**
 - **Maximum Coverage**: $15M per applicant
 - **Age Limits**: 0-85 years at application
-- **Medical Exam Required**: Coverage ≥ $250K
+- **Medical Exam Required**: Coverage  $250K
 - **Cash Value**: Guaranteed growth with dividends
 - **Sample Premium**: $245/month (Male 30, $500K permanent)
 
@@ -31,7 +31,7 @@ These guidelines establish the comprehensive framework for life insurance underw
 
 ---
 
-## **📊 Risk Assessment Framework**
+## ** Risk Assessment Framework**
 
 ### **Age-Based Risk Categories**
 ```
@@ -77,13 +77,13 @@ Age 76-85:  Maximum risk multiplier (2.5-4.0)
 
 #### **Substandard (2.0-4.0x premium)**
 - Serious medical conditions requiring individual assessment
-- BMI ≥40, current smoker
+- BMI 40, current smoker
 - Extensive adverse medical/family history
 - High-risk lifestyle factors
 
 ---
 
-## **💰 Financial Underwriting**
+## ** Financial Underwriting**
 
 ### **Coverage Justification Requirements**
 ```
@@ -117,7 +117,7 @@ Income Multiplier Guidelines:
 
 ---
 
-## **🏥 Medical Underwriting**
+## ** Medical Underwriting**
 
 ### **Medical Exam Requirements**
 #### **No Medical Exam Required**
@@ -131,7 +131,7 @@ Income Multiplier Guidelines:
 - Nurse paramedical exam
 - Basic blood and urine tests
 - Height, weight, blood pressure
-- EKG if age ≥ 45
+- EKG if age  45
 
 #### **Comprehensive Medical Exam**
 - Coverage $1M - $5M
@@ -145,7 +145,7 @@ Income Multiplier Guidelines:
 - Specialist consultations if needed
 - Advanced cardiac testing
 - Additional screening based on age/history
-- Cognitive assessment if age ≥ 70
+- Cognitive assessment if age  70
 
 ### **Common Medical Conditions - Risk Ratings**
 #### **Cardiovascular Conditions**
@@ -167,12 +167,12 @@ Income Multiplier Guidelines:
 
 ---
 
-## **⚡ Automated Decision Rules**
+## ** Automated Decision Rules**
 
 ### **Instant Approval Criteria**
 All conditions must be met:
 - Ages 18-50
-- Coverage ≤ 15x annual income
+- Coverage  15x annual income
 - Non-smoker, BMI 19-29
 - No adverse medical history
 - Standard occupations (Classes A-D)
@@ -215,7 +215,7 @@ Requires additional review but likely approval:
 
 ---
 
-## **💡 AI-Enhanced Underwriting Features**
+## ** AI-Enhanced Underwriting Features**
 
 ### **Automated Risk Scoring**
 - **Comprehensive data analysis** across all risk factors
@@ -240,7 +240,7 @@ Requires additional review but likely approval:
 
 ---
 
-## **📋 Application Processing Workflow**
+## ** Application Processing Workflow**
 
 ### **Stage 1: Initial Review (Automated)**
 1. **Application completeness** verification
@@ -272,7 +272,7 @@ Requires additional review but likely approval:
 
 ---
 
-## **🔄 Appeals & Reconsideration**
+## ** Appeals & Reconsideration**
 
 ### **Appeal Triggers**
 - Declined applications with marginal risk factors
@@ -290,7 +290,7 @@ Requires additional review but likely approval:
 
 ---
 
-## **📊 Performance Metrics & KPIs**
+## ** Performance Metrics & KPIs**
 
 ### **Processing Efficiency**
 - **Average processing time**: Target 48-72 hours

@@ -6,15 +6,15 @@ This comprehensive risk assessment matrix provides the quantitative framework fo
 
 ---
 
-## **🎯 Master Risk Scoring Framework**
+## ** Master Risk Scoring Framework**
 
 ### **Overall Risk Score Calculation**
 ```
-Final Risk Score = (Age Factor × Age Weight) + 
-                  (Occupation Factor × Occupation Weight) + 
-                  (Health Factor × Health Weight) + 
-                  (Financial Factor × Financial Weight) + 
-                  (Lifestyle Factor × Lifestyle Weight)
+Final Risk Score = (Age Factor  Age Weight) + 
+                  (Occupation Factor  Occupation Weight) + 
+                  (Health Factor  Health Weight) + 
+                  (Financial Factor  Financial Weight) + 
+                  (Lifestyle Factor  Lifestyle Weight)
 
 Weight Distribution:
 - Age: 20%
@@ -36,7 +36,7 @@ Risk Score 3.01+:     Declined or Individual Assessment
 
 ---
 
-## **📊 Age Risk Assessment**
+## ** Age Risk Assessment**
 
 ### **Life Insurance Age Factors**
 ```
@@ -67,7 +67,7 @@ Age 65+:   Not eligible for new LTD coverage
 
 ---
 
-## **🏢 Occupation Risk Classification**
+## ** Occupation Risk Classification**
 
 ### **Detailed Occupation Class Matrix**
 
@@ -181,7 +181,7 @@ Age 65+:   Not eligible for new LTD coverage
 
 ---
 
-## **🏥 Health Risk Assessment Matrix**
+## ** Health Risk Assessment Matrix**
 
 ### **Medical History Scoring System**
 
@@ -276,13 +276,13 @@ Alcoholism (treated):         Individual Assessment
 
 ---
 
-## **💰 Financial Risk Assessment**
+## ** Financial Risk Assessment**
 
 ### **Coverage-to-Income Ratios**
 
 #### **Life Insurance Financial Multipliers**
 ```
-Coverage ≤ 10x Income:        1.00x
+Coverage  10x Income:        1.00x
 Coverage 11-15x Income:       1.05x
 Coverage 16-20x Income:       1.15x
 Coverage 21-25x Income:       Individual Assessment
@@ -291,7 +291,7 @@ Coverage >25x Income:         Typically Declined
 
 #### **Disability Insurance Financial Multipliers**
 ```
-Coverage ≤ 60% Income:        1.00x
+Coverage  60% Income:        1.00x
 Coverage 61-70% Income:       1.10x
 Coverage 71-80% Income:       1.25x
 Coverage >80% Income:         Typically Declined
@@ -319,7 +319,7 @@ Recent Bankruptcy:            Individual Assessment
 
 ---
 
-## **🚗 Lifestyle Risk Factors**
+## ** Lifestyle Risk Factors**
 
 ### **Motor Vehicle Record**
 ```
@@ -362,7 +362,7 @@ Conflict Areas:               Coverage suspended
 
 ---
 
-## **🔄 Risk Combination Rules**
+## ** Risk Combination Rules**
 
 ### **Multiple Risk Factor Integration**
 When multiple risk factors are present, the combination rules apply:
@@ -394,7 +394,7 @@ Multiple Product Bundling:     -8% to -15%
 
 ---
 
-## **⚡ Automated Decision Thresholds**
+## ** Automated Decision Thresholds**
 
 ### **Straight-Through Processing (Instant Approval)**
 ```
@@ -428,7 +428,7 @@ Coverage: Above standard limits
 
 ---
 
-## **📊 Quality Assurance & Validation**
+## ** Quality Assurance & Validation**
 
 ### **Risk Score Validation Process**
 1. **Historical Claims Analysis**: Correlation between risk scores and actual claims
@@ -446,7 +446,7 @@ Coverage: Above standard limits
 
 ---
 
-## **💡 AI Integration Guidelines**
+## ** AI Integration Guidelines**
 
 ### **Machine Learning Risk Factors**
 - **Behavioral Patterns**: Application completion patterns indicating risk

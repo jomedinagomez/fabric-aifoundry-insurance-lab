@@ -263,7 +263,7 @@ Corporate Headquarters: 5000 Airport Blvd, Denver, CO 80249
 ### Coverage Justification Analysis
 
 #### Financial Ratios
-**Coverage-to-Income Multiple**: 10.9x ($2,500,000 ÷ $229,800)  
+**Coverage-to-Income Multiple**: 10.9x ($2,500,000  $229,800)  
 **Debt-to-Income Ratio**: 12.6% (acceptable range)  
 **Net Worth-to-Coverage Ratio**: 24.8% (adequate financial position)
 
@@ -330,7 +330,7 @@ Corporate Headquarters: 5000 Airport Blvd, Denver, CO 80249
 - **Medical Dependency**: Career dependent on maintaining medical certificate
 - **Economic Sensitivity**: Travel industry impacts on airlines
 
-### Missing Risk Assessment Data ❌
+### Missing Risk Assessment Data 
 - **Actual income verification** - Cannot confirm coverage justification
 - **Debt levels** - Unknown impact on financial capacity
 - **Spouse income** - Unknown additional household income
