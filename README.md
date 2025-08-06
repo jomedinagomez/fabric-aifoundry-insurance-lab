@@ -34,12 +34,12 @@ Before starting the lab, ensure all participants have:
 
 | Time       | Segment                        | Description |
 |------------|--------------------------------|-------------|
-| 010 min   | Introduction & Setup           | Introduce Fabric Data Agents and Azure AI Foundry. Outline the general insurance underwriting scenario. Ensure access to Fabric workspace, Foundry project, and OneLake. |
-| 1030 min  | Data Upload & Agent Creation   | Upload general insurance datasets to OneLake data lake, create lakehouse, then build Fabric Data Agent connected to comprehensive underwriting data. Add instructions for general insurance queries and test with industry-wide questions. |
-| 3040 min  | Publish Fabric Data Agent      | Finalize agent configuration, test with general underwriting queries (claims analysis, risk assessment, portfolio benchmarking), and publish the agent to make it available for Foundry integration. |
-| 4070 min  | Azure AI Foundry Integration   | Create specialized multi-agent system in Foundry, connect the published Fabric Data Agent as a resource, introduce Captain Elizabeth Darcy pilot case study, and configure specialized agents for complex underwriting scenarios. |
-| 7085 min  | Multi-Agent Case Study         | Use the multi-agent system to analyze Captain Elizabeth Darcy's application with intentional gaps, demonstrate gap-filling workflow using complete supporting documents, and showcase automation benefits. |
-| 8590 min  | Wrap-Up & Next Steps           | Summarize accomplishments, highlight real-world applications, and gather feedback. |
+| 0-10 min   | Introduction & Setup           | Introduce Fabric Data Agents and Azure AI Foundry. Outline the general insurance underwriting scenario. Ensure access to Fabric workspace, Foundry project, and OneLake. |
+| 10-30 min  | Data Upload & Agent Creation   | Upload general insurance datasets to OneLake data lake, create lakehouse, then build Fabric Data Agent connected to comprehensive underwriting data. Add instructions for general insurance queries and test with industry-wide questions. |
+| 30-40 min  | Publish Fabric Data Agent      | Finalize agent configuration, test with general underwriting queries (claims analysis, risk assessment, portfolio benchmarking), and publish the agent to make it available for Foundry integration. |
+| 40-60 min  | Azure AI Foundry Integration   | Create specialized multi-agent system in Foundry, connect the published Fabric Data Agent as a resource, introduce Captain Elizabeth Darcy pilot case study, and configure specialized agents for complex underwriting scenarios. |
+| 60-80 min  | Multi-Agent Case Study         | Use the multi-agent system to analyze Captain Elizabeth Darcy's application with intentional gaps, demonstrate gap-filling workflow using complete supporting documents, and showcase automation benefits. |
+| 80-90 min  | Wrap-Up & Next Steps           | Summarize accomplishments, highlight real-world applications, and gather feedback. |
 
 ---
 
@@ -125,7 +125,7 @@ Each participant should successfully:
 - [ ] Test agent with general underwriting questions (e.g., "What are the claim rates for different age groups?", "How do occupation classes affect risk ratings?")
 - [ ] Publish agent successfully
 
-#### Phase 2: AI Foundry Multi-Agent Integration (30 minutes)
+#### Phase 2: AI Foundry Multi-Agent Integration (20 minutes)
 - [ ] Access assigned AI Foundry project
 - [ ] Create specialized multi-agent system in Foundry
 - [ ] Connect published Fabric Data Agent as foundational resource
@@ -134,7 +134,7 @@ Each participant should successfully:
 - [ ] Test multi-agent coordination and data integration
 - [ ] Prepare for complex case study analysis
 
-#### Phase 3: Multi-Agent Case Study (25 minutes)
+#### Phase 3: Multi-Agent Case Study (20 minutes)
 - [ ] Upload Elizabeth Darcy application with intentional gaps
 - [ ] Execute multi-agent gap detection workflow
 - [ ] Demonstrate specialized agents accessing supporting documents
