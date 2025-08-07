@@ -38,8 +38,8 @@ Before starting the lab, ensure all participants have:
 | 10-30 min  | Data Upload & Agent Creation   | Upload general insurance datasets to OneLake data lake, create lakehouse, then build Fabric Data Agent connected to comprehensive underwriting data. Add instructions for general insurance queries and test with industry-wide questions. |
 | 30-40 min  | Publish Fabric Data Agent      | Finalize agent configuration, test with general underwriting queries (claims analysis, risk assessment, portfolio benchmarking), and publish the agent to make it available for Foundry integration. |
 | 40-60 min  | Azure AI Foundry Integration   | Create specialized multi-agent system in Foundry, connect the published Fabric Data Agent as a resource, introduce Captain Elizabeth Darcy pilot case study, and configure specialized agents for complex underwriting scenarios. |
-| 60-80 min  | Multi-Agent Case Study         | Use the multi-agent system to analyze Captain Elizabeth Darcy's application with intentional gaps, demonstrate gap-filling workflow using complete supporting documents, and showcase automation benefits. |
-| 80-90 min  | Wrap-Up & Next Steps           | Summarize accomplishments, highlight real-world applications, and gather feedback. |
+| 60-85 min  | Multi-Agent Case Study         | Use the multi-agent system to analyze Captain Elizabeth Darcy's application with intentional gaps, demonstrate gap-filling workflow using complete supporting documents, and showcase automation benefits. |
+| 85-90 min  | Wrap-Up & Next Steps           | Summarize accomplishments, highlight real-world applications, and gather feedback. |
 
 ---
 
@@ -134,7 +134,7 @@ Each participant should successfully:
 - [ ] Test multi-agent coordination and data integration
 - [ ] Prepare for complex case study analysis
 
-#### Phase 3: Multi-Agent Case Study (20 minutes)
+#### Phase 3: Multi-Agent Case Study (25 minutes)
 - [ ] Upload Elizabeth Darcy application with intentional gaps
 - [ ] Execute multi-agent gap detection workflow
 - [ ] Demonstrate specialized agents accessing supporting documents
