@@ -95,22 +95,22 @@ This script demonstrates a progressive interaction with the multi-agent underwri
 ## **Demo Success Criteria**
 
 ### **Technical Validation:**
-- ✅ All 5 agents participate appropriately
-- ✅ Agent hierarchy is respected (Senior Underwriter authority)
-- ✅ File references work correctly
-- ✅ Orchestration flows smoothly
+- All 5 agents participate appropriately
+- Agent hierarchy is respected (Senior Underwriter authority)
+- File references work correctly
+- Orchestration flows smoothly
 
 ### **Business Validation:**
-- ✅ Realistic insurance terminology used
-- ✅ Proper underwriting logic applied
-- ✅ Professional communication style
-- ✅ Actionable business outcomes delivered
+- Realistic insurance terminology used
+- Proper underwriting logic applied
+- Professional communication style
+- Actionable business outcomes delivered
 
 ### **User Experience Validation:**
-- ✅ Responses build logically across turns
-- ✅ Information depth increases appropriately
-- ✅ Clear decision rationale provided
-- ✅ Professional industry standards demonstrated
+- Responses build logically across turns
+- Information depth increases appropriately
+- Clear decision rationale provided
+- Professional industry standards demonstrated
 
 ---
 
