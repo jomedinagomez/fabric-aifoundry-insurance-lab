@@ -73,3 +73,11 @@ Specialized domain agent for medical risk assessment. Handles all medical/health
 - Coverage amount thresholds for medical exams
 - Pre-existing condition waiting periods
 - International applicant medical requirements
+
+## Files to Upload
+Upload these 2 documents to this agent:
+
+| File | Purpose |
+|---|---|
+| `elizabeth_darcy_application_form.md` | Contains the medical history section with intentional gaps |
+| `elizabeth_darcy_medical_summary.md` | Complete medical records to fill gaps and validate risk rating |

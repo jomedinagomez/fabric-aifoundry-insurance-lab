@@ -70,3 +70,11 @@ Specialized domain agent for financial suitability analysis. Handles all income/
 - Premium-to-income ratios
 - Net worth adequacy thresholds
 - Financial capacity scoring methodology
+
+## Files to Upload
+Upload these 2 documents to this agent:
+
+| File | Purpose |
+|---|---|
+| `elizabeth_darcy_application_form.md` | Contains the financial section with intentional gaps |
+| `elizabeth_darcy_financial_verification.md` | Verified income, assets, and coverage justification |

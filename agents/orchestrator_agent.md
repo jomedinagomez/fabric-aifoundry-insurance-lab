@@ -57,3 +57,13 @@ Coordinate specialized agents and tools (Fabric Data Agent + domain agents + uti
 - Ensure no analysis gaps across domains
 - Provide decisive, actionable recommendations
 - Maintain audit trail of all agent contributions
+
+## Files to Upload
+Upload all 4 case study documents to this agent:
+
+| File | Purpose |
+|---|---|
+| `elizabeth_darcy_application_form.md` | The life insurance application (contains intentional gaps) |
+| `APP-2024-5847_processing_notes.txt` | Human underwriter's 3-week review — result: "CANNOT RATE" |
+| `elizabeth_darcy_medical_summary.md` | Complete medical records to resolve medical gaps |
+| `elizabeth_darcy_financial_verification.md` | Verified income, assets, and coverage justification |

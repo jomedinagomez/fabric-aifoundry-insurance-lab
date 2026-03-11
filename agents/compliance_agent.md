@@ -75,3 +75,11 @@ Specialized domain agent for regulatory compliance and policy adherence. Handles
 - International applicant regulatory considerations
 - Professional liability and licensing requirements
 - Anti-fraud and identity verification protocols
+
+## Files to Upload
+Upload these 2 documents to this agent:
+
+| File | Purpose |
+|---|---|
+| `elizabeth_darcy_application_form.md` | Application — beneficiary designations and regulatory sections |
+| `APP-2024-5847_processing_notes.txt` | Human underwriter's notes flagging compliance issues |

@@ -89,3 +89,13 @@ Specialized domain agent for complex underwriting decisions and final review. Ha
 - International regulatory compliance for multinational applicants
 - Aviation industry risk patterns and precedents
 - Portfolio risk concentration management
+
+## Files to Upload
+Upload all 4 case study documents to this agent:
+
+| File | Purpose |
+|---|---|
+| `elizabeth_darcy_application_form.md` | Full application for final decision context |
+| `APP-2024-5847_processing_notes.txt` | Human review result — used for AI vs. human comparison |
+| `elizabeth_darcy_medical_summary.md` | Complete medical records |
+| `elizabeth_darcy_financial_verification.md` | Complete financial records |
